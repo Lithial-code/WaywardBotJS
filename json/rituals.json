@@ -79,6 +79,11 @@
       "text": "For the next hour your skin is hard and stone like. Your movement speed is reduced by 10 ft and you have resistance to slashing and piercing damage."
    },
    {
+    "name": "Taste the Blood",
+      "castingtime": "1 minutes",
+      "text": "You taste some blood, learning some details of the creature it came from. You can learn the species, gender and rough age of the creature the blood is from as well as how long ago the blood was taken from the creature."
+   },
+   {
       "name": "Read Magic",
       "castingtime": "1 minute",
       "text": "You spend some time preparing, focusing on magical writing or runes you can touch. At the end of the minute you magically gain an understanding as to their function."
