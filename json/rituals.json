@@ -5,11 +5,6 @@
       "text": "You ward a campsite, warning you if someone attacks. Until the next dawn, or you leave the area, if any person, monster, or large beast enters within 60ft of your campfire you are immediately alerted."
    },
    {
-      "name": "Alarm",
-      "castingtime": "1 hour",
-      "text": "You taste some blood, learning some details of the creature it came from. You can learn the species, gender and rough age of the creature the blood is from as well as how long ago the blood was taken from the creature."
-   },
-   {
       "name": "Bonfire",
       "castingtime": "10 minutes",
       "text": "You create a bonfire out of thin air that lasts for 8 hours. While you are within 60 feet of this bonfire all invocations from the secret of fire cost one less point of casting ability score."
