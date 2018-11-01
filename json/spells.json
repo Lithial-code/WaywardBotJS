@@ -1,0 +1,517 @@
+[
+   {
+      "name": "Abjure Daemon",
+      "time": "Casting Time: 1 turn.",
+      "cost": "Cost: 2",
+      "range": "Range: 30ft",
+      "text": "Select one daemon within range. It must make a fortitude save or be frightened of you for 1 hour. A daemon frightened from this invocation is no longer resistant to damage dealt by your allies. You can target an additional daemon by spending 1 point per additional daemon."
+   },
+   {
+      "name": "Agony",
+      "time": "Casting Time: 1 turn",
+      "cost": "Cost: 4",
+      "range": "Range: touch",
+      "text": "A creature you touch must succeed on a will save or take 1d4 minor wounds. On a successful save they instead take 1d3-1. While a creature has a wound from this spell, or any other wounds they had at the casting of this spell, they have disadvantage on all attack rolls, ability checks and saving throws."
+   },
+   {
+      "name": "Antimagic Field",
+      "time": "Casting Time: 1 minute",
+      "cost": "Cost: 8",
+      "range": "Range: Self",
+      "duration": "Duration: 1 hour",
+      "text": "For the duration no spell or magical effect can occur within 15 ft of you. You can spend an extra 4 to instead cast this invocation on a point within 60 ft of you."
+   },
+   {
+      "name": "Arcane Bolt",
+      "time": "Casting Time: One Turn",
+      "cost": "Cost: 2",
+      "range": "range: One creature within 120 feet.",
+      "text": "Roll a spell attack against a creature within range. This attack ignores any bonus to armour class and any damage reduction from armour. On a hit deal 3d8 magic damage."
+   },
+   {
+      "name": "Banish Daemon",
+      "time": "Casting Time: 1 turn",
+      "cost": "Cost: 6",
+      "range": "Range: 120 ft.",
+      "text": "One (non-native) daemon within range must succeed a will save or be forced back to chaos. You can target up to 3 additional daemons by paying 3 points per extra daemon. A daemon currently touching a material it is weak to has disadvantage on this save."
+   },
+   {
+      "name": "Bird Scout",
+      "time": "Casting Time: 1 minute",
+      "cost": "Cost: 2",
+      "range": "Range: Self",
+      "text": "You create a small bird that lasts for an hour. You can see through its eyes and telepathically direct its movement for the hour, at the end of which it vanishes in a puff of smoke."
+   },
+   {
+      "name": "Blade from the Void",
+      "time": "Casting Time: none.",
+      "cost": "Cost: 5",
+      "range": "Range: self",
+      "text": "On your turn, before making an attack, you can cast this invocation, summoning a blade made from void energies. This blade has the light property. It deals 3d10 damage on a hit, and the wounds from this weapon are slow healing. Medicine checks and fortitude saves to heal them have disadvantage. Once per turn, when you make an attack with this blade, you can spend 2 points to make an extra attack against the same target."
+   },
+   {
+      "name": "Bleed",
+      "time": "Casting Time: 1 turn",
+      "cost": "Cost: 2",
+      "range": "Range: 30 ft.",
+      "duration": "Duration: 1d4 rounds.",
+      "text": "A creature within range must make a fortitude save or take 2d12 damage immediately and an additional 1d12 damage for the next 1d4 rounds on your turn."
+   },
+   {
+      "name": "Blind Foe",
+      "time": "Casting Time: One Turn",
+      "cost": "Cost: 4",
+      "range": "Range: One creature within 150 feet.",
+      "text": "The target must succeed on a fortitude save or be blinded until either the caster decides to remove it, or they are uncursed."
+   },
+   {
+      "name": "Blinding Light",
+      "time": "Casting Time: 1 turn",
+      "cost": "Cost: 3",
+      "range": "Range: 120 ft",
+      "text": "You create a burst of light within range. Each creature within 15 ft of a point you choose must succeed on a fortitude save or take 2d8 damage and be blinded. At the end of each of their turns they can roll the save again."
+   },
+   {
+      "name": "Bloodsplosion",
+      "time": "Casting Time: None",
+      "cost": "Cost: 4",
+      "range": "Range: 150 ft",
+      "text": "You chose a creature that is bleeding within range. It must make a fortitude saving throw or explode with blood. It takes 1d4 major wounds on a failed save and every creature within 15 ft must make a reflex save or take 3d12 damage or half damage on a pass. If the original creatures passes its save, it instead takes 1d4 minor wounds and the surrounding creatures only take 3d8 damage."
+   },
+   {
+      "name": "Boulder",
+      "time": "Casting Time: 1 turn.",
+      "cost": "Cost: 1",
+      "range": "Range: 30ft",
+      "text": "You pull a boulder from the earth and throw it at a target within range. Roll a spell attack against the target. On a hit you deal 2d6 damage and push it back 10ft. If there is another creature behind the first creature and you hit you can roll a second attack against it, dealing 2d6 damage and pushing it back 5ft on a hit."
+   },
+   {
+      "name": "Burning Light",
+      "time": "Casting Time: 1 Turn",
+      "cost": "Cost: 4",
+      "range": "Range: Self",
+      "text": "You burn with divine radiance. Every creature of your choice within 60 ft of you must make a fortitude save or take 4d12 fire damage and be set on fire (1d12). You also take this damage."
+   },
+   {
+      "name": "Call of the Deep",
+      "time": "Casting Time: 1 turn",
+      "cost": "Cost: 6",
+      "range": "Range: Self",
+      "duration": "Duration: 1 minute.",
+      "text": [
+         "You call forth creatures of slime and grasping tentacle. These creatures rise from the ground around you. For the duration you gain cover, 10 defence and may make an additional 2 attacks on your turn, choosing from the following options.",
+         "Pull: spell attack, 2d8 + intelligence damage. Pulls the target 10ft closer to you on a hit.",
+         "Slime; spell attack, 2d6 + intelligence damage, reduced targets speed by half for a turn on a hit.",
+         "Grab: spell attack, 1d12 + intelligence damage. Grapple on a hit."
+      ]
+   },
+   {
+      "name": "Cackle",
+      "time": "Casting Time: None.",
+      "cost": "Cost: 2",
+      "range": "Range: 60ft",
+      "text": "All creatures within range must succeed a will save or be frightened of you for one minute."
+   },
+   {
+      "name": "Call the Flock",
+      "time": "Casting Time: 10 minutes",
+      "cost": "Cost: 5",
+      "range": "Range: Self",
+      "duration": "Duration: 1 hour",
+      "text": "You summon a swarm of birds that you control for the duration."
+   },
+   {
+      "name": "Cause Wound",
+      "time": "Casting Time: One Turn",
+      "cost": "Cost: 3",
+      "range": "range: One creature within 30 feet.",
+      "text": "The target must make a fortitude save or suffer a minor wound."
+   },
+   {
+      "name": "Chain Daemon",
+      "time": "Casting Time: 1 turn.",
+      "cost": "Cost: 4",
+      "range": "Range: 60ft.",
+      "text": "One daemon you see is surrounded with silver chains. It must succeed on a reflex save or take 10d8 silvered damage and be restrained. If restrained it can attempt to break the chains at the end of its turn by making a strength check against your DC. On a failed attempt it takes 2d8 silver damage."
+   },
+   {
+      "name": "Cone of Fire",
+      "time": "Casting Time: One Turn",
+      "cost": "Cost: 3",
+      "range": "range: 20 feet cone.",
+      "text": "All creatures within the cone must succeed on a reflex save or take 4d8 fire damage. On a successful save the creature takes half damage."
+   },
+   {
+      "name": "Control Undead",
+      "time": "Casting Time: One minute",
+      "cost": "Cost: 2",
+      "range": "range: One undead you have created.",
+      "text": "You gain control over the undead for one week."
+   },
+   {
+      "name": "Counterspell",
+      "time": "Casting Time: None",
+      "cost": "Cost: Varies",
+      "range": "Range: 300 ft.",
+      "text": "When a creature casts a spell within range you can attempt to counterspell it. (read dispel magic)"
+   },
+   {
+      "name": "Create Passage",
+      "time": "Casting Time: 1 turn",
+      "cost": "Cost: 1",
+      "range": "Range: 60ft",
+      "text": "You open a passage through earth or stone. The passage can be up to 10ft long and can fit a medium creature. You can choose to close the passage behind you by paying 1 point, leaving no trace of your passage."
+   },
+   {
+      "name": "Create Water",
+      "time": "Casting Time: 1 turn.",
+      "cost": "Cost: 4",
+      "range": "Range: 60ft",
+      "text": [
+         "You create a deluge of water that erupts within range. Anyone within 20 ft of where the water appears must succeed on a reflex save or take 2d10 bludgeoning damage and be knocked 10ft away from the eruption and knocked prone. The area within 20 ft of the eruption point becomes wet, creating difficult or slippery terrain, depending on what was there before. This water is murky and undrinkable.",
+         "You can also cast this invocation to create drinking water for up to 5 people for a day."
+      ]
+   },
+   {
+      "name": "Darkness",
+      "time": "Casting Time: One turn",
+      "cost": "Cost: 3",
+      "range": "range: A space within 60 feet",
+      "text": "Darkness fills the area within 25 feet of the target. This darkness lasts for 10 minutes, or until a spell that creates light that costs more than darkness creates light within the area of darkness created by this spell."
+   },
+   {
+      "name": "Defensive Barrier",
+      "time": "Casting Time: 1 turn",
+      "cost": "Cost: 1",
+      "range": "Range: Touch",
+      "text": "You grant a creature you touch a defensive barrier that grants the creature an additional 10 points of defence that last for an hour."
+   },
+   {
+      "name": "Dispel Magic",
+      "time": "Casting Time: One Minute",
+      "cost": "Cost: Varies",
+      "range": "Range: 30 feet",
+      "text": "WARNING: This spell is heavily reliant on GM fiat.\nYou attempt to dispel one magical effect in range. If the spell is the result of a ritual with no cost, it is dispelled. Otherwise roll a spellcraft check, DC 10 + spell cost + misc. modifiers. If you pass this check you can spend intelligence equal to the cost to dispel it."
+   },
+   {
+      "name": "Divine Radiance",
+      "time": "Casting Time: One Turn",
+      "cost": "Cost: 2",
+      "range": "range: One creature within 40 ft.",
+      "text": "The target must make a reflex save or take 4d8 radiant damage."
+   },
+   {
+      "name": "Elemental Ward",
+      "time": "Casting Time: None",
+      "cost": "Cost: 2",
+      "range": "Range: Touch",
+      "text": "You grant one creature you touch protection from one type of damage. For the next hour they have resistance to that sort of damage."
+   },
+   {
+      "name": "Entangling Ground",
+      "time": "Casting Time: 1 turn",
+      "cost": "Cost: 4",
+      "range": "Range: 120 ft.",
+      "duration": "Duration: 10 minutes.",
+      "text": "The area in a 60 ft radius around a point in range becomes difficult terrain for the duration. You can move normally within the area. You can spend 2 points to grant your allies the same power."
+   },
+   {
+      "name": "Fireball",
+      "time": "Casting Time: 2 turns",
+      "cost": "Cost: 5",
+      "range": "Range: 100 ft.",
+      "text": "You fling a line of energy to a point in range. At that point a ball of fire erupts in a 30 ft. sphere. Any creature within the sphere must succeed on a reflex save or take 5d8+10 fire damage. On a passed save they take half damage. Any creature that takes damage or anything else within the sphere is set on fire (d4)."
+   },
+   {
+      "name": "Flame Bolt",
+      "time": "Casting Time: One Turn",
+      "cost": "Cost: 1",
+      "range": "range: One creature within 200 feet",
+      "text": "Roll an attack roll with int + level. On a hit deal 2d10 fire damage."
+   },
+   {
+      "name": "Flight",
+      "time": "Casting Time: None",
+      "cost": "Cost: 6",
+      "range": "Range: Self",
+      "duration": "Duration: 1 hour.",
+      "text": "You gain a flying speed of 60ft."
+   },
+   {
+      "name": "Gather the Blood",
+      "time": "Casting Time: One Turn",
+      "cost": "Cost: 2",
+      "range": "range: A creature within 60 feet.",
+      "text": "The target must make a reflex save or take 1d6 damage. If the target can bleed it is cut and the blood is magically transported to your hand."
+   },
+   {
+      "name": "Grasping Vine",
+      "time": "Casting Time: 1 turn",
+      "cost": "Cost: 1",
+      "range": "Range: 60 ft.",
+      "text": "You create a vine at a point in range which lashes out at a creature within 10ft of it. Make a spell attack. On a hit deal 2d6 damage and pull the creature to the origin point of the vine. The vine must be placed on a solid surface. The vine dies and turns to dust after making the attack."
+   },
+   {
+      "name": "Gusting Wind",
+      "time": "Casting Time: One Turn",
+      "cost": "Cost: 3",
+      "range": "range: Self",
+      "text": "For a minute after casting this invocation you can use your turn to attack a creature within 60 feet with a blast of air. The target must make a reflex save or take 1d8 damage and be pushed back 10 feet."
+   },
+   {
+      "name": "Inferno",
+      "time": "Casting Time: Instant",
+      "cost": "Cost: 10",
+      "range": "Range: Self",
+      "text": "An inferno bursts out from you. Every creature within 100 ft of you (not including you) must succeed on a reflex save or take 10d8 fire damage. On a passed save they take half damage. Any creature that takes damage or anything else within the sphere is set on fire (d8). Once you cast this invocation you can spend 2 points and your next turn to maintain it, dealing 4d8 on a failed save, half on a pass, to anything still within the area (including yourself)."
+   },
+   {
+      "name": "Invisibility",
+      "time": "Casting Time: 1 minute",
+      "cost": "Cost: 4",
+      "range": "Range: Touch",
+      "text": "A creature you touch becomes invisible for 1 minute. This spell ends when the targeted creature attacks or casts a spell. If you pay 8 the spell only ends at the end of the minute or if dispelled."
+   },
+   {
+      "name": "Invulnerability",
+      "time": "Casting Time: 1 minute",
+      "cost": "Cost: 8",
+      "text": "For the next minute you are invulnerable to all damage. If you spend 4 extra points you can instead target a creature you touch."
+   },
+   {
+      "name": "Leap Through Blood",
+      "time": "Casting Time: None",
+      "cost": "Cost: 6",
+      "range": "Range: Self",
+      "text": "You deal 1d6 damage to yourself. You select a creature within sight that is taking damage from one of your spells. You teleport to their location and they take 8d12 damage as you explode from their wound."
+   },
+   {
+      "name": "Lightning Bolt",
+      "time": "Casting Time: Two turns",
+      "cost": "Cost: 2",
+      "range": "range: a 30 feet line.",
+      "text": "Every creature in the line must make a reflex save or take 6d8 damage. A creature that passes takes half damage. You must succeed on a fortitude save or take 3d8 damage. You take no damage on a pass."
+   },
+   {
+      "name": "Lightning Fog",
+      "time": "Casting Time: 1 minute",
+      "cost": "Cost: 6",
+      "range": "Range: 100 ft.",
+      "text": "You create a thick fog that crackles with lightning. Chose a point within range. Everything within 40 ft. is obscured by the fog. Any creature that starts it turn within the fog must succeed a reflex save or take 1d8 damage."
+   },
+   {
+      "name": "Maddening Darkness",
+      "time": "Casting Time: 2 turns",
+      "cost": "Cost: 6",
+      "range": "Range: 60 ft",
+      "duration": "Duration: 1 minute",
+      "text": "You create an 30ft sphere of darkness. Any creature that enters the darkness must make a will save or take 1d6 sanity damage and be frightened. Any create that breaks within the darkness must roll twice on the break tables and take the lowest result."
+   },
+   {
+      "name": "Madness",
+      "time": "Casting Time: One Turn",
+      "cost": "Cost: 3",
+      "range": "range: One creature within 30 ft.",
+      "text": "The creature must make a will save or go mad, rolling on the major madness table to determine the type of madness."
+   },
+   {
+      "name": "Peirce Defence",
+      "time": "Casting Time: 1 turn",
+      "cost": "Cost: 2",
+      "range": "Range: 60 ft",
+      "duration": "Duration: 1 minute",
+      "text": "Roll a spell attack against a target within range. On a hit the targets armour class is reduced by 3 and damage reduction is reduced by 5 for the duration."
+   },
+   {
+      "name": "Plant Form",
+      "time": "Casting Time: 1 minute",
+      "cost": "Cost: 8",
+      "range": "Range: Self",
+      "duration": "Duration: 10 minutes.",
+      "text": "You cover yourself in plants, vines, and wood. Your armour class increases by 4. You gain 40 defence. You can cast grasping vine twice every turn at no cost. You can cast entangling ground at will, targeting yourself. Your strength and constitution increase by 6, your dexterity decreases by 4. Your movement speed is halved, but you are no longer impeded by difficult terrain."
+   },
+   {
+      "name": "Poison",
+      "time": "Casting Time:  1 minute",
+      "cost": "Cost: 6",
+      "text": "You create a small spider in the palm of your hand. You can have this spider bite a target of your choosing. The target must make a fortitude save or take 6d12 damage."
+   },
+   {
+      "name": "Rain of Blood",
+      "time": "Casting Time: 1 turn",
+      "cost": "Cost: 3",
+      "range": "Range: Self",
+      "text": "It rains blood in a 120 ft radius. The ground turns to difficult terrain and every creature within that area gains takes 1d8 damage at the start of every round for a minute."
+   },
+   {
+      "name": "Rend the Soul",
+      "time": "Casting Time: 2 turns.",
+      "cost": "Cost: 10",
+      "range": "Range: 30 ft.",
+      "text": "A creature within range must succeed on a fortitude save or take 8d8 damage. If this damage causes a wound it causes an extra wound of the same class. If a creature is knocked out or killed by this invocation it must succeed on a will save or have its soul rent in twain, dying instantly and being unable to be revived or come back in any way. A creature that has no soul is immune to this invocation."
+   },
+   {
+      "name": "Shadow Armour",
+      "time": "Casting Time: 1 minute",
+      "cost": "Cost: 3",
+      "range": "Range: Self",
+      "text": "You create shadowy armour that lasts until the end of your next long rest. Your armour class is 13 + your dexterity as long as you are not wearing any armour or using a shield. You gain 5 defence. When a creature makes a melee attack against you while you have this armour you can spend this defence to force your attacker to roll a reflex save or take 1d6 damage per defence lost. You can spend one point to regain this defence as a turn."
+   },
+   {
+      "name": "Shadow Bolt",
+      "time": "Casting Time: 1 turn",
+      "cost": "Cost: 1",
+      "range": "Range: 150 ft.",
+      "text": "You fire a bolt of darkness at a target within range. Make a spell attack. On a hit you deal 3d8 necrotic damage."
+   },
+   {
+      "name": "Shadow Trap",
+      "time": "Casting Time:  1 turn",
+      "cost": "Cost: 5",
+      "range": "Range: 60 ft.",
+      "duration": "Duration: 1 minute",
+      "text": "You target a creature within range with a clearly defined shadow. You pin their shadow to the ground. They cannot move more than 5ft from their shadow. They take 2d6 damage at the start of their turn while trapped like this. They can attempt to tear away from their shadow by making a will save. On a pass they are freed and take 6d6 damage and permanently lose their shadow."
+   },
+   {
+      "name": "Shape Water",
+      "time": "Casting Time: One Turn",
+      "cost": "Cost: 1",
+      "text": "You can control a small creek or pond. You can part the water, freeze it, or cause it to flood. Any creatures in the water when you freeze it must make a reflex save or have to spend a turn freeing themselves from the ice."
+   },
+   {
+      "name": "Shield of Force",
+      "time": "Casting Time: None",
+      "cost": "Cost: 4",
+      "range": "Range: Self",
+      "text": "When hit with an attack you can cast this invocation, gaining +6 armour class against the triggering attack and all other attacks until the end of your next turn."
+   },
+   {
+      "name": "Stone Form",
+      "time": "Casting Time: 1 minute",
+      "cost": "Cost: 6",
+      "range": "Range: Self",
+      "duration": "Duration: 1 hour",
+      "text": "You create a shell of stone and dirt. You gain +4 armour class, resistance to bps damage, Immunity to fire damage and 20 defence. Once this defence is depleted or the duration ends, the spell ends."
+   },
+   {
+      "name": "Stride of Wind",
+      "time": "Casting Time: 1 minute",
+      "cost": "Cost: 8",
+      "range": "Range: 30ft",
+      "duration": "Duration: 24 hours.",
+      "text": "Up to 10 creatures within range gain a flying speed equal to their base movement speed as long as they remain within 30 feet of you and both you and they are conscious. If the spell ceases to affect them they regain it if the conditions are met again."
+   },
+   {
+      "name": "Sunlight",
+      "time": "Casting Time: One Turn",
+      "cost": "Cost: 6",
+      "range": "Range: 90 ft.",
+      "duration": "Duration: 1 minute.",
+      "text": "You chose a point within range. Bright light that counts as sunlight shines within 30ft of that point. Any undead within that area, or daemon with vulnerability to sunlight within that area, takes 4d8 damage at the start of any turn in which they are within the light."
+   },
+   {
+      "name": "Tidal Wave",
+      "time": "Casting Time: 2 turns",
+      "cost": "Cost: 3",
+      "range": "Range: 300ft",
+      "text": "You select a body of water in range and cause it to expand and rush up to 100 ft in a direction of your choosing. Any creature hit by this wave must succeed on a reflex save or take 4d10 damage and be forced along with the water."
+   },
+   {
+      "name": "Torment",
+      "time": "Casting Time: 2 turns",
+      "cost": "Cost: 6",
+      "range": "Range: 120 ft.",
+      "duration": "Duration: 1 minute.",
+      "text": "You can pick up to 8 creatures within range. Each creature must succeed on a will save or be wracked with pain. When they fail the save, and at the start of each of your turns, they take 4d8 damage. A creature being affected by this spell has disadvantage on all rolls and their movement speed is halved. At the end of their turn they can repeat the save, ending the effect on a success."
+   },
+   {
+      "name": "Touch of Death",
+      "time": "Casting Time: Two Turns",
+      "cost": "Cost: 6",
+      "range": "range: One creature you touch.",
+      "text": "The creature must make a fortitude save or take 1d6 mortal wounds. On a pass they instead take 1d6 minor wounds."
+   },
+   {
+      "name": "Touch of Pain",
+      "time": "Casting Time: One Turn",
+      "cost": "Cost: 4",
+      "range": "range: One creature you touch.",
+      "text": "The creature must make a fort save or take 1d4 light wounds. On a pass they take half the number of wounds."
+   },
+   {
+      "name": "Vomit Spiders",
+      "time": "Casting Time: None",
+      "cost": "Cost: 3",
+      "text": "You vomit forth a wave of spiders. Any creature within a 15 ft cone in front of you must make a fortitude save or take 2d8 damage."
+   },
+   {
+      "name": "Wall of Fire",
+      "time": "Casting Time: 2 turns.",
+      "cost": "Cost: 4",
+      "range": "Range: 60 ft.",
+      "duration": "Duration: 1 minute (concentration)",
+      "text": "You create a line of fire 30ft long, 5 ft. thick and 15 ft. high within range. It can be straight or curved as you wish. Its base must be on a solid surface, but it does not need to be perpendicular to the ground. Any creature in the line must make a reflex save or take 3d8 damage. On a pass they take half damage and can move to either side of the wall. Any creature that moves into the wall, or starts its turn there takes 3d8 fire damage."
+   },
+   {
+      "name": "Wall of Thorns",
+      "time": "Casting Time: 1 minute",
+      "cost": "Cost: 8",
+      "text": "You create a wall of thorns. The wall is 80 ft long, 5 ft wide and 10 ft high. A creature attempting to climb the wall takes 3d6 damage. Each 5 ft square of the wall has an armour class of 16, 80 defence and is destroyed if it takes a wound. Each section of the wall heals 1 defence per hour. The wall lasts for a week before it begins to degrade. You can permanently spend one point to have the wall not degrade."
+   },
+   {
+      "name": "Warding Wind",
+      "time": "Casting Time: None",
+      "cost": "Cost: 3",
+      "range": "Range: Self",
+      "duration": "Duration: 1 minute.",
+      "text": "The area around you is stirred by a strong wind. Any ranged attack that passes within 30 ft of you has disadvantage on the attack roll. You can cast this at any time."
+   },
+   {
+      "name": "Warding",
+      "time": "Casting Time: One turn",
+      "cost": "Cost: 2 or more",
+      "range": "range: A creature you touch.",
+      "text": "The creature you touch gains 5 additional defence per 2 points spent that lasts until your next long rest. This defence cannot be restored. This defence can still be used if the target is unconscious, surprised, or otherwise not allowed to use their full defence value. A creature can only benefit from one casting of warding at a time."
+   },
+   {
+      "name": "Witch Bolt",
+      "time": "Casting Time: One Turn",
+      "cost": "Cost: 3",
+      "range": "Range: 80 ft.",
+      "text": [
+         "Make a spell attack against a target in range. On a hit you deal 2d10 damage. If the target it hexed it takes 3d10. On a hit you can spend additional points to cause an additional effect.",
+         "1 point: The target has disadvantage on the next attack it makes.",
+         "2 point: The target must make a will save or be frightened of you for a round.",
+         "3 points: the target must make a fortitude save or be stunned for a round."
+      ]
+   },
+   {
+      "name": "Wind Step",
+      "time": "Casting Time: None",
+      "cost": "Cost: 2",
+      "range": "Range: Touch",
+      "duration": "Duration: 1 minute",
+      "text": "A creature you touch gain +10 ft movement speed and becomes immune to attacks of opportunity."
+   },
+   {
+      "name": "Word of Healing",
+      "time": "Casting Time: 1 turn.",
+      "cost": "Cost: 4",
+      "range": "Range: 30 ft",
+      "text": "You utter a word of healing. One creature within range heals a minor or major wound."
+   },
+   {
+      "name": "Word of Life",
+      "time": "Casting Time: 1 turn",
+      "cost": "Cost: 8",
+      "range": "Range: 30 ft.",
+      "text": "You utter a word of life. One creature within range heals all its wounds and regains all its defence."
+   },
+   {
+      "name": "Word of Protection",
+      "time": "Casting Time: None",
+      "cost": "Cost: 2",
+      "range": "Range: 40 feet.",
+      "text": "You utter a word of bolstering. You can restore 1d6+wisdom modifier defence to a creature within range. You can do this in addition to any other actions during this turn, but only once per turn."
+   }
+]
