@@ -1,0 +1,392 @@
+[
+	{
+		"name": "Dagger",
+		"itemtype": "Weapon",
+		"damage": "d6",
+		"type": "p",
+		"range": "5 ft.",
+		"cost": "50",
+		"properties": "Thrown",
+		"special": " Light"
+	},
+	{
+		"name": "Shortsword",
+		"itemtype": "Weapon",
+		"damage": "d8",
+		"type": "ps",
+		"range": "5 ft.",
+		"cost": "150",
+		"properties": "Light",
+		"special": "None"
+	},
+	{
+		"name": "Longsword",
+		"itemtype": "Weapon",
+		"damage": "d10",
+		"type": "s",
+		"range": "5 ft.",
+		"cost": "300",
+		"properties": "None",
+		"special": "None"
+	},
+	{
+		"name": "Greatsword",
+		"itemtype": "Weapon",
+		"damage": "2d8",
+		"type": "s",
+		"range": "5 ft.",
+		"cost": "500",
+		"properties": "Heavy",
+		"special": " Two Handed"
+	},
+	{
+		"name": "Ultra-Greatsword",
+		"itemtype": "Weapon",
+		"damage": "2d10",
+		"type": "s",
+		"range": "5 ft.",
+		"cost": "650",
+		"properties": "Heavy",
+		"special": "Two Handed"
+	},
+	{
+		"name": "Hand-Axe",
+		"itemtype": "Weapon",
+		"damage": "d6",
+		"type": "s",
+		"range": "5 ft.",
+		"cost": "40",
+		"properties": "Light",
+		"special": " Thrown"
+	},
+	{
+		"name": "War Axe",
+		"itemtype": "Weapon",
+		"damage": "d8",
+		"type": "s",
+		"range": "5 ft.",
+		"cost": "120",
+		"properties": "Light",
+		"special": "None"
+	},
+	{
+		"name": "Great Axe",
+		"itemtype": "Weapon",
+		"damage": "d12",
+		"type": "s",
+		"range": "5 ft.",
+		"cost": "200",
+		"properties": "Heavy",
+		"special": " Two Handed"
+	},
+	{
+		"name": "Hammer",
+		"itemtype": "Weapon",
+		"damage": "d8",
+		"type": "b",
+		"range": "5 ft.",
+		"cost": "100",
+		"properties": "Light",
+		"special": "None"
+	},
+	{
+		"name": "Warhammer",
+		"itemtype": "Weapon",
+		"damage": "d10",
+		"type": "b",
+		"range": "5 ft.",
+		"cost": "200",
+		"properties": "None",
+		"special": "None"
+	},
+	{
+		"name": "Maul",
+		"itemtype": "Weapon",
+		"damage": "2d8",
+		"type": "pb",
+		"range": "5 ft.",
+		"cost": "400",
+		"properties": "Heavy",
+		"special": " Two Handed"
+	},
+	{
+		"name": "Spear",
+		"itemtype": "Weapon",
+		"damage": "d6",
+		"type": "p",
+		"range": "10 ft.",
+		"cost": "80",
+		"properties": "None",
+		"special": "None"
+	},
+	{
+		"name": "Glaive",
+		"itemtype": "Weapon",
+		"damage": "d10",
+		"type": "ps",
+		"range": "10 ft.",
+		"cost": "350",
+		"properties": "Two Handed",
+		"special": "None"
+	},
+	{
+		"name": "Pike",
+		"itemtype": "Weapon",
+		"damage": "d10",
+		"type": "p",
+		"range": "15 ft.",
+		"cost": "160",
+		"properties": "Heavy",
+		"special": " Two Handed"
+	},
+	{
+		"name": "Lance",
+		"itemtype": "Weapon",
+		"damage": "2d8",
+		"type": "p",
+		"range": "5 ft.",
+		"cost": "450",
+		"properties": "Heavy",
+		"special": "Double damage on a charge. Can only be used while on a horse."
+	},
+	{
+		"name": "Shortbow",
+		"itemtype": "Weapon",
+		"damage": "d8",
+		"type": "p",
+		"range": "500 ft.",
+		"cost": "400",
+		"properties": "Two Handed",
+		"special": " ranged"
+	},
+	{
+		"name": "Longbow",
+		"itemtype": "Weapon",
+		"damage": "d10",
+		"type": "p",
+		"range": "800 ft.",
+		"cost": "600",
+		"properties": "Heavy",
+		"special": " Two Handed"
+	},
+	{
+		"name": "Crossbow",
+		"itemtype": "Weapon",
+		"damage": "d12",
+		"type": "p",
+		"range": "450 ft.",
+		"cost": "900",
+		"properties": "Loading",
+		"special": " ranged"
+	},
+	{
+		"name": "Pistol",
+		"itemtype": "Weapon",
+		"damage": "2d8",
+		"type": "p",
+		"range": "200 ft.",
+		"cost": "1200",
+		"properties": "Light",
+		"special": " Loading"
+	},
+	{
+		"name": "Musket",
+		"itemtype": "Weapon",
+		"damage": "2d12",
+		"type": "p",
+		"range": "300 ft.",
+		"cost": "2500",
+		"properties": "Loading",
+		"special": " Two Handed"
+	},
+	{
+		"name": "Sling",
+		"itemtype": "Weapon",
+		"damage": "d4",
+		"type": "b",
+		"range": "600 ft.",
+		"cost": "6",
+		"properties": "Loading",
+		"special": " ranged"
+	},
+	{
+		"name": "Club",
+		"itemtype": "Weapon",
+		"damage": "d6",
+		"type": "b",
+		"range": "5 ft.",
+		"cost": "4",
+		"properties": "Light",
+		"special": "None"
+	},
+	{
+		"name": "Quarterstaff",
+		"itemtype": "Weapon",
+		"damage": "d8",
+		"type": "b",
+		"range": "5 ft.",
+		"cost": "10",
+		"properties": "Two Handed",
+		"special": "None"
+	},
+	{
+		"name": "Padded",
+		"itemtype": "Armor",
+		"baseac": "9",
+		"dexpen": "0",
+		"dr": "0",
+		"type": "Light",
+		"maxdex": "5",
+		"cost": "300"
+	},
+	{
+		"name": "Leather",
+		"itemtype": "Armor",
+		"baseac": "10",
+		"dexpen": "0",
+		"dr": "0",
+		"type": "Light",
+		"maxdex": "5",
+		"cost": "800"
+	},
+	{
+		"name": "Studded Leather",
+		"itemtype": "Armor",
+		"baseac": "11",
+		"dexpen": "1",
+		"dr": "1",
+		"type": "Light",
+		"maxdex": "4",
+		"cost": "1300"
+	},
+	{
+		"name": "Rusted Chain",
+		"itemtype": "Armor",
+		"baseac": "12",
+		"dexpen": "3",
+		"dr": "2",
+		"type": "Medium",
+		"maxdex": "3",
+		"cost": "500"
+	},
+	{
+		"name": "Chain",
+		"itemtype": "Armor",
+		"baseac": "13",
+		"dexpen": "2",
+		"dr": "2",
+		"type": "Medium",
+		"maxdex": "3",
+		"cost": "700"
+	},
+	{
+		"name": "Steel Chain",
+		"itemtype": "Armor",
+		"baseac": "14",
+		"dexpen": "2",
+		"dr": "2",
+		"type": "Medium",
+		"maxdex": "3",
+		"cost": "2000"
+	},
+	{
+		"name": "Breastplate",
+		"itemtype": "Armor",
+		"baseac": "14",
+		"dexpen": "3",
+		"dr": "3",
+		"type": "Medium",
+		"maxdex": "3",
+		"cost": "3000"
+	},
+	{
+		"name": "Steel Breastplate",
+		"itemtype": "Armor",
+		"baseac": "15",
+		"dexpen": "3",
+		"dr": "4",
+		"type": "Medium",
+		"maxdex": "3",
+		"cost": "8000"
+	},
+	{
+		"name": "Rusted Half Plate",
+		"itemtype": "Armor",
+		"baseac": "14",
+		"dexpen": "4",
+		"dr": "3",
+		"type": "Heavy",
+		"maxdex": "0",
+		"cost": "2500"
+	},
+	{
+		"name": "Half Plate",
+		"itemtype": "Armor",
+		"baseac": "16",
+		"dexpen": "3",
+		"dr": "4",
+		"type": "Heavy",
+		"maxdex": "0",
+		"cost": "12 000"
+	},
+	{
+		"name": "Steel Half Plate",
+		"itemtype": "Armor",
+		"baseac": "17",
+		"dexpen": "3",
+		"dr": "5",
+		"type": "Heavy",
+		"maxdex": "0",
+		"cost": "24 000"
+	},
+	{
+		"name": "Full Plate",
+		"itemtype": "Armor",
+		"baseac": "18",
+		"dexpen": "4",
+		"dr": "6",
+		"type": "Heavy",
+		"maxdex": "0",
+		"cost": "150 000"
+	},
+	{
+		"name": "Steel Full Plate",
+		"itemtype": "Armor",
+		"baseac": "20",
+		"dexpen": "4",
+		"dr": "6",
+		"type": "Heavy",
+		"maxdex": "0",
+		"cost": "400 000"
+	},
+	{
+		"name": "Wooden Shield",
+		"itemtype": "Armor",
+		"baseac": "2",
+		"dexpen": "1",
+		"dr": "0",
+		"type": "Light",
+		"maxdex": "None",
+		"cost": "150"
+	},
+	{
+		"name": "Steel Shield",
+		"itemtype": "Armor",
+		"baseac": "3",
+		"dexpen": "2",
+		"dr": "1",
+		"type": "Medium",
+		"maxdex": "None",
+		"cost": "500"
+	},
+	{
+		"name": "Tower Shield",
+		"itemtype": "Armor",
+		"baseac": "4",
+		"dexpen": "4",
+		"dr": "2",
+		"type": "Heavy",
+		"maxdex": "None",
+		"cost": "4000"
+	}
+]

@@ -25,8 +25,11 @@
    },
    {
       "name": "Poisoned",
-      "altname": "Sicked",
-      "text": "If a creature is poisoned or sicked it has its movement speed halved and the creature has disadvantage on all attack rolls and reflex saving throws."
+      "text": "If a creature is poisoned or sickened it has its movement speed halved and the creature has disadvantage on all attack rolls and reflex saving throws."
+   },
+      {
+      "name": "Sickened",
+      "text": "If a creature is poisoned or sickened it has its movement speed halved and the creature has disadvantage on all attack rolls and reflex saving throws."
    },
    {
       "name": "Restrained",

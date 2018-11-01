@@ -1,0 +1,96 @@
+<compendium>
+	<ritual>
+		<name>Alarm</name>
+		<castingtime>1 minute</castingtime>
+		<text>You ward a campsite, warning you if someone attacks. Until the next dawn, or you leave the area, if any person, monster, or large beast enters within 60ft of your campfire you are immediately alerted.</text>
+	</ritual>
+	<ritual>
+<<<<<<< HEAD
+=======
+		<name>Alarm</name>
+		<castingtime>1 hour</castingtime>
+		<text>You taste some blood, learning some details of the creature it came from. You can learn the species, gender and rough age of the creature the blood is from as well as how long ago the blood was taken from the creature.</text>
+	</ritual>
+	<ritual>
+>>>>>>> db2546464f434435158dd05b8971e99e36f3e74b
+		<name>Bonfire</name>
+		<castingtime>10 minutes</castingtime>
+		<text>You create a bonfire out of thin air that lasts for 8 hours. While you are within 60 feet of this bonfire all invocations from the secret of fire cost one less point of casting ability score.</text>
+	</ritual>
+	<ritual>
+		<name>Cast the Bones</name>
+		<castingtime>10 minutes</castingtime>
+		<text>You search into the future, gaining some insight into the future. If you attempt to cast this ritual more than once per downtime you have an increased chance of incorrect results.</text>
+	</ritual>
+	<ritual>
+		<name>Clear the Skies</name>
+		<castingtime>10 minutes</castingtime>
+		<text>You attempt to influence the weather around you. Make a check using your casting ability score.</text>
+
+		<table>	15	Change weather by one step </table>
+		<table>	20	Change weather by two steps </table>
+		<table> 	25	Change weather by three steps </table>
+
+		<text>The change happens over an hour. The weather changes at half the speed for the rest of the day if changing back to the original weather. You can only cast this once per day.</text>
+		<text>Example Weathers include Cyclone, Bad storm, Storm, Mild Storm , Heavy Rain, Rain, Drizzle, Heavy Cloud, Light Clouds, Clear</text>
+	</ritual>
+	<ritual>
+		<name>Create Trickle</name>
+		<castingtime>1 hour</castingtime>
+		<text>You attempt to pull water forth from the ground. Depending on the terrain you can get water for 0 to 8 people, as determined by your GM and random chance.</text>
+	</ritual>
+	<ritual>
+		<name>Forest Sense</name>
+		<castingtime>10 Minutes</castingtime>
+		<text>For the next hour you have advantage on tracking or perception checks as long as you are touching a living plant that is touching a system of plants that are connected in some way, for example a forest or grassland.</text>
+	</ritual>
+	<ritual>
+		<name>Gentle Repose</name>
+		<castingtime>1 hour</castingtime>
+		<text>You perform a ritual over a dead body to keep it from decomposing or becoming an undead. As part of this ritual you must place a coin on each eye. The body then is protected for a week.</text>
+	</ritual>
+	<ritual>
+		<name>Healing Chant</name>
+		<castingtime>1 hour.</castingtime>
+		<text>During a short rest you can fortify your companions at the cost of healing yourself. You cannot spend any recovery dice, but your companions can each spend one recovery dice for free</text>
+	</ritual>
+	<ritual>
+		<name>Light</name>
+		<castingtime>1 Minute</castingtime>
+		<text>You touch an object. For the next hour, or until you dismiss it, the object shines brightly.</text>
+	</ritual>
+	<ritual>
+		<name>Mage Armour</name>
+		<castingtime>1 hour</castingtime>
+		<text>One target you touch gains a +2 bonus to armour class until the end of your next long rest. You can only grant this bonus to one creature at a time. If you cast this ritual before another casting of mage armour wears off the original casting is cancelled.</text>
+	</ritual>
+	<ritual>
+		<name>Detect Magic</name>
+		<castingtime>10 minutes</castingtime>
+		<text>You can see faint auras around items, locations, or people affected by magic for an hour. By concentrating on the aura for 10 minutes you can determine the strength and type of spell. More complex spell might require a spellcraft or arcana check.</text>
+	</ritual>
+	<ritual>
+		<name>Moonlight Dancing</name>
+		<castingtime>8 hours</castingtime>
+		<text>Can only be cast on a full moon. Instead of long resting you can find a place of natural power, such as standing stones, a waterfall, or similar, and perform a ritual that involves naked dancing in the moonlight. Every participant in this ritual gains a +1 to every 2d10 roll for the next week.</text>
+	</ritual>
+	<ritual>
+		<name>Shroud</name>
+		<castingtime>10 minutes</castingtime>
+		<text>Target you touch may add your intelligence modifier at the time of casting to all stealth checks for an hour as shadows hide and conceal them. </text>
+	</ritual>
+	<ritual>
+		<name>Stone Skin</name>
+		<castingtime>10 minutes</castingtime>
+		<text>For the next hour your skin is hard and stone like. Your movement speed is reduced by 10 ft and you have resistance to slashing and piercing damage.</text>
+	</ritual>
+	<ritual>
+		<name>Read Magic</name>
+		<castingtime>1 minute</castingtime>
+		<text>You spend some time preparing, focusing on magical writing or runes you can touch. At the end of the minute you magically gain an understanding as to their function.</text>
+	</ritual>	
+</compendium>
+<<<<<<< HEAD
+=======
+	
+>>>>>>> db2546464f434435158dd05b8971e99e36f3e74b

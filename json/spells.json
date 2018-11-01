@@ -2,16 +2,16 @@
    {
       "name": "Abjure Daemon",
       "time": "Casting Time: 1 turn.",
-      "cost": "Cost: 2",
+      "cost": "Cost: 3",
       "range": "Range: 30ft",
-      "text": "Select one daemon within range. It must make a fortitude save or be frightened of you for 1 hour. A daemon frightened from this invocation is no longer resistant to damage dealt by your allies. You can target an additional daemon by spending 1 point per additional daemon."
+      "text": "Select one daemon within range. It must make a fortitude save or be frightened of you for 1 hour. A daemon frightened from this invocation is no longer resistant to damage dealt by your allies. You can target an additional daemon by spending 2 points per additional daemon."
    },
    {
       "name": "Agony",
       "time": "Casting Time: 1 turn",
       "cost": "Cost: 4",
       "range": "Range: touch",
-      "text": "A creature you touch must succeed on a will save or take 1d4 minor wounds. On a successful save they instead take 1d3-1. While a creature has a wound from this spell, or any other wounds they had at the casting of this spell, they have disadvantage on all attack rolls, ability checks and saving throws."
+      "text": "A creature you touch must make a will save. On a successful save they take 1d3-1 minor wounds. On a failure or take 1d4 minor wounds. In addition, if the saving throw is failed the target has  disadvantage on all attack rolls, ability checks and saving throws while the creature has a wound caused by this spell."
    },
    {
       "name": "Antimagic Field",
@@ -60,21 +60,21 @@
    {
       "name": "Blind Foe",
       "time": "Casting Time: One Turn",
-      "cost": "Cost: 4",
+      "cost": "Cost: 3",
       "range": "Range: One creature within 150 feet.",
-      "text": "The target must succeed on a fortitude save or be blinded until either the caster decides to remove it, or they are uncursed."
+      "text": "The target must succeed on a fortitude save or be blinded until either the caster decides to remove it, or they are targeted by a spell that removes curses or is otherwise uncursed."
    },
    {
       "name": "Blinding Light",
       "time": "Casting Time: 1 turn",
       "cost": "Cost: 3",
       "range": "Range: 120 ft",
-      "text": "You create a burst of light within range. Each creature within 15 ft of a point you choose must succeed on a fortitude save or take 2d8 damage and be blinded. At the end of each of their turns they can roll the save again."
+      "text": "You create a burst of light within range. Each creature within 15 ft of a point you choose must succeed on a fortitude save or take 2d8 damage and be blinded for a minute. At the end of each of their turns they can roll the save again, ending the effect on a success."
    },
    {
       "name": "Bloodsplosion",
       "time": "Casting Time: None",
-      "cost": "Cost: 4",
+      "cost": "Cost: 7",
       "range": "Range: 150 ft",
       "text": "You chose a creature that is bleeding within range. It must make a fortitude saving throw or explode with blood. It takes 1d4 major wounds on a failed save and every creature within 15 ft must make a reflex save or take 3d12 damage or half damage on a pass. If the original creatures passes its save, it instead takes 1d4 minor wounds and the surrounding creatures only take 3d8 damage."
    },
@@ -110,7 +110,7 @@
       "time": "Casting Time: None.",
       "cost": "Cost: 2",
       "range": "Range: 60ft",
-      "text": "All creatures within range must succeed a will save or be frightened of you for one minute."
+      "text": "All creatures within range must succeed a will save or be frightened of you for one minute. Any creature frightened by this spell takes an extra 1d6 damage from any attack or spell that deals damage to them."
    },
    {
       "name": "Call the Flock",
@@ -125,7 +125,7 @@
       "time": "Casting Time: One Turn",
       "cost": "Cost: 3",
       "range": "range: One creature within 30 feet.",
-      "text": "The target must make a fortitude save or suffer a minor wound."
+      "text": "The target must make a fortitude save or suffer a minor wound. If the fortitude save is failed by at least 5 points they instead take a major wound."
    },
    {
       "name": "Chain Daemon",
@@ -153,7 +153,7 @@
       "time": "Casting Time: None",
       "cost": "Cost: Varies",
       "range": "Range: 300 ft.",
-      "text": "When a creature casts a spell within range you can attempt to counterspell it. (read dispel magic)"
+      "text": "When a creature casts a spell within range you can attempt to counterspell it with pure magic. This counterspelling works as an instantaneous dispel magic (read dispel magic)."
    },
    {
       "name": "Create Passage",
@@ -182,9 +182,9 @@
    {
       "name": "Defensive Barrier",
       "time": "Casting Time: 1 turn",
-      "cost": "Cost: 1",
+      "cost": "Cost: 2",
       "range": "Range: Touch",
-      "text": "You grant a creature you touch a defensive barrier that grants the creature an additional 10 points of defence that last for an hour."
+      "text": "You grant a creature or object you touch a defensive barrier that grants the creature an additional 10 points of defence that last for an hour. You can only have one such barrier active at a time. While the barrier still has at least 1 point of defence left you can refill it by spending one point and touching it as a main action."
    },
    {
       "name": "Dispel Magic",
@@ -213,14 +213,14 @@
       "cost": "Cost: 4",
       "range": "Range: 120 ft.",
       "duration": "Duration: 10 minutes.",
-      "text": "The area in a 60 ft radius around a point in range becomes difficult terrain for the duration. You can move normally within the area. You can spend 2 points to grant your allies the same power."
+      "text": "The area in a 60 ft radius around a point in range becomes difficult terrain for the duration. You can move normally within the area. You can spend 2 points to grant your allies the same power. While standing in the area you can use your turn to cause the ground to attempt to restrain up to 3 creatures within the area. The creatures you target must succeed on a reflex save or be restrained until the end of your next turn."
    },
    {
       "name": "Fireball",
       "time": "Casting Time: 2 turns",
       "cost": "Cost: 5",
       "range": "Range: 100 ft.",
-      "text": "You fling a line of energy to a point in range. At that point a ball of fire erupts in a 30 ft. sphere. Any creature within the sphere must succeed on a reflex save or take 5d8+10 fire damage. On a passed save they take half damage. Any creature that takes damage or anything else within the sphere is set on fire (d4)."
+      "text": "You fling a line of energy to a point in range. At that point a ball of fire erupts in a 30 ft. sphere. Any creature within the sphere must succeed on a reflex save or take 6d8 fire damage. On a passed save they take half damage. Any creature that takes damage or anything else within the sphere is set on fire (d4 per round for a minute or until the creature or another creatures uses its main action to move up to double its movement speed and put out the flames)."
    },
    {
       "name": "Flame Bolt",

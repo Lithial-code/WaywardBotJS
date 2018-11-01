@@ -1,0 +1,533 @@
+<compendium>
+	<spell>
+		<name>Abjure Daemon</name>
+		<time>Casting Time: 1 turn. </time>
+		<cost>Cost: 2</cost>
+		<range>Range: 30ft</range>
+		<text>Select one daemon within range. It must make a fortitude save or be frightened of you for 1 hour. A daemon frightened from this invocation is no longer resistant to damage dealt by your allies. You can target an additional daemon by spending 1 point per additional daemon. </text>
+	</spell>
+	<spell>
+		<name>Agony</name>
+		<time>Casting Time: 1 turn</time>
+		<cost>Cost: 4</cost>
+		<range>Range: touch</range>
+		<text>A creature you touch must succeed on a will save or take 1d4 minor wounds. On a successful save they instead take 1d3-1. While a creature has a wound from this spell, or any other wounds they had at the casting of this spell, they have disadvantage on all attack rolls, ability checks and saving throws. </text>
+	</spell>
+	<spell>
+		<name>Antimagic Field</name>
+		<time>Casting Time: 1 minute</time>
+		<cost>Cost: 8</cost>
+		<range>Range: Self</range>
+		<duration>Duration: 1 hour</duration>
+		<text>For the duration no spell or magical effect can occur within 15 ft of you. You can spend an extra 4 to instead cast this invocation on a point within 60 ft of you. </text>
+	</spell>
+	<spell>
+		<name>Arcane Bolt</name>
+		<time>Casting Time: One Turn</time>
+		<cost>Cost: 2</cost>
+		<range>range: One creature within 120 feet.</range>
+		<text>Roll a spell attack against a creature within range. This attack ignores any bonus to armour class and any damage reduction from armour. On a hit deal 3d8 magic damage. </text>
+	</spell>
+
+
+	<spell>
+		<name>Banish Daemon</name>
+		<time>Casting Time: 1 turn</time>
+		<cost>Cost: 6</cost>
+		<range>Range: 120 ft. </range>
+		<text>One (non-native) daemon within range must succeed a will save or be forced back to chaos. You can target up to 3 additional daemons by paying 3 points per extra daemon. A daemon currently touching a material it is weak to has disadvantage on this save. </text>
+	</spell>
+	<spell>
+		<name>Bird Scout</name>
+		<time>Casting Time: 1 minute</time>
+		<cost>Cost: 2</cost>
+		<range>Range: Self </range>
+		<text>You create a small bird that lasts for an hour. You can see through its eyes and telepathically direct its movement for the hour, at the end of which it vanishes in a puff of smoke. </text>
+	</spell>
+	<spell>
+		<name>Blade from the Void</name>
+		<time>Casting Time: none. </time>
+		<cost>Cost: 5</cost>
+		<range>Range: self</range>
+		<text>On your turn, before making an attack, you can cast this invocation, summoning a blade made from void energies. This blade has the light property. It deals 3d10 damage on a hit, and the wounds from this weapon are slow healing. Medicine checks and fortitude saves to heal them have disadvantage. Once per turn, when you make an attack with this blade, you can spend 2 points to make an extra attack against the same target. </text>
+	</spell>
+
+	<spell>
+		<name>Bleed</name>
+		<time>Casting Time: 1 turn</time>
+		<cost>Cost: 2</cost>
+		<range>Range: 30 ft. </range>
+		<duration>Duration: 1d4 rounds. </duration>
+		<text>A creature within range must make a fortitude save or take 2d12 damage immediately and an additional 1d12 damage for the next 1d4 rounds on your turn. </text>
+	</spell>
+	<spell>
+		<name>Blind Foe</name>
+		<time>Casting Time: One Turn</time>
+		<cost>Cost: 4</cost>
+		<range>Range: One creature within 150 feet. </range>
+		<text>The target must succeed on a fortitude save or be blinded until either the caster decides to remove it, or they are uncursed. </text>
+	</spell>
+	<spell>
+		<name>Blinding Light</name>
+		<time>Casting Time: 1 turn</time>
+		<cost>Cost: 3</cost>
+		<range>Range: 120 ft</range>
+		<text>You create a burst of light within range. Each creature within 15 ft of a point you choose must succeed on a fortitude save or take 2d8 damage and be blinded. At the end of each of their turns they can roll the save again. </text>
+	</spell>
+	<spell>
+		<name>Bloodsplosion</name>
+		<time>Casting Time: None</time>
+		<cost>Cost: 4</cost>
+		<range>Range: 150 ft</range>
+		<text>You chose a creature that is bleeding within range. It must make a fortitude saving throw or explode with blood. It takes 1d4 major wounds on a failed save and every creature within 15 ft must make a reflex save or take 3d12 damage or half damage on a pass. If the original creatures passes its save, it instead takes 1d4 minor wounds and the surrounding creatures only take 3d8 damage. </text>
+	</spell>
+	<spell>
+		<name>Boulder</name>
+		<time>Casting Time: 1 turn. </time>
+		<cost>Cost: 1</cost>
+		<range>Range: 30ft</range>
+		<text>You pull a boulder from the earth and throw it at a target within range. Roll a spell attack against the target. On a hit you deal 2d6 damage and push it back 10ft. If there is another creature behind the first creature and you hit you can roll a second attack against it, dealing 2d6 damage and pushing it back 5ft on a hit. </text>
+	</spell>
+
+	<spell>
+		<name>Burning Light</name>
+		<time>Casting Time: 1 Turn</time>
+		<cost>Cost: 4</cost>
+		<range>Range: Self</range>
+		<text>You burn with divine radiance. Every creature of your choice within 60 ft of you must make a fortitude save or take 4d12 fire damage and be set on fire (1d12). You also take this damage. </text>
+	</spell>
+	<spell>
+		<name>Call of the Deep</name>
+		<time>Casting Time: 1 turn</time>
+		<cost>Cost: 6</cost>
+		<range>Range: Self</range>
+		<duration>Duration: 1 minute. </duration>
+		<text>You call forth creatures of slime and grasping tentacle. These creatures rise from the ground around you. For the duration you gain cover, 10 defence and may make an additional 2 attacks on your turn, choosing from the following options.</text>
+		<text>Pull: spell attack, 2d8 + intelligence damage. Pulls the target 10ft closer to you on a hit. </text>
+		<text>Slime; spell attack, 2d6 + intelligence damage, reduced targets speed by half for a turn on a hit. </text>
+		<text>Grab: spell attack, 1d12 + intelligence damage. Grapple on a hit. </text>
+	</spell>
+
+	<spell>
+		<name>Cackle</name>
+		<time>Casting Time: None. </time>
+		<cost>Cost: 2</cost>
+		<range>Range: 60ft</range>
+		<text>All creatures within range must succeed a will save or be frightened of you for one minute. </text>
+	</spell>
+	<spell>
+		<name>Call the Flock</name>
+		<time>Casting Time: 10 minutes</time>
+		<cost>Cost: 5</cost>
+		<range>Range: Self</range>
+		<duration>Duration: 1 hour</duration>
+		<text>You summon a swarm of birds that you control for the duration. </text>
+	</spell>
+
+	<spell>
+		<name>Cause Wound</name>
+		<time>Casting Time: One Turn</time>
+		<cost>Cost: 3</cost>
+		<range>range: One creature within 30 feet. </range>
+		<text>The target must make a fortitude save or suffer a minor wound. </text>
+	</spell>
+	<spell>
+		<name>Chain Daemon</name>
+		<time>Casting Time: 1 turn. </time>
+		<cost>Cost: 4</cost>
+		<range>Range: 60ft. </range>
+		<text>One daemon you see is surrounded with silver chains. It must succeed on a reflex save or take 10d8 silvered damage and be restrained. If restrained it can attempt to break the chains at the end of its turn by making a strength check against your DC. On a failed attempt it takes 2d8 silver damage. </text>
+	</spell>
+	<spell>
+		<name>Cone of Fire</name>
+		<time>Casting Time: One Turn</time>
+		<cost>Cost: 3</cost>
+		<range>range: 20 feet cone. </range>
+		<text>All creatures within the cone must succeed on a reflex save or take 4d8 fire damage. On a successful save the creature takes half damage. </text>
+	</spell>
+	<spell>
+		<name>Control Undead</name>
+		<time>Casting Time: One minute</time>
+		<cost>Cost: 2</cost>
+		<range>range: One undead you have created. </range>
+		<text>You gain control over the undead for one week. </text>
+	</spell>
+	<spell>
+		<name>Counterspell</name>
+		<time>Casting Time: None</time>
+		<cost>Cost: Varies</cost>
+		<range>Range: 300 ft. </range>
+		<text>When a creature casts a spell within range you can attempt to counterspell it. (read dispel magic) </text>
+	</spell>
+
+	<spell>
+		<name>Create Passage</name>
+		<time>Casting Time: 1 turn</time>
+		<cost>Cost: 1</cost>
+		<range>Range: 60ft</range>
+		<text>You open a passage through earth or stone. The passage can be up to 10ft long and can fit a medium creature. You can choose to close the passage behind you by paying 1 point, leaving no trace of your passage. </text>
+	</spell>
+	<spell>
+		<name>Create Water</name>
+		<time>Casting Time: 1 turn. </time>
+		<cost>Cost: 4</cost>
+		<range>Range: 60ft</range>
+		<text>You create a deluge of water that erupts within range. Anyone within 20 ft of where the water appears must succeed on a reflex save or take 2d10 bludgeoning damage and be knocked 10ft away from the eruption and knocked prone. The area within 20 ft of the eruption point becomes wet, creating difficult or slippery terrain, depending on what was there before. This water is murky and undrinkable. </text>
+		<text>You can also cast this invocation to create drinking water for up to 5 people for a day. </text>
+	</spell>
+	<spell>
+		<name>Darkness</name>
+		<time>Casting Time: One turn</time>
+		<cost>Cost: 3</cost>
+		<range>range: A space within 60 feet</range>
+		<text>Darkness fills the area within 25 feet of the target. This darkness lasts for 10 minutes, or until a spell that creates light that costs more than darkness creates light within the area of darkness created by this spell. </text>
+	</spell>
+	<spell>
+		<name>Defensive Barrier</name>
+		<time>Casting Time: 1 turn</time>
+		<cost>Cost: 1</cost>
+		<range>Range: Touch</range>
+		<text>You grant a creature you touch a defensive barrier that grants the creature an additional 10 points of defence that last for an hour. </text>
+	</spell>
+
+	<spell>
+		<name>Dispel Magic</name>
+		<time>Casting Time: One Minute</time>
+		<cost>Cost: Varies</cost>
+		<range>Range: 30 feet</range>
+		<text>WARNING: This spell is heavily reliant on GM fiat.
+You attempt to dispel one magical effect in range. If the spell is the result of a ritual with no cost, it is dispelled. Otherwise roll a spellcraft check, DC 10 + spell cost + misc. modifiers. If you pass this check you can spend intelligence equal to the cost to dispel it. </text>
+	</spell>
+	<spell>
+		<name>Divine Radiance</name>
+		<time>Casting Time: One Turn</time>
+		<cost>Cost: 2</cost>
+		<range>range: One creature within 40 ft. </range>
+		<text>The target must make a reflex save or take 4d8 radiant damage. </text>
+	</spell>
+	<spell>
+		<name>Elemental Ward</name>
+		<time>Casting Time: None</time>
+		<cost>Cost: 2</cost>
+		<range>Range: Touch</range>
+		<text>You grant one creature you touch protection from one type of damage. For the next hour they have resistance to that sort of damage. </text>
+	</spell>
+	<spell>
+		<name>Entangling Ground</name>
+		<time>Casting Time: 1 turn</time>
+		<cost>Cost: 4</cost>
+		<range>Range: 120 ft. </range>
+		<duration>Duration: 10 minutes. </duration>
+		<text>The area in a 60 ft radius around a point in range becomes difficult terrain for the duration. You can move normally within the area. You can spend 2 points to grant your allies the same power. </text>
+	</spell>
+
+	<spell>
+		<name>Fireball</name>
+		<time>Casting Time: 2 turns</time>
+		<cost>Cost: 5</cost>
+		<range>Range: 100 ft. </range>
+		<text>You fling a line of energy to a point in range. At that point a ball of fire erupts in a 30 ft. sphere. Any creature within the sphere must succeed on a reflex save or take 5d8+10 fire damage. On a passed save they take half damage. Any creature that takes damage or anything else within the sphere is set on fire (d4). </text>
+	</spell>
+	<spell>
+		<name>Flame Bolt</name>
+		<time>Casting Time: One Turn</time>
+		<cost>Cost: 1</cost>
+		<range>range: One creature within 200 feet</range>
+		<text>Roll an attack roll with int + level. On a hit deal 2d10 fire damage. </text>
+	</spell>
+	<spell>
+		<name>Flight</name>
+		<time>Casting Time: None</time>
+		<cost>Cost: 6</cost>
+		<range>Range: Self</range>
+		<duration>Duration: 1 hour.</duration>
+		<text>You gain a flying speed of 60ft. </text>
+	</spell>
+	<spell>
+		<name>Gather the Blood</name>
+		<time>Casting Time: One Turn</time>
+		<cost>Cost: 2</cost>
+		<range>range: A creature within 60 feet. </range>
+		<text>The target must make a reflex save or take 1d6 damage. If the target can bleed it is cut and the blood is magically transported to your hand. </text>
+	</spell>
+	<spell>
+		<name>Grasping Vine</name>
+		<time>Casting Time: 1 turn</time>
+		<cost>Cost: 1</cost>
+		<range>Range: 60 ft. </range>
+		<text>You create a vine at a point in range which lashes out at a creature within 10ft of it. Make a spell attack. On a hit deal 2d6 damage and pull the creature to the origin point of the vine. The vine must be placed on a solid surface. The vine dies and turns to dust after making the attack. </text>
+	</spell>
+
+
+	<spell>
+		<name>Gusting Wind</name>
+		<time>Casting Time: One Turn</time>
+		<cost>Cost: 3</cost>
+		<range>range: Self</range>
+		<text>For a minute after casting this invocation you can use your turn to attack a creature within 60 feet with a blast of air. The target must make a reflex save or take 1d8 damage and be pushed back 10 feet. </text>
+	</spell>
+	<spell>
+		<name>Inferno</name>
+		<time>Casting Time: Instant</time>
+		<cost>Cost: 10</cost>
+		<range>Range: Self</range>
+		<text>An inferno bursts out from you. Every creature within 100 ft of you (not including you) must succeed on a reflex save or take 10d8 fire damage. On a passed save they take half damage. Any creature that takes damage or anything else within the sphere is set on fire (d8). Once you cast this invocation you can spend 2 points and your next turn to maintain it, dealing 4d8 on a failed save, half on a pass, to anything still within the area (including yourself). </text>
+	</spell>
+	<spell>
+		<name>Invisibility</name>
+		<time>Casting Time: 1 minute</time>
+		<cost>Cost: 4</cost>
+		<range>Range: Touch</range>
+		<text>A creature you touch becomes invisible for 1 minute. This spell ends when the targeted creature attacks or casts a spell. If you pay 8 the spell only ends at the end of the minute or if dispelled. </text>
+	</spell>
+	<spell>
+		<name>Invulnerability</name>
+		<time>Casting Time: 1 minute</time>
+		<cost>Cost: 8</cost>
+		<text>For the next minute you are invulnerable to all damage. If you spend 4 extra points you can instead target a creature you touch. </text>
+	</spell>
+
+	<spell>
+		<name>Leap Through Blood</name>
+		<time>Casting Time: None</time>
+		<cost>Cost: 6</cost>
+		<range>Range: Self</range>
+		<text>You deal 1d6 damage to yourself. You select a creature within sight that is taking damage from one of your spells. You teleport to their location and they take 8d12 damage as you explode from their wound. </text>
+	</spell>
+	<spell>
+		<name>Lightning Bolt</name>
+		<time>Casting Time: Two turns</time>
+		<cost>Cost: 2</cost>
+		<range>range: a 30 feet line. </range>
+		<text>Every creature in the line must make a reflex save or take 6d8 damage. A creature that passes takes half damage. You must succeed on a fortitude save or take 3d8 damage. You take no damage on a pass. </text>
+	</spell>
+	<spell>
+		<name>Lightning Fog</name>
+		<time>Casting Time: 1 minute</time>
+		<cost>Cost: 6</cost>
+		<range>Range: 100 ft. </range>
+		<text>You create a thick fog that crackles with lightning. Chose a point within range. Everything within 40 ft. is obscured by the fog. Any creature that starts it turn within the fog must succeed a reflex save or take 1d8 damage. </text>
+	</spell>
+	<spell>
+		<name>Maddening Darkness</name>
+		<time>Casting Time: 2 turns</time>
+		<cost>Cost: 6</cost>
+		<range>Range: 60 ft</range>
+		<duration>Duration: 1 minute</duration>
+		<text>You create an 30ft sphere of darkness. Any creature that enters the darkness must make a will save or take 1d6 sanity damage and be frightened. Any create that breaks within the darkness must roll twice on the break tables and take the lowest result. </text>
+	</spell>
+
+	<spell>
+		<name>Madness</name>
+		<time>Casting Time: One Turn</time>
+		<cost>Cost: 3 </cost>
+		<range>range: One creature within 30 ft. </range>
+		<text>The creature must make a will save or go mad, rolling on the major madness table to determine the type of madness. </text>
+	</spell>
+	<spell>
+		<name>Peirce Defence</name>
+		<time>Casting Time: 1 turn</time>
+		<cost>Cost: 2</cost>
+		<range>Range: 60 ft</range>
+		<duration>Duration: 1 minute</duration>
+		<text>Roll a spell attack against a target within range. On a hit the targets armour class is reduced by 3 and damage reduction is reduced by 5 for the duration. </text>
+	</spell>
+	<spell>
+		<name>Plant Form</name>
+		<time>Casting Time: 1 minute</time>
+		<cost>Cost: 8</cost>
+		<range>Range: Self</range>
+		<duration>Duration: 10 minutes. </duration>
+		<text>You cover yourself in plants, vines, and wood. Your armour class increases by 4. You gain 40 defence. You can cast grasping vine twice every turn at no cost. You can cast entangling ground at will, targeting yourself. Your strength and constitution increase by 6, your dexterity decreases by 4. Your movement speed is halved, but you are no longer impeded by difficult terrain. </text>
+	</spell>
+	<spell>
+		<name>Poison</name>
+		<time>Casting Time:  1 minute</time>
+		<cost>Cost: 6</cost>
+		<text>You create a small spider in the palm of your hand. You can have this spider bite a target of your choosing. The target must make a fortitude save or take 6d12 damage. </text>
+	</spell>
+
+	<spell>
+		<name>Rain of Blood</name>
+		<time>Casting Time: 1 turn</time>
+		<cost>Cost: 3</cost>
+		<range>Range: Self</range>
+		<text>It rains blood in a 120 ft radius. The ground turns to difficult terrain and every creature within that area gains takes 1d8 damage at the start of every round for a minute. </text>
+	</spell>
+	<spell>
+		<name>Rend the Soul</name>
+		<time>Casting Time: 2 turns. </time>
+		<cost>Cost: 10</cost>
+		<range>Range: 30 ft. </range>
+		<text>A creature within range must succeed on a fortitude save or take 8d8 damage. If this damage causes a wound it causes an extra wound of the same class. If a creature is knocked out or killed by this invocation it must succeed on a will save or have its soul rent in twain, dying instantly and being unable to be revived or come back in any way. A creature that has no soul is immune to this invocation. </text>
+	</spell>
+	<spell>
+		<name>Shadow Armour</name>
+		<time>Casting Time: 1 minute</time>
+		<cost>Cost: 3</cost>
+		<range>Range: Self</range>
+		<text>You create shadowy armour that lasts until the end of your next long rest. Your armour class is 13 + your dexterity as long as you are not wearing any armour or using a shield. You gain 5 defence. When a creature makes a melee attack against you while you have this armour you can spend this defence to force your attacker to roll a reflex save or take 1d6 damage per defence lost. You can spend one point to regain this defence as a turn. </text>
+	</spell>
+	<spell>
+		<name>Shadow Bolt</name>
+		<time>Casting Time: 1 turn</time>
+		<cost>Cost: 1</cost>
+		<range>Range: 150 ft. </range>
+		<text>You fire a bolt of darkness at a target within range. Make a spell attack. On a hit you deal 3d8 necrotic damage. </text>
+	</spell>
+
+	<spell>
+		<name>Shadow Trap</name>
+		<time>Casting Time:  1 turn</time>
+		<cost>Cost: 5</cost>
+		<range>Range: 60 ft. </range>
+		<duration>Duration: 1 minute</duration>
+		<text>You target a creature within range with a clearly defined shadow. You pin their shadow to the ground. They cannot move more than 5ft from their shadow. They take 2d6 damage at the start of their turn while trapped like this. They can attempt to tear away from their shadow by making a will save. On a pass they are freed and take 6d6 damage and permanently lose their shadow. </text>
+	</spell>
+	<spell>
+		<name>Shape Water</name>
+		<time>Casting Time: One Turn</time>
+		<cost>Cost: 1</cost>
+		<text>You can control a small creek or pond. You can part the water, freeze it, or cause it to flood. Any creatures in the water when you freeze it must make a reflex save or have to spend a turn freeing themselves from the ice. </text>
+	</spell> 
+	<spell>
+		<name>Shield of Force</name>
+		<time>Casting Time: None</time>
+		<cost>Cost: 4</cost>
+		<range>Range: Self</range>
+		<text>When hit with an attack you can cast this invocation, gaining +6 armour class against the triggering attack and all other attacks until the end of your next turn. </text>
+	</spell>
+	<spell>
+		<name>Stone Form</name>
+		<time>Casting Time: 1 minute</time>
+		<cost>Cost: 6</cost>
+		<range>Range: Self</range>
+		<duration>Duration: 1 hour</duration>
+		<text>You create a shell of stone and dirt. You gain +4 armour class, resistance to bps damage, Immunity to fire damage and 20 defence. Once this defence is depleted or the duration ends, the spell ends. </text>
+	</spell>
+
+	<spell>
+		<name>Stride of Wind</name>
+		<time>Casting Time: 1 minute</time>
+		<cost>Cost: 8</cost>
+		<range>Range: 30ft</range>
+		<duration>Duration: 24 hours.</duration>
+		<text>Up to 10 creatures within range gain a flying speed equal to their base movement speed as long as they remain within 30 feet of you and both you and they are conscious. If the spell ceases to affect them they regain it if the conditions are met again. </text>
+	</spell>
+	<spell>
+		<name>Sunlight</name>
+		<time>Casting Time: One Turn</time>
+		<cost>Cost: 6</cost>
+		<range>Range: 90 ft. </range>
+		<duration>Duration: 1 minute.</duration>
+		<text>You chose a point within range. Bright light that counts as sunlight shines within 30ft of that point. Any undead within that area, or daemon with vulnerability to sunlight within that area, takes 4d8 damage at the start of any turn in which they are within the light. </text>
+	</spell>
+	<spell>
+		<name>Tidal Wave</name>
+		<time>Casting Time: 2 turns</time>
+		<cost>Cost: 3</cost>
+		<range>Range: 300ft</range>
+		<text>You select a body of water in range and cause it to expand and rush up to 100 ft in a direction of your choosing. Any creature hit by this wave must succeed on a reflex save or take 4d10 damage and be forced along with the water. </text>
+	</spell>
+
+	<spell>
+		<name>Torment</name>
+		<time>Casting Time: 2 turns</time>
+		<cost>Cost: 6</cost>
+		<range>Range: 120 ft. </range>
+		<duration>Duration: 1 minute.</duration>
+		<text>You can pick up to 8 creatures within range. Each creature must succeed on a will save or be wracked with pain. When they fail the save, and at the start of each of your turns, they take 4d8 damage. A creature being affected by this spell has disadvantage on all rolls and their movement speed is halved. At the end of their turn they can repeat the save, ending the effect on a success. </text>
+	</spell>
+	<spell>
+		<name>Touch of Death</name>
+		<time>Casting Time: Two Turns</time>
+		<cost>Cost: 6</cost>
+		<range>range: One creature you touch. </range>
+		<text>The creature must make a fortitude save or take 1d6 mortal wounds. On a pass they instead take 1d6 minor wounds. </text>
+	</spell>
+	<spell>
+		<name>Touch of Pain</name>
+		<time>Casting Time: One Turn</time>
+		<cost>Cost: 4</cost>
+		<range>range: One creature you touch. </range>
+		<text>The creature must make a fort save or take 1d4 light wounds. On a pass they take half the number of wounds. </text>
+	</spell>
+	<spell>
+		<name>Vomit Spiders</name>
+		<time>Casting Time: None</time>
+		<cost>Cost: 3</cost>
+		<text>You vomit forth a wave of spiders. Any creature within a 15 ft cone in front of you must make a fortitude save or take 2d8 damage. </text>
+	</spell>
+	<spell>
+		<name>Wall of Fire</name>
+		<time>Casting Time: 2 turns.</time>
+		<cost>Cost: 4</cost>
+		<range>Range: 60 ft. </range>
+		<duration>Duration: 1 minute (concentration)</duration>
+		<text>You create a line of fire 30ft long, 5 ft. thick and 15 ft. high within range. It can be straight or curved as you wish. Its base must be on a solid surface, but it does not need to be perpendicular to the ground. Any creature in the line must make a reflex save or take 3d8 damage. On a pass they take half damage and can move to either side of the wall. Any creature that moves into the wall, or starts its turn there takes 3d8 fire damage. </text>
+	</spell>
+
+	<spell>
+		<name>Wall of Thorns</name>
+		<time> Casting Time: 1 minute</time>
+		<cost>Cost: 8</cost>
+		<text>You create a wall of thorns. The wall is 80 ft long, 5 ft wide and 10 ft high. A creature attempting to climb the wall takes 3d6 damage. Each 5 ft square of the wall has an armour class of 16, 80 defence and is destroyed if it takes a wound. Each section of the wall heals 1 defence per hour. The wall lasts for a week before it begins to degrade. You can permanently spend one point to have the wall not degrade. </text>
+	</spell>
+	<spell>
+		<name>Warding Wind</name>
+		<time>Casting Time: None</time>
+		<cost>Cost: 3</cost>
+		<range>Range: Self</range>
+		<duration>Duration: 1 minute.</duration>
+		<text>The area around you is stirred by a strong wind. Any ranged attack that passes within 30 ft of you has disadvantage on the attack roll. You can cast this at any time. </text>
+	</spell>
+
+	<spell>
+		<name>Warding</name>
+		<time>Casting Time: One turn</time>
+		<cost>Cost: 2 or more</cost>
+		<range>range: A creature you touch. </range>
+		<text>The creature you touch gains 5 additional defence per 2 points spent that lasts until your next long rest. This defence cannot be restored. This defence can still be used if the target is unconscious, surprised, or otherwise not allowed to use their full defence value. A creature can only benefit from one casting of warding at a time. </text>
+	</spell>
+	<spell>
+		<name>Witch Bolt</name>
+		<time>Casting Time: One Turn</time>
+		<cost>Cost: 3</cost>
+		<range>Range: 80 ft. </range>
+		<text>Make a spell attack against a target in range. On a hit you deal 2d10 damage. If the target it hexed it takes 3d10. On a hit you can spend additional points to cause an additional effect. </text>
+		<text>1 point: The target has disadvantage on the next attack it makes. </text>
+		<text>2 point: The target must make a will save or be frightened of you for a round. </text>
+		<text>3 points: the target must make a fortitude save or be stunned for a round. </text>
+	</spell>
+
+	<spell>
+		<name>Wind Step</name>
+		<time>Casting Time: None</time>
+		<cost>Cost: 2</cost>
+		<range>Range: Touch</range>
+		<duration>Duration: 1 minute</duration>
+		<text>A creature you touch gain +10 ft movement speed and becomes immune to attacks of opportunity. </text>
+	</spell>
+	<spell>
+		<name>Word of Healing</name>
+		<time>Casting Time: 1 turn. </time>
+		<cost>Cost: 4</cost>
+		<range>Range: 30 ft</range>
+		<text>You utter a word of healing. One creature within range heals a minor or major wound. </text>
+	</spell>
+
+	<spell>
+		<name>Word of Life</name>
+		<time>Casting Time: 1 turn</time>
+		<cost>Cost: 8</cost>
+		<range>Range: 30 ft. </range>
+		<text>You utter a word of life. One creature within range heals all its wounds and regains all its defence. </text>
+	</spell>
+	<spell>
+		<name>Word of Protection</name>
+		<time>Casting Time: None</time>
+		<cost>Cost: 2</cost>
+		<range>Range: 40 feet. </range>
+		<text>You utter a word of bolstering. You can restore 1d6+wisdom modifier defence to a creature within range. You can do this in addition to any other actions during this turn, but only once per turn. </text>
+	</spell>
+</compendium>

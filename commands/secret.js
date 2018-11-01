@@ -29,7 +29,8 @@ function embedMessage(target)
    * Inline fields may not display as inline if the thumbnail and/or image is too big.
    */
   .addField("Text", target.text)
-  
+  .addField("Invocation", target.invocation)
+  .addField("Ritual", target.ritual)
   .addField("First Mastery",  target.firstmastery, true)
   .addField("Second Mastery", target.secondmastery, true)
   .addField("Third Mastery",  target.thirdmastery, true)
