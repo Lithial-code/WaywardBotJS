@@ -64,7 +64,7 @@ exports.run = (client, message, args) => {
       .addField("race: ", target.subrace + " "+ target.race)
       .addField("race Bonus", target.stat)
       .addField("Subrace Bonus", target.substat)
-      .addField("Skills Bonus", target.skills)
+      .addField("Skills Bonus", target.skill)
       .addField("Flaw", target.flaw)
       .addField("Bonus", target.bonus);
 

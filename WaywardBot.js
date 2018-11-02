@@ -26,7 +26,11 @@ fs.readdir("./commands/", (err, files) => {
       let props = require(`./commands/${file}`);
       let commandName = file.split(".")[0];
       console.log(`Attempting to load command ${commandName}`);
+      if (commandName == "roll") {
+        client.commands.set("r", props);
+      }
       client.commands.set(commandName, props);
+    
     });
   });
 

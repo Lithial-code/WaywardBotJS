@@ -76,7 +76,7 @@
       "time": "Casting Time: None",
       "cost": "Cost: 7",
       "range": "Range: 150 ft",
-      "text": "You chose a creature that is bleeding within range. It must make a fortitude saving throw or explode with blood. It takes 1d4 major wounds on a failed save and every creature within 15 ft must make a reflex save or take 3d12 damage or half damage on a pass. If the original creatures passes its save, it instead takes 1d4 minor wounds and the surrounding creatures only take 3d8 damage."
+      "text": "Chose a creature that is bleeding within range. The creature must make a fortitude save or take 1d4 major wounds as the bleeding cuts explode with blood. Every creature within 15 ft. of the target creature, not including the target, must make a reflex save 3d12 damage, taking half the amount on a successful save. If the initial target passes the fortitude save it instead takes 1d4 minor wounds and the surrounding creature must make a reflex save against 3d8 damage, half on a success."
    },
    {
       "name": "Boulder",
