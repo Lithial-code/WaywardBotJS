@@ -6,9 +6,10 @@ exports.run = (client, message, args) => {
 
 
     function dieRoll(dieSpec, client, message) {
-        var match = /^(\d+?)?d(\d+)([a-zA-Z!][a-zA-Z!]?)(.?)(\d+?)?$/.exec(dieSpec);
+        var match = /^(\d+?)?d(\d+)([a-zA-Z!]?[a-zA-Z!]?)(.?)(\d+?)?$/.exec(dieSpec);
         if (!match) {
-            throw "Invalid dice notation: " + dieSpec;
+            return diceerror();
+            //throw "Invalid dice notation: " + dieSpec;
         }
 
         var number = (typeof match[1] == 'undefined') ? 1 : parseInt(match[1]);
@@ -128,40 +129,56 @@ exports.run = (client, message, args) => {
 
         }
     }
-}
-
-function embedMessage(finalstring, total, mover, client, message) {
+    function diceerror()
+    {
     const embed = new Discord.RichEmbed()
-        /*
-         * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
-         */
-        .setColor(0x00AE86)
-        .setFooter("© Lelantos Studios", client.user.avatarURL)
-        /*
-         * Takes a Date object, defaults to current date.
-         */
-        .setTimestamp()
-        .addField("Result: ", mover[0] + "d" + mover[1] + " (" + finalstring + ") " + mover[2] + " " + mover[3])
-        .addField("Total: ", total)
-
-
-    message.channel.send({ embed });
+    /*
+     * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
+     */
+    .setColor(0x00AE86)
+    .setFooter("© Lelantos Studios", client.user.avatarURL)
+    /*
+     * Takes a Date object, defaults to current date.
+     */
+    .setTimestamp()
+    .addField("Error: ", "This dice format is invalid. Please try again");
+    message.channel.send({ embed }).catch(console.error);;
+    }
+    function embedMessage(finalstring, total, mover) {
+        const embed = new Discord.RichEmbed()
+            /*
+             * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
+             */
+            .setColor(0x00AE86)
+            .setFooter("© Lelantos Studios", client.user.avatarURL)
+            /*
+             * Takes a Date object, defaults to current date.
+             */
+            .setTimestamp()
+            .addField("Result: ", mover[0] + "d" + mover[1] + " (" + finalstring + ") " + mover[2] + " " + mover[3])
+            .addField("Total: ", total)
+    
+    
+        message.channel.send({ embed }).catch(console.error);;
+    }
+    function embedMessagestrike(finalstring, total, mover, strikeoutstring) {
+        const embed = new Discord.RichEmbed()
+            /*
+             * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
+             */
+            .setColor(0x00AE86)
+            .setFooter("© Lelantos Studios", client.user.avatarURL)
+            /*
+             * Takes a Date object, defaults to current date.
+             */
+            .setTimestamp()
+            .addField("Result: ", mover[0] + "d" + mover[1] + " (" + finalstring + strikeoutstring + ") " + mover[2] + " " + mover[3])
+            .addField("Total: ", total)
+    
+    
+        message.channel.send({ embed }).catch(console.error);;
+    }
 }
-function embedMessagestrike(finalstring, total, mover, strikeoutstring, client, message) {
-    const embed = new Discord.RichEmbed()
-        /*
-         * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
-         */
-        .setColor(0x00AE86)
-        .setFooter("© Lelantos Studios", client.user.avatarURL)
-        /*
-         * Takes a Date object, defaults to current date.
-         */
-        .setTimestamp()
-        .addField("Result: ", mover[0] + "d" + mover[1] + " (" + finalstring + strikeoutstring + ") " + mover[2] + " " + mover[3])
-        .addField("Total: ", total)
 
 
-    message.channel.send({ embed });
-}
 

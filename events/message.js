@@ -1,6 +1,7 @@
 module.exports = (client, message) => {
     //ignore all bots
     if(message.author.bot) return;
+    if(message.content == "\\") return;
 
     //ignore messages without prefix
     if(message.content.indexOf(client.config.prefix)!==0) return;

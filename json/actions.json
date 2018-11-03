@@ -1,0 +1,66 @@
+[
+ {
+   "action": "Charge",
+   "text": "You can move up to your movement speed and make a single attack. If the movement is at least half of your total move speed and in a straight line you gain +2 to hit as long as you are using a melee weapon."
+ },
+ {
+   "action": "Full Attack",
+   "text": "You can move 5 feet and make as many attacks as you are allowed to take."
+ },
+ {
+   "action": "Withdraw",
+   "text": "You can move up to twice your movement speed. You do not provoke an attack of opportunity from leaving any enemies reach."
+ },
+ {
+   "action": "Run",
+   "text": "You can move up to three times your movement speed."
+ },
+ {
+   "action": "Hide",
+   "text": "You can move up to your movement and attempt to hide if you are out of sight of whoever you are attempting to hide from. When you are hidden you have advantage on attacks against people who cannot see you."
+ },
+ {
+   "action": "Sneak",
+   "text": "If you are hidden, you can move up to your movement and remain hidden, as long as you do not move into the sight of whoever you are hiding from."
+ },
+ {
+   "action": "Dodge",
+   "text": "Move up to your movement speed and give disadvantage to any creature attacking you that you can see."
+ },
+ {
+   "action": "Cast a spell",
+   "text": "You can move 5 feet and cast a spell. If the spell has a casting time of more than one turn, you must use this action each turn until the spell is cast, losing the spell, and still paying the cost, if you fail to do so."
+ },
+ {
+   "action": "Ready Attack",
+   "text": "You can move 5 feet and ready a single attack or a spell that has a one turn cast. You declare under what conditions your attack or spell will happen. If that condition occurs before your next turn you can immediately attack or cast the spell."
+ },
+ {
+   "action": "Take cover",
+   "text": "Move up to your movement speed and take cover behind cover if any is available."
+ },
+ {
+   "action": "Grappling",
+   "text": "Using a full turn, a creature can attempt to hold another creature. To do this the first must roll a strength check. Each size category difference between the creature and the target gives a -5 penalty on this roll. The target then must roll either a strength or dexterity check to resist the grapple. If the rolls lower than the creature attempting the grapple, the grapple is successful. Once you have a creature grappled you can take a number of other actions on your next turn."
+ },
+ {
+   "action": "Drag",
+   "text": "You drag the creature with you as you move a distance up to your movement speed."
+ },
+ {
+   "action": "Body Shield",
+   "text": "You can use the creature as cover. Any attack that targets you has a 50% chance to instead target the creature"
+ },
+ {
+   "action": "Execute",
+   "text": "You attempt to slit the targets throat, stab them in the back or otherwise kill them. Roll an attack at advantage. If it hits it is a critical hit."
+ },
+ {
+   "action": "Pushing",
+   "text": "In the place of a single attack you can attempt to shove, either with a shield or a free hand. Roll a strength check opposed by your target?s strength or dexterity. If you win you can choose to either push them back 10 feet or knock them prone."
+ },
+ {
+   "action": "Disarming",
+   "text": "In the place of an attack you can attempt to disarm a foe. Roll an attack at disadvantage and with a -5 to hit, -10 if the weapon is being held in two hands. If it hits the target must make a strength save against your DC or drop the weapon."
+ }
+]

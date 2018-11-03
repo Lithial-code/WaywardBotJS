@@ -123,7 +123,7 @@
    {
       "name": "Cause Wound",
       "time": "Casting Time: One Turn",
-      "cost": "Cost: 3",
+      "cost": "Cost: 2",
       "range": "range: One creature within 30 feet.",
       "text": "The target must make a fortitude save or suffer a minor wound. If the fortitude save is failed by at least 5 points they instead take a major wound."
    },
@@ -175,7 +175,7 @@
    {
       "name": "Darkness",
       "time": "Casting Time: One turn",
-      "cost": "Cost: 3",
+      "cost": "Cost: 2",
       "range": "range: A space within 60 feet",
       "text": "Darkness fills the area within 25 feet of the target. This darkness lasts for 10 minutes, or until a spell that creates light that costs more than darkness creates light within the area of darkness created by this spell."
    },
