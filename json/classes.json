@@ -47,7 +47,7 @@
 	   "ability4":"Mage Casting Ability Score",
 	   "ability5":"Mage  Saves",
 	   "ability6":"",
-	   "text1": "At level one you pick 3 mage secrets from the list of basic or advanced mage secrets to learn.\n Learning a secret gives you access to that secrets base level of spells and/or abilities.Whenever you level up you can choose to either learn a new secret, gaining its base abilities as normal, or you can deepen your knowledge of a secret you have already learned, gaining access to its next level of mastery and the abilities or spells that provides. \n Secrets are detailed in Chapter 10."
+	   "text1": "At level one you pick 3 mage secrets from the list of basic or advanced mage secrets to learn.\n Learning a secret gives you access to that secrets base level of spells and/or abilities.Whenever you level up you can choose to either learn a new secret, gaining its base abilities as normal, or you can deepen your knowledge of a secret you have already learned, gaining access to its next level of mastery and the abilities or spells that provides. \n Secrets can be viewed with the secrets * command"
 	   ,
 	   "text2": "A mage can add a bonus equal to half their level, minimum 1, to any spell attacks."
 	   ,
