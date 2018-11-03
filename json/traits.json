@@ -1,162 +1,162 @@
 [
  {
    "name": "Ability Trait",
-   "description": "Select one ability score. You gain +1 to this ability score."
+   "text": "Select one ability score. You gain +1 to this ability score."
  },
  {
    "name": "Athletic",
-   "description": "You gain a +1 bonus to any skill using strength and can carry one extra weapon."
+   "text": "You gain a +1 bonus to any skill using strength and can carry one extra weapon."
  },
  {
    "name": "Arcane Crafter",
-   "description": "During your downtime you can attempt to create wands and scrolls."
+   "text": "During your downtime you can attempt to create wands and scrolls."
  },
  {
    "name": "Blacksmith",
-   "description": "During your downtime you can attempt to create metal weapons and armour."
+   "text": "During your downtime you can attempt to create metal weapons and armour."
  },
  {
    "name": "Cautious",
-   "description": "You gain a +3 bonus to perception when looking for traps or for hidden enemies."
+   "text": "You gain a +3 bonus to perception when looking for traps or for hidden enemies."
  },
  {
    "name": "Cute",
-   "description": "You are cute, gaining +2 on charisma checks against people who are/would be/could be attracted to you."
+   "text": "You are cute, gaining +2 on charisma checks against people who are/would be/could be attracted to you."
  },
  {
    "name": "City Dweller",
-   "description": "You can move through crowds quickly and know where to find shops and other locations of interest in cites."
+   "text": "You can move through crowds quickly and know where to find shops and other locations of interest in cites."
  },
  {
    "name": "Criminal Contacts",
-   "description": "Your former (or current) lifestyle allows you to find the underbelly of cities and open up opportunities that are not available to normal folk."
+   "text": "Your former (or current) lifestyle allows you to find the underbelly of cities and open up opportunities that are not available to normal folk."
  },
  {
    "name": "Cruel Upbringing",
-   "description": "The first point of sanity damage you take after a long rest is ignored."
+   "text": "The first point of sanity damage you take after a long rest is ignored."
  },
  {
    "name": "Heavy Drinker",
-   "description": "You have a high tolerance to alcohol and it takes twice as much to get you drunk. You get +2 on fortitude saves against poison."
+   "text": "You have a high tolerance to alcohol and it takes twice as much to get you drunk. You get +2 on fortitude saves against poison."
  },
  {
    "name": "Heirloom Weapon",
-   "description": "You start the game with one weapon that is not a firearm. When you attack with this weapon you can either get a +1 to hit or +1 to damage.Discuss with your DM about upgrading this weapon over time instead of finding loot."
+   "text": "You start the game with one weapon that is not a firearm. When you attack with this weapon you can either get a +1 to hit or +1 to damage.Discuss with your DM about upgrading this weapon over time instead of finding loot."
  },
  {
    "name": "Library Nerd",
-   "description": "Your upbringing among books and libraries allows you to always know where to find knowledge."
+   "text": "Your upbringing among books and libraries allows you to always know where to find knowledge."
  },
  {
    "name": "Orphan",
-   "description": "Your fates or your own actions have determined your call to adventure. You gain +1 on attack rolls."
+   "text": "Your fates or your own actions have determined your call to adventure. You gain +1 on attack rolls."
  },
  {
    "name": "People Person",
-   "description": "You are charming and amicable. People tend to like you and people who like you tend to charge you less when buying goods or services."
+   "text": "You are charming and amicable. People tend to like you and people who like you tend to charge you less when buying goods or services."
  },
  {
    "name": "Performer",
-   "description": "You have learnt an instrument and can perform to cheapen your cost of staying in towns or cities."
+   "text": "You have learnt an instrument and can perform to cheapen your cost of staying in towns or cities."
  },
  {
    "name": "Religious Garb",
-   "description": "You can wear symbols of your religion over your armour. This indicates you as a religious warrior and you do not get charged extra for wearing armour."
+   "text": "You can wear symbols of your religion over your armour. This indicates you as a religious warrior and you do not get charged extra for wearing armour."
  },
  {
    "name": "Sailor",
-   "description": "You know how to sail a ship and navigate dock areas."
+   "text": "You know how to sail a ship and navigate dock areas."
  },
  {
    "name": "Shelter of the Faithful",
-   "description": "You have spent time in a church or temple and can seek refuge with such organisations."
+   "text": "You have spent time in a church or temple and can seek refuge with such organisations."
  },
  {
    "name": "Skill Trait",
-   "description": "Select one skill. It counts as trained for you and you gain a +2 bonus to it. If you select a knowledge skill you can select a second knowledge skill to also be trained in. However, you do not gain a +2 bonus to the second knowledge skill.You cannot select a skill you are already receiving a bonus to from a trait."
+   "text": "Select one skill. It counts as trained for you and you gain a +2 bonus to it. If you select a knowledge skill you can select a second knowledge skill to also be trained in. However, you do not gain a +2 bonus to the second knowledge skill.You cannot select a skill you are already receiving a bonus to from a trait."
  },
  {
    "name": "Soldier of Fortune",
-   "description": "You know where to find bounties or mercenary work."
+   "text": "You know where to find bounties or mercenary work."
  },
  {
    "name": "Survivalist",
-   "description": "You find twice as much food and water when foraging."
+   "text": "You find twice as much food and water when foraging."
  },
  {
    "name": "Tough of Body",
-   "description": "You gain +1 defence."
+   "text": "You gain +1 defence."
  },
  {
    "name": "Tinkerer",
-   "description": "You can create small mechanical items."
+   "text": "You can create small mechanical items."
  },
  {
    "name": "Haemophilia",
-   "description": "You have -2 on fortitude saves to heal wounds."
+   "text": "You have -2 on fortitude saves to heal wounds."
  },
  {
    "name": "Anger Issues",
-   "description": "You have disadvantage on all social checks besides intimidation."
+   "text": "You have disadvantage on all social checks besides intimidation."
  },
  {
    "name": "Lost an Eye",
-   "description": "You have disadvantage on perception checks."
+   "text": "You have disadvantage on perception checks."
  },
  {
    "name": "Combat Paralysis",
-   "description": "You must pass a DC 15 will save at the start of combat in order to act on the first turn."
+   "text": "You must pass a DC 15 will save at the start of combat in order to act on the first turn."
  },
  {
    "name": "Addiction",
-   "description": "You are addicted to a certain substance. For every day you do not intake the substance you must make a DC 20 fort save or have disadvantage on all attacks, saves and ability checks for that day, or until you intake the substance."
+   "text": "You are addicted to a certain substance. For every day you do not intake the substance you must make a DC 20 fort save or have disadvantage on all attacks, saves and ability checks for that day, or until you intake the substance."
  },
  {
    "name": "Wanted",
-   "description": "You are wanted by a group of people. Work out details with your GM. This group of people will attempt to hunt you down."
+   "text": "You are wanted by a group of people. Work out details with your GM. This group of people will attempt to hunt you down."
  },
  {
    "name": "Blood Thirsty",
-   "description": "You have disadvantage on attacks against targets that are neither unconscious nor wounded when a wounded or unconscious target is available."
+   "text": "You have disadvantage on attacks against targets that are neither unconscious nor wounded when a wounded or unconscious target is available."
  },
  {
    "name": "Club Foot",
-   "description": "One of your feet is damaged or cut off, replaced with a wooden leg or feet. Your movement speed is reduced by 10ft."
+   "text": "One of your feet is damaged or cut off, replaced with a wooden leg or feet. Your movement speed is reduced by 10ft."
  },
  {
    "name": "Clumsy",
-   "description": "You have a knack for knocking things over, and people take cover when you go to throw something. Your dexterity score is reduced by 2."
+   "text": "You have a knack for knocking things over, and people take cover when you go to throw something. Your dexterity score is reduced by 2."
  },
  {
    "name": "Deaf",
-   "description": "You are deaf or extremely hard of hearing. You automatically fail any check to hear something and are immune to any effect based on sound. You and your fellow party members can select a sign language as one of your bonus languages."
+   "text": "You are deaf or extremely hard of hearing. You automatically fail any check to hear something and are immune to any effect based on sound. You and your fellow party members can select a sign language as one of your bonus languages."
  },
  {
    "name": "Foolhardy",
-   "description": "You cannot dodge or take cover."
+   "text": "You cannot dodge or take cover."
  },
  {
    "name": "Nervous",
-   "description": "You have disadvantage on saves against fear."
+   "text": "You have disadvantage on saves against fear."
  },
  {
    "name": "Sickly",
-   "description": "Your body is frail, and you get sick easily. Your constitution score is reduced by 2."
+   "text": "Your body is frail, and you get sick easily. Your constitution score is reduced by 2."
  },
  {
    "name": "Stupid",
-   "description": "Your brain does not work as well as other peoples. Your intelligence score is reduced by 2."
+   "text": "Your brain does not work as well as other peoples. Your intelligence score is reduced by 2."
  },
  {
    "name": "Ugly",
-   "description": "You are staggeringly unpleasant to gaze upon. Your charisma score is reduced by 2."
+   "text": "You are staggeringly unpleasant to gaze upon. Your charisma score is reduced by 2."
  },
  {
    "name": "Physically Weak",
-   "description": "You are weak and unable to lift heavy things. Your strength score is reduced by 2."
+   "text": "You are weak and unable to lift heavy things. Your strength score is reduced by 2."
  },
  {
    "name": "Weak Willed",
-   "description": "You are not as strong willed as other people. Your wisdom score is reduced by 2"
+   "text": "You are not as strong willed as other people. Your wisdom score is reduced by 2"
  }
 ]
