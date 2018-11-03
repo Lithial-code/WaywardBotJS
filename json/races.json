@@ -1,164 +1,181 @@
-[
- {
-   "race": "Human",
-   "subrace": "City Born",
-   "stat": "+2 any 2 stats",
-   "bonus": "+1 skill",
-   "substat": "+1 int, +1 cha",
-   "skill": "none",
-   "flaw": "none"
- },
- {
-   "race": "Human",
-   "subrace": "Wild Born",
-   "stat": "+2 any 2 stats",
-   "bonus": "none",
-   "substat": "+1 wisdom",
-   "skill": "+2 survival",
-   "flaw": "none"
- },
- {
-   "race": "Human",
-   "subrace": "Mountain Born",
-   "stat": "+2 any 2 stats",
-   "bonus": "none",
-   "substat": "+2 strength",
-   "skill": "+2 climb",
-   "flaw": "none"
- },
- {
-   "race": "Human",
-   "subrace": "Saddle Born",
-   "stat": "+2 any 2 stats",
-   "bonus": "none",
-   "substat": "+1 wisdom",
-   "skill": "+4 ride",
-   "flaw": "none"
- },
- {
-   "race": "Human",
-   "subrace": "Sea Born",
-   "stat": "+2 any 2 stats",
-   "bonus": "none",
-   "substat": "+1 wisdom",
-   "skill": "+2 seacraft",
-   "flaw": "none"
- },
- {
-   "race": "Elf",
-   "subrace": "Wood",
-   "stat": "+2 dexterity, +1 int or+1 wis",
-   "bonus": "low-light vision, adv vs disease/poison, deadly in forests",
-   "substat": "+1 wisdom",
-   "skill": "+2 survival",
-   "flaw": "none"
- },
- {
-   "race": "Elf",
-   "subrace": "High",
-   "stat": "+2 dexterity, +1 int or+1 wis",
-   "bonus": "low-light vision, adv vs disease/poison, free ritual",
-   "substat": "+1 intelligence",
-   "skill": "none",
-   "flaw": "none"
- },
- {
-   "race": "Elf",
-   "subrace": "Moon",
-   "stat": "+2 dexterity, +1 int or+1 wis",
-   "bonus": "low-light vision, adv vs disease/poison, free Spell, no sleep",
-   "substat": "none",
-   "skill": "none",
-   "flaw": "Lunar Curse"
- },
- {
-   "race": "Elf",
-   "subrace": "Desert",
-   "stat": "+2 dexterity, +1 int or+1 wis",
-   "bonus": "low-light vision, adv vs disease/poison, adv on fort saves, desert",
-   "substat": "+2 strength",
-   "skill": "none",
-   "flaw": "none"
- },
- {
-   "race": "Elf",
-   "subrace": "Sea",
-   "stat": "+2 dexterity, +1 int or+1 wis",
-   "bonus": "low-light vision, adv vs disease/poison,swim speed, water breathing",
-   "substat": "+2 charisma",
-   "skill": "none",
-   "flaw": "none"
- },
- {
-   "race": "Dwarf",
-   "subrace": "Hill",
-   "stat": "+2 constitution",
-   "bonus": "magic reduction 5, reduce armour penalty, medium armour feat,adv on crafting, sell for more",
-   "substat": "+2 strength",
-   "skill": "none",
-   "flaw": "none"
- },
- {
-   "race": "Dwarf",
-   "subrace": "Mountain",
-   "stat": "+2 constitution",
-   "bonus": "magic reduction 5, reduce armour penalty, medium armour feat,adv on crafting, sell for more,heavy armour feat, low light vision",
-   "substat": "none",
-   "skill": "none",
-   "flaw": "none"
- },
- {
-   "race": "Dwarf",
-   "subrace": "Sea",
-   "stat": "+2 constitution",
-   "bonus": "magic reduction 5, reduce armour penalty, medium armour feat",
-   "substat": "+2 wisdom",
-   "skill": "+2 seacraft",
-   "flaw": "none"
- },
- {
-   "race": "Dwarf",
-   "subrace": "Clanless",
-   "stat": "+2 constitution",
-   "bonus": "magic reduction 5, reduce armour penalty, medium armour feat",
-   "substat": "+1 intelligence or +2 charisma",
-   "skill": "extra language",
-   "flaw": "none"
- },
- {
-   "race": "Halfling",
-   "subrace": "Stout",
-   "stat": "+2 dexterity",
-   "bonus": "+2 stealth, stone throw, +2 to healing wounds",
-   "substat": "+2 strength, +1 constitution",
-   "skill": "none",
-   "flaw": "none"
- },
- {
-   "race": "Halfling",
-   "subrace": "River",
-   "stat": "+2 dexterity",
-   "bonus": "+2 stealth, stone throw, swim speed",
-   "substat": "+2 wisdom",
-   "skill": "none",
-   "flaw": "none"
- },
- {
-   "race": "Halfling",
-   "subrace": "Lightfoot",
-   "stat": "+2 dexterity",
-   "bonus": "+2 stealth, stone throw",
-   "substat": "+2 charisma",
-   "skill": "adv on stealth",
-   "flaw": "none"
- },
- {
-   "race": "Halfling",
-   "subrace": "Streetwise",
-   "stat": "+2 dexterity",
-   "bonus": "+2 stealth, stone throw, +2 damage with ranged weapons",
-   "substat": "+2 intelligence",
-   "skill": "none",
-   "flaw": "none"
- }
+[{
+		"name": "City Born Human",
+		"race": "Human",
+		"subrace": "City Born",
+		"stat": "+2 any 2 stats",
+		"bonus": "+1 skill",
+		"substat": "+1 int, +1 cha",
+		"skill": "none",
+		"flaw": "none"
+	},
+	{
+		"name": "Wild Born Human",
+		"race": "Human",
+		"subrace": "Wild Born",
+		"stat": "+2 any 2 stats",
+		"bonus": "none",
+		"substat": "+1 wisdom",
+		"skill": "+2 survival",
+		"flaw": "none"
+	},
+	{
+		"name": "Mountain Born Human",
+		"race": "Human",
+		"subrace": "Mountain Born",
+		"stat": "+2 any 2 stats",
+		"bonus": "none",
+		"substat": "+2 strength",
+		"skill": "+2 climb",
+		"flaw": "none"
+	},
+	{
+		"name": "Saddle Born Human",
+		"race": "Human",
+		"subrace": "Saddle Born",
+		"stat": "+2 any 2 stats",
+		"bonus": "none",
+		"substat": "+1 wisdom",
+		"skill": "+4 ride",
+		"flaw": "none"
+	},
+	{
+		"name": "Sea Born Human",
+		"race": "Human",
+		"subrace": "Sea Born",
+		"stat": "+2 any 2 stats",
+		"bonus": "none",
+		"substat": "+1 wisdom",
+		"skill": "+2 seacraft",
+		"flaw": "none"
+	},
+	{
+		"name": "Wood Elf",
+		"race": "Elf",
+		"subrace": "Wood",
+		"stat": "+2 dexterity, +1 int or+1 wis",
+		"bonus": "low-light vision, adv vs disease/poison, deadly in forests",
+		"substat": "+1 wisdom",
+		"skill": "+2 survival",
+		"flaw": "none"
+	},
+	{
+		"name": "High Elf",
+		"race": "Elf",
+		"subrace": "High",
+		"stat": "+2 dexterity, +1 int or+1 wis",
+		"bonus": "low-light vision, adv vs disease/poison, free ritual",
+		"substat": "+1 intelligence",
+		"skill": "none",
+		"flaw": "none"
+	},
+	{
+		"name": "Moon Elf",
+		"race": "Elf",
+		"subrace": "Moon",
+		"stat": "+2 dexterity, +1 int or+1 wis",
+		"bonus": "low-light vision, adv vs disease/poison, free Spell, no sleep",
+		"substat": "none",
+		"skill": "none",
+		"flaw": "Lunar Curse"
+	},
+	{
+		"name": "Desert Elf",
+		"race": "Elf",
+		"subrace": "Desert",
+		"stat": "+2 dexterity, +1 int or+1 wis",
+		"bonus": "low-light vision, adv vs disease/poison, adv on fort saves, desert",
+		"substat": "+2 strength",
+		"skill": "none",
+		"flaw": "none"
+	},
+	{
+		"name": "Sea Elf",
+		"race": "Elf",
+		"subrace": "Sea",
+		"stat": "+2 dexterity, +1 int or+1 wis",
+		"bonus": "low-light vision, adv vs disease/poison,swim speed, water breathing",
+		"substat": "+2 charisma",
+		"skill": "none",
+		"flaw": "none"
+	},
+	{
+		"name": "Hill Dwarf",
+		"race": "Dwarf",
+		"subrace": "Hill",
+		"stat": "+2 constitution",
+		"bonus": "magic reduction 5, reduce armour penalty, medium armour feat,adv on crafting, sell for more",
+		"substat": "+2 strength",
+		"skill": "none",
+		"flaw": "none"
+	},
+	{
+		"name": "Mountain Dwarf",
+		"race": "Dwarf",
+		"subrace": "Mountain",
+		"stat": "+2 constitution",
+		"bonus": "magic reduction 5, reduce armour penalty, medium armour feat,adv on crafting, sell for more,heavy armour feat, low light vision",
+		"substat": "none",
+		"skill": "none",
+		"flaw": "none"
+	},
+	{
+		"name": "Sea Dwarf",
+		"race": "Dwarf",
+		"subrace": "Sea",
+		"stat": "+2 constitution",
+		"bonus": "magic reduction 5, reduce armour penalty, medium armour feat",
+		"substat": "+2 wisdom",
+		"skill": "+2 seacraft",
+		"flaw": "none"
+	},
+	{
+		"name": "Clanless Dwarf",
+		"race": "Dwarf",
+		"subrace": "Clanless",
+		"stat": "+2 constitution",
+		"bonus": "magic reduction 5, reduce armour penalty, medium armour feat",
+		"substat": "+1 intelligence or +2 charisma",
+		"skill": "extra language",
+		"flaw": "none"
+	},
+	{
+		"name": "Stout Halfling",
+		"race": "Halfling",
+		"subrace": "Stout",
+		"stat": "+2 dexterity",
+		"bonus": "+2 stealth, stone throw, +2 to healing wounds",
+		"substat": "+2 strength, +1 constitution",
+		"skill": "none",
+		"flaw": "none"
+	},
+	{
+		"name": "River Halfling",
+		"race": "Halfling",
+		"subrace": "River",
+		"stat": "+2 dexterity",
+		"bonus": "+2 stealth, stone throw, swim speed",
+		"substat": "+2 wisdom",
+		"skill": "none",
+		"flaw": "none"
+	},
+	{
+		"name": "Lightfoot Halfling",
+		"race": "Halfling",
+		"subrace": "Lightfoot",
+		"stat": "+2 dexterity",
+		"bonus": "+2 stealth, stone throw",
+		"substat": "+2 charisma",
+		"skill": "adv on stealth",
+		"flaw": "none"
+	},
+	{
+		"name": "Streetwise Halfling",
+		"race": "Halfling",
+		"subrace": "Streetwise",
+		"stat": "+2 dexterity",
+		"bonus": "+2 stealth, stone throw, +2 damage with ranged weapons",
+		"substat": "+2 intelligence",
+		"skill": "none",
+		"flaw": "none"
+	}
 ]

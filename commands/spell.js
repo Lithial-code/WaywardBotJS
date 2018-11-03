@@ -1,69 +1,128 @@
 const Discord = require("discord.js");
+const fuzzysort = require('fuzzysort');
+
 exports.run = (client, message, args) => {
   var fs = require('fs');
-  var json = JSON.parse(fs.readFileSync('./json/spells.json', 'utf8'));
-//
-  //Make list of all the secret names
-  //
+  const json = JSON.parse(fs.readFileSync('./json/spells.json', 'utf8'));
   if (args[0] == '*') {
     embedList();
   }
-  //else write the embed for the json object after pooling all the args into one name.
   else {
+    fuzzysearch();
+  }
+
+  function fuzzysearch() {
+    var searchmessage = "";
+    var counter = 1;
     var target = "";
     args.forEach(element => {
       target += element + " ";
     });
-    var targettrim = target.trim(); //trim the white space off the end so .includes reads it properlyW
-    var found = false;
-    for (var i = 0; i < json.length; i++) {
-      if (json[i].name.toLowerCase().includes(targettrim)) {
-        found = true;
-        embedMessage(json[i]);
-        break;
-      }
-    }
+    //organise word to search and document to search
+    var targettrim = target.trim(); //trim the white space off the end so .includes reads it properly
+
+    //fuzzy search with options. still not 100% on what everything does but it works
+    const results = fuzzysort.go(targettrim, json, {
+      threshold: -Infinity, // Don't return matches worse than this (higher is faster)
+      limit: Infinity, // Don't return more results than this (lower is faster)
+      allowTypo: true, // Allwos a snigle transpoes (false is faster)
+      key: 'name', // For when targets are objects (see its example usage)
+      keys: null, // For when targets are objects (see its example usage)
+      scoreFn: null, // For use with `keys` (see its example usage)
+    });
+    if(results.length <= 0) {
+      errorwrong ();
+    return;
   }
-   //
-  //method for making list of names
+    //if perfect response
+    if (results[0].obj.name.toLowerCase() == targettrim) {
+      embedMessage(results[0].obj);
+    }
+    //if not perfect, make a list of possible responses. 
+    //ask the user which one they want and serve that one back to them
+    else {
+      results.forEach(element => {
+        searchmessage += counter + ":" + element.obj.name + '\n';
+        counter++;
+      })
+      didyoumeanembed(searchmessage);
+      //this is the ask the player thingy. 
+      const collector = new Discord.MessageCollector(message.channel, m => m.author.id === message.author.id, { time: 10000 });
+      console.log(collector)
+      collector.on('collect', message => {
+        var id = parseInt(message) - 1;
+        //error check
+        if (id >= results.length) {
+          errorwrongnumber();
+        }
+        else {
+          embedMessage(results[id].obj);
+          return;
+        }
+      });
+    }
+
+  }
+
+  //#region  
   //
+  //section for embed messages
+  //
+  function errorwrong() {
+    const embed = new Discord.RichEmbed()
+      .setColor(0x00AE86)
+      .setFooter("© Lelantos Studios", client.user.avatarURL)
+      .setTimestamp()
+      .addField("Error", "Not a valid request please try again")
+    message.channel.send({ embed });
+  }
+  //error message for wrong number reply
+  function errorwrongnumber() {
+    const embed = new Discord.RichEmbed()
+      .setColor(0x00AE86)
+      .setFooter("© Lelantos Studios", client.user.avatarURL)
+      .setTimestamp()
+      .addField("Error", "Not a valid response please try again")
+    message.channel.send({ embed });
+  }
+  //called to ask did you mean one of these, produces a list
+  function didyoumeanembed(searchmessage) {
+    const embed = new Discord.RichEmbed()
+      .setColor(0x00AE86)
+      .setFooter("© Lelantos Studios", client.user.avatarURL)
+      .setTimestamp()
+      .addField("Did you mean?: ", searchmessage + '\n' + "Reply with your choice");
+    message.channel.send({ embed });
+  }
+  //called to display list of all spells
   function embedList() {
+    //make list to display
     var list = "";
     json.forEach(element => {
       list += element.name + '\n';
     });
-    console.log(list);
+    //message to display
     const embed = new Discord.RichEmbed()
       .setColor(0x00AE86)
       .setFooter("© Lelantos Studios", client.user.avatarURL)
       .setTimestamp()
       .addField("List: ", list)
     message.channel.send({ embed });
-  } 
-  
-  //Method for making spell embed
+  }
+
+  //Method for making spell reply message
   function embedMessage(target) {
     const embed = new Discord.RichEmbed()
-      /*
-       * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
-       */
       .setColor(0x00AE86)
       .setFooter("© Lelantos Studios", client.user.avatarURL)
-      /*
-       * Takes a Date object, defaults to current date.
-       */
       .setTimestamp()
       .addField("Name: ", target.name)
-      /*
-       * Inline fields may not display as inline if the thumbnail and/or image is too big.
-       */
       .addField("Time", target.time, true)
       .addField("Cost", target.cost, true)
       .addField("Range", target.range, true)
       .addField("Duration", target.duration, true)
       .addField("Description", target.text);
-
-
     message.channel.send({ embed });
   }
 }
+//#endregion
