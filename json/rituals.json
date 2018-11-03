@@ -46,7 +46,12 @@
    {
       "name": "Healing Chant",
       "castingtime": "1 hour.",
-      "text": "During a short rest you can fortify your companions at the cost of healing yourself. You cannot spend any recovery dice, but your companions can each spend one recovery dice for free"
+      "text": "During a short rest you can fortify your companions at the cost of healing yourself. You cannot spend any recovery dice, but your companions can each spend one recovery dice for free."
+   },
+   {
+      "name": "Heart of Ice",
+      "castingtime": "1 hour.",
+      "text": "You can focus on the cold heartlessness of frozen ice to grant yourself a level of dispassionateness. You gain resistance to sanity damage until the end of your next long rest."
    },
    {
       "name": "Light",

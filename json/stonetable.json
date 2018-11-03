@@ -1,0 +1,27 @@
+[
+ {
+   "spent": "0",
+   "squares": 10,
+   "duration": "1 day"
+ },
+ {
+   "spent": "1",
+   "squares": 20,
+   "duration": "1 week"
+ },
+ {
+   "spent": "5",
+   "squares": 50,
+   "duration": "1 year"
+ },
+ {
+   "spent": "10",
+   "squares": 100,
+   "duration": "10 years"
+ },
+ {
+   "spent": "2 (permanently) ",
+   "squares": 100,
+   "duration": "Forever"
+ }
+]

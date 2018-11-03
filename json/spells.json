@@ -79,6 +79,13 @@
       "text": "Chose a creature that is bleeding within range. The creature must make a fortitude save or take 1d4 major wounds as the bleeding cuts explode with blood. Every creature within 15 ft. of the target creature, not including the target, must make a reflex save 3d12 damage, taking half the amount on a successful save. If the initial target passes the fortitude save it instead takes 1d4 minor wounds and the surrounding creature must make a reflex save against 3d8 damage, half on a success."
    },
    {
+      "name": "Blizzard",
+      "time": "Casting Time: 3 turns.",
+      "cost": "Cost: 24",
+      "range": "Range: self",
+      "text": "You summon an intense blizzard around yourself. The area within 1 mile of you becomes difficult terrain. All creatures in the open must succeed a fortitude save or take 2d8 damage and be slowed. You are immune to this damage. Any number of your allies can be granted advantage on this save. The area is also heavily obscured by wind and snow."
+   },
+   {
       "name": "Boulder",
       "time": "Casting Time: 1 turn.",
       "cost": "Cost: 1",
@@ -238,6 +245,14 @@
       "text": "You gain a flying speed of 60ft."
    },
    {
+      "name": "Freezing Blast",
+      "time": "Casting Time: 1 turn",
+      "cost": "Cost: 2",
+      "range": "Range: 60 ft",
+      "duration": "Duration: Instantaneous.",
+      "text": "You send a blast of freezing cold towards a target within range. Roll a spell attack. On a hit the target takes 4d6 cold damage and its movement speed is halved. You can spend one additional point to target another creature next to the first. This spell can also be used to freeze 10ft cube of water."
+   },
+   {
       "name": "Gather the Blood",
       "time": "Casting Time: One Turn",
       "cost": "Cost: 2",
@@ -257,6 +272,13 @@
       "cost": "Cost: 3",
       "range": "range: Self",
       "text": "For a minute after casting this invocation you can use your turn to attack a creature within 60 feet with a blast of air. The target must make a reflex save or take 1d8 damage and be pushed back 10 feet."
+   },
+   {
+      "name": "Ice Slice",
+      "time": "Casting Time: One Turn",
+      "cost": "Cost: 3",
+      "range": "range: 200 ft,",
+      "text": "You summon 4 circular disks of ice that you can shoot at any target in range. Make a spell attack for each disk. On a hit the target takes 1d12 slashing damage. You can spend up to 3 additional points to summon an additional disk per point spent. This invocation can be used to slice through objects."
    },
    {
       "name": "Inferno",
@@ -379,6 +401,13 @@
       "text": "You can control a small creek or pond. You can part the water, freeze it, or cause it to flood. Any creatures in the water when you freeze it must make a reflex save or have to spend a turn freeing themselves from the ice."
    },
    {
+      "name": "Shield of Cold",
+      "time": "Casting Time: One Turn",
+      "cost": "Cost: 3",
+      "duration":"Duration: 1 minute.",
+      "text": "While this spell is active you have a +2 bonus to armour class. In addition, whenever a creature makes a melee attack against you, they must roll a fortitude save or take 1d6 cold damage."
+   },
+   {
       "name": "Shield of Force",
       "time": "Casting Time: None",
       "cost": "Cost: 4",
@@ -410,7 +439,7 @@
       "text": "You chose a point within range. Bright light that counts as sunlight shines within 30ft of that point. Any undead within that area, or daemon with vulnerability to sunlight within that area, takes 4d8 damage at the start of any turn in which they are within the light."
    },
    {
-      "name": "Tidal Wave",
+      "name": "Tsunami",
       "time": "Casting Time: 2 turns",
       "cost": "Cost: 3",
       "range": "Range: 300ft",
@@ -457,6 +486,18 @@
       "time": "Casting Time: 1 minute",
       "cost": "Cost: 8",
       "text": "You create a wall of thorns. The wall is 80 ft long, 5 ft wide and 10 ft high. A creature attempting to climb the wall takes 3d6 damage. Each 5 ft square of the wall has an armour class of 16, 80 defence and is destroyed if it takes a wound. Each section of the wall heals 1 defence per hour. The wall lasts for a week before it begins to degrade. You can permanently spend one point to have the wall not degrade."
+   },
+   {
+      "name": "Water Form",
+      "time": "Casting Time: 1 minute",
+      "cost": "Cost: 10",
+      "text": "You surround yourself with water. Your movement speed is increased to 60ft. Your swim speed is increased the same. Your strength and constitution are increased by 4 points each. You gain a slam attack that deals 3d10 bludgeoning damage that you can use twice a turn. Any creature that you hit with this slam is pushed back 30 ft."
+   },
+   {
+      "name": "Water Whip",
+      "time": "Casting Time: 1 turn",
+      "cost": "Cost: 2",
+      "text": "You make a whip from water and attack your foes. Make a spell attack. On a hit the target takes 3d6 damage and is moved 10 ft in any direction. You can spend an additional point to make an extra water whip as a bonus action."
    },
    {
       "name": "Warding Wind",

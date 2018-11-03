@@ -1,0 +1,77 @@
+[
+ {
+   "name": "Glyph of Counter-glyph",
+   "power": "Major Glyph",
+   "text": "When you draw this glyph over a minor glyph it supresses the first glyph for an hour before fading."
+ },
+ {
+   "name": "Glyph of Daemon Ward",
+   "power": "Major Glyph",
+   "text": "When you draw this glyph over a doorway or other aperture any true daemon must pass a will save in order to pass through the door. This glyph lasts for a year and a day."
+ },
+ {
+   "name": "Glyph of Disguise",
+   "power": "Major Glyph",
+   "text": "When you draw this glyph on a creature?s collar bones, they can tap the glyph to activate a disguise, chosen when the glyph is drawn. The disguise only covers the creature?s head and cannot add or remove major features. It can change hair colour, skin colour, make ears different shapes or add scaring or other facial features. Close inspection reveals the face to be a disguise. Once activated the glyph lasts for an hour before it needs 8 hours to recharge."
+ },
+ {
+   "name": "Glyph of Flames",
+   "power": "Minor Glyph",
+   "text": "When you draw this glyph on an object you can strike it softly to cause a small flame to burn for a moment, allowing you to light torches or small fires."
+ },
+ {
+   "name": "Glyph of Healing",
+   "power": "Minor Glyph",
+   "text": "When you draw this glyph on a wounded creature it gains a +2 bonus on fortitude saves to heal a wound naturally and any creature attempting a medicine check to heal a wound on the creature gains a +2 bonus on that check. This glyph lasts for a day or until the creature is no longer wounded or dies."
+ },
+ {
+   "name": "Glyph of Light",
+   "power": "Minor Glyph",
+   "text": "When you draw this glyph on a surface it emits a soft light for 30 ft. around it."
+ },
+ {
+   "name": "Glyph of Locking",
+   "power": "Minor Glyph",
+   "text": "When you draw this glyph on a door or other lockable object you can designate a password. Unless the password is uttered the DC to unlock or smash open this door is increased by 10. "
+ },
+ {
+   "name": "Glyph of Magic Detection",
+   "power": "Minor Glyph",
+   "text": "This glyph glows when within 10ft. of strong magic."
+ },
+ {
+   "name": "Glyph of Masking",
+   "power": "Major Glyph",
+   "text": "This glyph can be placed on a small object. It can make an old object look new, or a new object look old. It can change the colour or appearance of an object but not its shape. This glyph lasts for a week before it fades."
+ },
+ {
+   "name": "Glyph of Linking",
+   "power": "Minor Glyph",
+   "text": "When you draw this glyph you mark two objects with matching glyphs. You can choose what sort of link to create between the two objects. \\n Thermal Link \\n  Heat will share between the two objects as if they were touching. The more distance between the two objects the more heat that will be lost in the transfer. \\n Magnetic Link \\n The two objects will act like magnets to each other and only to each other."
+ },
+ {
+   "name": "Glyph of Mending",
+   "power": "Minor Glyph",
+   "text": "This glyph can be placed on a broken or damaged object. The object slowly repairs itself, taking up to a day for badly damaged objects. Once the object is complete the glyph fades. This glyph cannot repair things damaged directly by magic (the flames from a fireball are normal fire, for example). A single glyph of mending cannot repair cuts or breaks longer than a 6 inches in metal or stone, or 2 feet in materials like cloth or leather."
+ },
+ {
+   "name": "Glyph of Striking",
+   "power": "Major Glyph",
+   "text": "This glyph can be placed on a person?s arms or hands. The person use their turn to activate the glyph, sending a wave of force flying outwards. Select a target within 15 ft. and make a spell attack roll using the crafter?s spell attack. On a hit the target takes 5d8 damage. This glyph needs a week to recharge."
+ },
+ {
+   "name": "Glyph of Traps",
+   "power": "Major Glyph",
+   "text": "This glyph can be placed on a surface. When you draw this glyph, you can select up to eight creatures to be unaffected by it. You also cast a damaging spell into the glyph. When any other creature willingly touches or steps over the glyph they are targeted by the spell."
+ },
+ {
+   "name": "Glyph of Undeath Ward",
+   "power": "Major Glyph",
+   "text": "When you draw this glyph over a doorway or other aperture any undead must pass a will save in order to pass through the door."
+ },
+ {
+   "name": "Glyph of Warning",
+   "power": "Minor Glyph",
+   "text": "When you draw this glyph on an object it will make a loud sound when any creature besides you touches it."
+ }
+]
