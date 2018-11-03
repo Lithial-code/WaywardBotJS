@@ -521,7 +521,7 @@
  },
  {
    "name": "Roguish Speed",
-   "prerequisite": "Rogue, Speed",
+   "prerequisite": "Rogue, Speedy",
    "effect": "+10 move speed"
  },
  {
