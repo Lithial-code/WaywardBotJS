@@ -1,4 +1,6 @@
+const config = require("../config.json");
 exports.run = (client, message,args) => {
+    if(message.author.id !== config.ownerID) return;
     if(!args || args.size < 1) return message.reply("Must provide a command name to reload.");
     const commandName = args[0];
     //Check if the command exists and is valid

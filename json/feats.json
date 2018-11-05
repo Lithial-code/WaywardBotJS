@@ -1,657 +1,667 @@
 [
  {
+   "name": "Accurate Shot",
+   "prerequisite": "Prerequisite: Sharpshooter",
+   "text": "You have learned to sacrifice damage for accuracy when using a ranged weapon. \n When making a ranged attack you can take a +5 to hit but your attack deals half damage. You can only take this bonus once per round. Cannot be used at the same time as Deadly Shot."
+ },
+ {
    "name": "Alchemist",
-   "prerequisite": "Mage or Priest",
-   "effect": "Can brew concoctions"
+   "prerequisite": "Prerequisites: Mage or Priest",
+   "text": "You have learned to brew various chemicals and mixtures. \n During a downtime you can spend silver equal to two-thirds of the cost of a concoction to brew it. Each concoction has a DC which you must pass in order to complete the brewing."
  },
  {
    "name": "Apprentice Mage",
-   "prerequisite": "Int 14, Not a Mage",
-   "effect": "Learn a basic secret of magic"
+   "prerequisite": "Prerequisite: Intelligence 14, not a mage, not a dwarf.",
+   "text": "You have had a little training in the magical arts, gaining a basic understanding of a magical secret. \\n You learn one secret from the mage basic secret list."
  },
  {
-   "name": "More Apprenticeship",
-   "prerequisite": "Apprentice Mage, int 16",
-   "effect": "Deepen knowledge and learn new secret."
+   "name": "Blade Magic ",
+   "prerequisite": "Prerequisite: Mage or Priest",
+   "text": "Blade magic is an ancient branch of magic, first developed by the elves. It allows the caster to imbue a weapon with magic, making it sharp and accurate. \n  You can spend 4 points of wisdom (if a priest) or intelligence (if a mage) as a free action to grant a +2 bonus to a bladed weapon you touch. This bonus lasts for an hour. You can only enchant one weapon at a time in this manner. You can regain these spent points in the same way as ability score points spent on spells."
  },
  {
-   "name": "Blade Magic",
-   "prerequisite": "Mage or Priest",
-   "effect": "Spend CAP to +2 a weapon"
- },
- {
-   "name": "Blade Magic II",
-   "prerequisite": "Blade Magic",
-   "effect": "Spend extra points, grant extra bonuses"
+   "name": "Blade Magic II ",
+   "prerequisite": "Prerequisite: Blade Magic, Level 5",
+   "text": "You have learned to improve your blade magic, able to enchant it to overcome the resistances of certain monsters. \n  When you grant a bonus to a weapon with your blade magic you can also have the weapon count as holy, silvered or steel for the purpose of damaging monsters. In addition, the bonus increases to a +3."
  },
  {
    "name": "Brutal Critical",
-   "prerequisite": "Rogue or Warrior, Level 3",
-   "effect": "Extra 2 damage dice on a critical hit."
+   "prerequisite": "Prerequisite: Rogue or Warrior, Level 3",
+   "text": "You have learned to take advantage of your most damaging hits. \n You deal an extra two dice of damage on a critical hit with a weapon."
  },
  {
-   "name": "Cat's Grace",
-   "prerequisite": "none",
-   "effect": " +1 dex, ignore 20ft fall, adv on fall checks"
+   "name": "Cat?s Grace",
+   "prerequisite": "Prerequisite: None",
+   "text": "Through training or foolishness, you have mastered the art of falling off high places. \n You gain a +1 bonus to dexterity. You ignore the first 20 ft you fall and have advantage on saves or checks to land safely."
  },
  {
    "name": "Combat Healer",
-   "prerequisite": "Medicine 4",
-   "effect": "Heal in combat. Wounds you attempt to heal gain a bonus to healing later"
+   "prerequisite": "Prerequisite: Medicine 8",
+   "text": "You have mastered the art of healing during the chaos of combat. \n You can use your main action to move up to double your move speed to a creature that is unconscious from being wounded. You can immediately roll a medicine check and attempt to heal a wound of your choice. If successful, that wound does not count against their wound limit and the wounded creature gains a +5 bonus to fortitude saves to heal that wound in the future. \n  A creature can only benefit from this ability once per long rest. The +5 bonus counts towards your limit of wounds you can be providing long term healing to."
  },
  {
    "name": "Companion",
-   "prerequisite": "Mage or Priest",
-   "effect": "Summon an animal companion"
+   "prerequisite": "Prerequisite: Mage or Priest",
+   "text": "Through a close bond with nature, or arcane tinkering you have learned to summon a small animal companion to accompany you. \n You summon a small creature to act as a companion. If you select this feat at level 1 you start with the companion, elsewise you must spend a day and 250 silver worth of materials to summon it. \n You can see through its eyes and deliver touch spells through it. You can summon your choice of small animal, for example, cat, raven, fish, owl. \n If your animal companion is within 300 ft. of you, you can see through its eyes as a free action, becoming blind yourself. Any creature that the animal is touching counts as you touching it for the purposes of casting touch spells.  \n If your animal companion dies you take 5d6 sanity damage and must purchase materials worth 50 silver and spend a day resummoning it. \n Your companion acts on your turn. It can move, take cover or dodge. Your companion cannot attack."
  },
  {
    "name": "Concentration Focus",
-   "prerequisite": "Mage or Priest",
-   "effect": "Advantage on concertation checks"
- },
- {
-   "name": "Daemon Specialist",
-   "prerequisite": "Int 14, Level 5",
-   "effect": "Adv on knowledge checks about daemons and deal +int damage to them"
- },
- {
-   "name": "Expert Climber",
-   "prerequisite": "Climb 8",
-   "effect": "adv to not fall or catch falling person, +1 strength, climb twice as fast"
- },
- {
-   "name": "Expert Liar",
-   "prerequisite": "Deception 10",
-   "effect": "creatures have disadv to know if you are lying, +1 charisma"
- },
- {
-   "name": "Extra  Wound",
-   "prerequisite": "none",
-   "effect": "More Wounds"
- },
- {
-   "name": "Hard to Kill",
-   "prerequisite": "Extra Wound I",
-   "effect": "Increase damage required to instantly die. Adv on saves to do with death."
- },
- {
-   "name": "Extra Attack",
-   "prerequisite": "Warrior or Priest, Level 5",
-   "effect": "Extra Attack"
- },
- {
-   "name": "Extra Attack II",
-   "prerequisite": "Warrior, Level 9, Extra Attack",
-   "effect": "Extra Attack"
- },
- {
-   "name": "Extra Resilient",
-   "prerequisite": "Resilient",
-   "effect": "Minor saves becomes a major save."
- },
- {
-   "name": "Finesse",
-   "prerequisite": "Rouge or Warrior",
-   "effect": "Use dexterity to hit with light melee weapons"
- },
- {
-   "name": "Forceful Personality",
-   "prerequisite": "Persuasion 6",
-   "effect": "Add int or wisdom to persuasion or intimidation. +1 to int, wis, or cha"
- },
- {
-   "name": "Glyph",
-   "prerequisite": "Int 10",
-   "effect": "You learn a glyph"
- },
- {
-   "name": "Hard Hearted",
-   "prerequisite": "Int 12 OR Wis 12",
-   "effect": "Sanity reduction 2"
- },
- {
-   "name": "Heartless",
-   "prerequisite": "Hard Hearted",
-   "effect": "No sanity damage when allies go down or when you kill innocents."
- },
- {
-   "name": "Improved Recovery",
-   "prerequisite": "Priest or Warrior",
-   "effect": "Recovery Dice become d8s"
- },
- {
-   "name": "In Touch with Nature",
-   "prerequisite": "Wis 16",
-   "effect": "Communicate and tame animals."
- },
- {
-   "name": "Inspiring Leadership",
-   "prerequisite": "Leadership 10",
-   "effect": "You can inspire you allies."
- },
- {
-   "name": "Knowledgeable",
-   "prerequisite": "Any two Knowledge skills at 8",
-   "effect": "+2 knowledge skills, half level bonus to all knowledge skills"
- },
- {
-   "name": "Mage Hunter",
-   "prerequisite": "Int 14",
-   "effect": "Reaction attack against someone who casts a spell, adv to identify spells"
- },
- {
-   "name": "Expert Mage Slayer",
-   "prerequisite": "Mage Hunter, Level 7",
-   "effect": "2d6 extra damage against spellcasters, ignore magical defences"
- },
- {
-   "name": "Medium Armour",
-   "prerequisite": "none",
-   "effect": "Use medium armour, +1 strength"
- },
- {
-   "name": "Heavy Armour",
-   "prerequisite": "Medium Armour, Not a mage",
-   "effect": "+1 str, can use heavy armour"
- },
- {
-   "name": "Monster Specialist",
-   "prerequisite": "Int 14, Level 5",
-   "effect": "Adv on knowledge checks about monsters and deal +int damage to them"
- },
- {
-   "name": "Multi-Disciplined",
-   "prerequisite": "none",
-   "effect": "+1 to any stat, ignore class prerequisites for a feat."
- },
- {
-   "name": "Poisoner",
-   "prerequisite": "Level 3, Rogue or Mage",
-   "effect": "You learn how to use poisoners"
- },
- {
-   "name": "Precise Strike",
-   "prerequisite": "Rogue or Warrior",
-   "effect": "Extra damage while using light weapons"
- },
- {
-   "name": "Protector",
-   "prerequisite": "Priest or Warrior",
-   "effect": "Shield your allies. +2 ac"
- },
- {
-   "name": "Push On",
-   "prerequisite": "Charisma 18 or Leadership 8",
-   "effect": "Bolster your allies with a 10 minute speech."
- },
- {
-   "name": "Quick Draw",
-   "prerequisite": "Rogue or Warrior",
-   "effect": "You can draw as many weapons as you have attacks per round"
- },
- {
-   "name": "Rapid Reload",
-   "prerequisite": "none",
-   "effect": "You can make up to 2 attacks with weapons with the loading property"
- },
- {
-   "name": "Rapid Response",
-   "prerequisite": "Rogue or Warrior",
-   "effect": "Adv on initiative, full defence if surprised."
- },
- {
-   "name": "Reliable Medic",
-   "prerequisite": "none",
-   "effect": "Creatures you try to heal are more likely to survive their wounds"
- },
- {
-   "name": "Resilient",
-   "prerequisite": "none",
-   "effect": "Last untrained save becomes a minor save"
- },
- {
-   "name": "The Most Resilient",
-   "prerequisite": "Extra Resilient",
-   "effect": "All saves are major saves, +2 to all saves"
- },
- {
-   "name": "Runner",
-   "prerequisite": "none",
-   "effect": "+1 dex, you run 4x your movement speed when you run"
- },
- {
-   "name": "Sane",
-   "prerequisite": "none",
-   "effect": "You get an extra 2 sanity per level"
- },
- {
-   "name": "Second Wind",
-   "prerequisite": "Warrior or Priest",
-   "effect": "While in combat you can heal 1d8+con defence on your turn."
- },
- {
-   "name": "Sharpshooter",
-   "prerequisite": "Warrior or Rogue",
-   "effect": "Double your range with ranged weapons"
- },
- {
-   "name": "Accurate Shot",
-   "prerequisite": "Sharpshooter",
-   "effect": "+5 to hit, half damage"
+   "prerequisite": "Prerequisite: Concentration 8, Mage or Priest",
+   "text": "You have learned to keep focused and maintain your concentration on spells.  \n  You have advantage on concentration checks. You do not need to make concentration checks when you take a minor wound or when you are hit but not wounded. "
  },
  {
    "name": "Cover Expert",
-   "prerequisite": "Sharpshooter",
-   "effect": "Take one attack when you take cover. +1 ac while in cover"
+   "prerequisite": "Prerequisite: Sharpshooter",
+   "text": "You are well practiced at utilising cover to great advantage. \n  When you take cover, you may use your bonus action to make one ranged attack. You gain an additional +1 armour class while in cover."
  },
  {
-   "name": "Deadly Shot",
-   "prerequisite": "Sharpshooter",
-   "effect": "-3 to hit, extra 2d8 damage"
- },
- {
-   "name": "Silent Invocation",
-   "prerequisite": "none",
-   "effect": "You can cast invocations without speaking"
- },
- {
-   "name": "Skilled",
-   "prerequisite": "none",
-   "effect": "Two more skills"
- },
- {
-   "name": "SMASH",
-   "prerequisite": "Smash 8",
-   "effect": "Adv on str checks, can't roll below a 5 when smashing things"
- },
- {
-   "name": "Speedy",
-   "prerequisite": "none",
-   "effect": "Increase move speed by 10ft"
- },
- {
-   "name": "Tough",
-   "prerequisite": "Warrior or Priest",
-   "effect": "+4 defence"
- },
- {
-   "name": "Undead Specialist",
-   "prerequisite": "Wis 14 or Int 14, Level 5",
-   "effect": "Adv on knowledge checks about undead and deal +int damage to them"
- },
- {
-   "name": "Vicious",
-   "prerequisite": "none",
-   "effect": "No sanity damage from killing people. Regain 1 sanity whenever you kill an innocent person"
- },
- {
-   "name": "Wardancer",
-   "prerequisite": "Performance 10",
-   "effect": "Dance in battle, regain defence, avoid attacks of opportunity"
- },
- {
-   "name": "Weapon Master",
-   "prerequisite": "Warrior or Rogue",
-   "effect": "+2 to hit with chosen weapon"
+   "name": "Daemon Specialist",
+   "prerequisite": "Prerequisite: Intelligence 14, Level 5",
+   "text": "You have mastered the art of hunting and killing daemons. \n  You have advantage on knowledge checks about daemons and deal additional damage equal to your intelligence modifier to daemons."
  },
  {
    "name": "Dagger Expert",
-   "prerequisite": "Weapon Master: Dagger",
-   "effect": "Extra attack with daggers, adv against a target you hit with the dagger"
+   "prerequisite": "Prerequisite: Weapon Master: Dagger",
+   "text": "You have learned to throw your enemies off guard with a well-placed dagger throw. \n Once per turn when you hit a target with a thrown dagger you can give yourself advantage on the next attack against that target. You make an extra attack with a dagger when you Full Attack."
  },
  {
-   "name": "Bow Expert",
-   "prerequisite": "Weapon master: Bow, Warrior, Level 3",
-   "effect": "Extra attack while using bows"
+   "name": "Deadly Shot",
+   "prerequisite": "Prerequisite: Sharpshooter",
+   "text": "Your arrows strike with greater power at the cost of accuracy. \n  When making a ranged attack you can take a -3 to hit in exchange for an extra 2d8 damage. You can only take this damage once per round. Cannot be used at the same time as Accurate Shot"
  },
  {
-   "name": "Charger",
-   "prerequisite": "Warrior",
-   "effect": "Adv while charging"
+   "name": "Expert Climber",
+   "prerequisite": "Prerequisite: Climb 8",
+   "text": "You are a well-practiced climber. \n While climbing you have advantage on check to not fall or to catch another character that is falling. \n You gain +1 strength. You can climb twice as fast as normal people."
+ },
+ {
+   "name": "Expert Liar",
+   "prerequisite": "Prerequisite: Deception 10",
+   "text": "You are skilled at lying and deceiving others, leaving them often unaware that you are lying. \n Creatures trying to discern if you are lying have disadvantage on the roll. You gain +1 charisma."
+ },
+ {
+   "name": "Expert Mage Slayer",
+   "prerequisite": "Prerequisite: Mage Hunter, Level 7",
+   "text": "Your skills at slaying magic users has allowed you to learn how to pierce the magical defences of mages and the like. \n  You deal an extra 2d6 damage against spellcasters. You ignore any bonuses to defence or armour class from any spells when attacking a spellcaster."
+ },
+ {
+   "name": "Extra Attack",
+   "prerequisite": "Prerequisite: Warrior or Priest, Level 5",
+   "text": "You have learned how to attack quickly. \n You gain an additional attack"
+ },
+ {
+   "name": "Extra Attack II",
+   "prerequisite": "Prerequisite: Warrior Level 9, Extra Attack",
+   "text": "You have learned to attack even faster! \n You gain another additional attack."
+ },
+ {
+   "name": "Extra Resilient",
+   "prerequisite": "Prerequisites: Resilient",
+   "text": "You train to increase your resistance to certain effects. \n  Your last minor save becomes a major save. Once per short rest you can give yourself advantage on a saving throw."
+ },
+ {
+   "name": "Extra Wound",
+   "prerequisite": "Prerequisites: None",
+   "text": "Your body is tough and hardened, able to take more punishment than usual. \n Your wound limit is increased by 1. \n Special: This feat can be taken a number of times; each time has more prerequisites. \n 1: None \n 2: Rogue, Warrior, Priest \n 3: Warrior, Priest, Level 3 \n 4: Rage OR Warrior level 7"
+ },
+ {
+   "name": "Finesse",
+   "prerequisite": "Prerequisite: Rogue or Warrior",
+   "text": "Your skill with lighter weapons allows you to rely on speed and dexterity rather than brute strength when using these weapons. \n You can use dexterity to hit and damage instead of strength when using a light melee weapon."
+ },
+ {
+   "name": "Forceful Personality ",
+   "prerequisite": "Prerequisite: Persuasion 6",
+   "text": "Your mind is your greatest weapon when interacting with people. \n  When rolling a persuasion or intimidation check you can add either your intelligence or wisdom modifier to the roll. You gain +1 to wisdom, charisma, or intelligence"
+ },
+ {
+   "name": "Glyph",
+   "prerequisite": "Prerequisites: Intelligence 10",
+   "text": "You have learned the basics of glyphs. \n You learn one minor or major glyph."
+ },
+ {
+   "name": "Hard Hearted",
+   "prerequisite": "Prerequisites: Intelligence or wisdom 12",
+   "text": "You do not react as much to death, gore, and other horrors as normal people. \n You gain sanity damage reduction 2. This reduces all sanity damage received by 2."
+ },
+ {
+   "name": "Hard to Kill",
+   "prerequisite": "Prerequisite: Extra Wound I",
+   "text": "Your body clings to life more easily than others. \n You only instantly die if you take more than 40 damage after your defence, rather than 30. You have advantage on any saves to avoid an instant death effect or to stop bleeding out."
+ },
+ {
+   "name": "Heartless",
+   "prerequisite": "Prerequisites: Hard Hearted",
+   "text": "You care little for others, and do not care who or when you care. \n  You no longer lose sanity when seeing allies die or go unconscious, or from killing innocent people."
+ },
+ {
+   "name": "Improved Recovery",
+   "prerequisite": "Prerequisites: Priest or Warrior",
+   "text": "You recover your defence quickly, able to get back into the fight rapidly. \n Your recovery dice become d8s."
+ },
+ {
+   "name": "In Touch with Nature",
+   "prerequisite": "Prerequisite: Wisdom 16",
+   "text": "You are in tune with nature. \n  You can communicate with animals on a basic level. You can also attempt to tame animals."
+ },
+ {
+   "name": "Inspiring Leadership",
+   "prerequisite": "Prerequisite: Leadership 10",
+   "text": "You can inspire your allies with your words or actions. \n  On your turn, as a bonus action you can select an ally within 30 ft. They gain a d6 they can add to any one attack roll, saving throw or skill check. You can do this a number of times equal to your charisma modifier per short rest."
+ },
+ {
+   "name": "Knowledgeable",
+   "prerequisite": "Prerequisite: Any two knowledge skills 8",
+   "text": "You have a wide array of knowledge from many sources. \n You are trained in 2 additional knowledge skills. You have advantage on any knowledge skill you are train in. You gain a bonus to all knowledge skills equal to half your level."
+ },
+ {
+   "name": "Mage Hunter",
+   "prerequisite": "Prerequisite: Intelligence 14",
+   "text": "You are adept at hunting spellcasters. \n If a creature within 5 ft tries to cast a spell you can immediately make an attack against them. If your attack hits they must immediately make a concentration check, either against your damage or against your DC, whichever is higher. If they fail, the spell fails. \n You have advantage on spellcraft checks to identify spells."
+ },
+ {
+   "name": "Medium Armour",
+   "prerequisite": "Prerequisite: None",
+   "text": "You have learned to use more armours and lighter shields. \n You can use medium armour and steel shields. You gain +1 strength."
+ },
+ {
+   "name": "Monster Specialist",
+   "prerequisite": "Prerequisite: Intelligence 14, Level 5",
+   "text": "You have mastered the art of hunting and killing monsters. \n  You have advantage on knowledge checks about monsters and deal additional damage equal to your intelligence modifier to monsters."
+ },
+ {
+   "name": "More Apprenticeship",
+   "prerequisite": "Prerequisite; Apprentice Mage, Intelligence 16",
+   "text": "You continue your magical learning. \n  You deepen your knowledge of your secret from apprentice mage and learn a second secret from the mage secret list. This feat can be taken twice."
+ },
+ {
+   "name": "Multi-Disciplined",
+   "prerequisite": "Prerequisite: None",
+   "text": "You branch out in your knowledge, learning skills or abilities that you normally would not learn. \n You next time you select a feat you can ignore the class prerequisite for that, and only that, feat. \n  You gain + 1 to a stat of your choice. You cannot ignore a class prerequisite for a class that your species can not be. You can take this feat any number of times."
+ },
+ {
+   "name": "Heavy Armour",
+   "prerequisite": "Prerequisite: Medium Armour, not a mage",
+   "text": "You learn to use all armours and shields. \n You can use heavy armour and tower shields. You gain +1 strength."
+ },
+ {
+   "name": "Poisoner",
+   "prerequisite": "Prerequisites: Level 3, Rogue or Mage",
+   "text": "You have learned to gather and make poisons."
+ },
+ {
+   "name": "Precise Strike",
+   "prerequisite": "Prerequisite: Rogue or Warrior",
+   "text": "Your strikes take advantage of any weakness and lapse in your targets guard. \n  When using a light melee weapon, you deal an extra 1d6 damage. You must have advantage on the attack or an enemy of the target within 5 feet of the target to gain this additional damage.  \n You can always apply precise strike to a critical hit. You can only deal this extra damage once per turn. \n When you reach level 5 this damage increases to 2d6 and to 3d6 at level 9. \n If you are a rogue, you can make precise strikes when you use a ranged weapon."
+ },
+ {
+   "name": "Protector",
+   "prerequisite": "Prerequisite: Priest or Warrior",
+   "text": "You defend your allies with your trusty shield, not just yourself. \n  While wearing a shield you can, once per round, grant your bonus to AC from your shield to an ally adjacent to you. You lose the bonus ac from your shield until the end of your next turn.  \n  While using a shield you gain an additional +2 bonus to armour class, even while shielding another."
+ },
+ {
+   "name": "Push On",
+   "prerequisite": "Prerequisite: Charisma 18 or leadership 8",
+   "text": "Your words bolster your allies to greater heights. \n Once per downtime you can invigorate your allies with a 10-minute speech. Chose up to 10 creatures you can see. \n Each creature regains 2d6 defence. In addition, each creature increases their wound limit by one (for determining unconsciousness only), can ignore one level of exhaustion and gains +2 on attack rolls and save DCs for the next 2 hours. A creature can only gain this benefit once per downtime."
+ },
+ {
+   "name": "Quick Draw",
+   "prerequisite": "Prerequisite: Rogue or Warrior",
+   "text": "You can draw as many weapons as you have attacks during your turn."
+ },
+ {
+   "name": "Rapid Reload",
+   "prerequisite": "Prerequisite: None",
+   "text": "You are well practised with loading weapons, allowing you to fire them more quickly than most people. \n You can make up to two attacks per round with weapons with the loading properly, rather than one. You must have an ability that grants you the extra attack."
+ },
+ {
+   "name": "Rapid Response",
+   "prerequisite": "Prerequisite: Warrior, Rogue",
+   "text": "You are always alert and ready for danger, ready to react in an instant. \n You have advantage on initiative checks. \n You can use your full defence if surprised. "
+ },
+ {
+   "name": "Reliable Medic",
+   "prerequisite": "Prerequisite: None",
+   "text": "Your medical help is always a little useful for those you try to help. \n  Any creature you attempt to heal that has a major or minor wound always gets at least a +3 bonus on its fortitude save to heal the wound."
+ },
+ {
+   "name": "Resilient",
+   "prerequisite": "Prerequisite: None",
+   "text": "Your minor save becomes a major save and you gain your final untrained save as a minor save."
+ },
+ {
+   "name": "Runner",
+   "prerequisite": "Prerequisite: None",
+   "text": "You can run quickly. \n You gain a +1 bonus to dexterity. You run four times your movement when you run on your turn."
+ },
+ {
+   "name": "Sane",
+   "prerequisite": "Prerequisite: None",
+   "text": "Your mind is well guarded against madness. \n You gain an additional 2 sanity per level."
+ },
+ {
+   "name": "Second Wind",
+   "prerequisite": "Prerequisite: Warrior or Priest",
+   "text": "You can regain your defence in the middle of combat, allowing you to continue fighting in tough situations.  \n Once per short rest you can spend a recovery dice to regain 1d8+con defence on your turn in addition to your normal turn. You can only use this ability in combat."
+ },
+ {
+   "name": "Sharpshooter",
+   "prerequisite": "Prerequisite: Warrior or Rogue",
+   "text": "You have learned to attack at great range, striking your enemies long before they reach you. \n Double your range with any ranged attacks."
+ },
+ {
+   "name": "Silent Invocation",
+   "prerequisite": "Prerequisite: None",
+   "text": "You have learned to cast invocations without speaking, allowing you to cast them while gagged or similarly disposed. \n You can cast invocations without speaking."
+ },
+ {
+   "name": "Skilled",
+   "prerequisite": "Prerequisite: None",
+   "text": "You widen your pool of abilities, gaining new skills. \n You are trained in three additional skills."
+ },
+ {
+   "name": "SMASH",
+   "prerequisite": "Prerequisite: Smash 8",
+   "text": "You smash good. Break things good. \n When rolling a smash check, you can reroll any 1s or 2s. You always have advantage on any strength check."
+ },
+ {
+   "name": "Speedy",
+   "prerequisite": "Prerequisite: None",
+   "text": "You always move quickly, in combat and out. \n Your movement speed is increased by 10 ft. You gain a + 2 bonus to armour class against attacks of opportunity. "
+ },
+ {
+   "name": "Tough",
+   "prerequisite": "Prerequisite: Warrior or Priest",
+   "text": "You are able to avoid and absorb damage with great skill. \n You gain an extra 4 defence. \n You can take this feat twice if you are a warrior."
+ },
+ {
+   "name": "Undead Specialist",
+   "prerequisite": "Prerequisite: Wisdom 14 or Intelligence 14, Level 5",
+   "text": "You have mastered the art of hunting and killing undead. \n You have advantage on knowledge checks about monsters and may use wisdom instead of intelligence for these checks. You also deal additional damage equal to your intelligence or wisdom modifier to monsters."
+ },
+ {
+   "name": "Vicious",
+   "prerequisite": "Prerequisite: None",
+   "text": "You take pleasure in killing people, more so if they do not deserve it. \n You do not take any sanity damage from killing an innocent, in fact you regain 1 sanity each time you do so."
+ },
+ {
+   "name": "Weapon Master",
+   "prerequisite": "Prerequisite: Warrior or Rogue",
+   "text": "You have focused your training on one specific weapon,  granting you a special mastery of the weapon. \n When you select this feat you choose this weapon, you get +2 to hit with this weapon.You can take this feat multiple times, picking a different weapon each time."
+ },
+ {
+   "name": "Wardancer",
+   "prerequisite": "Prerequisite: Performance 10",
+   "text": "You have learned to move with great agility in battle. \n Once per short rest you can begin to dance, sing, or play an instrument in battle as a bonus action. An attack of opportunity cannot target you while this lasts. In addition, you and your allies regain 1 defence at the start of their turn. This ability lasts for 1 minute."
  },
  {
    "name": "Bull Rush",
-   "prerequisite": "Charger",
-   "effect": "Knock people over when charging"
+   "prerequisite": "Prerequisite: Charger",
+   "text": "Your charges are devastating, knocking your opponents onto the ground. When you hit a target when charging they must succeed on a reflex save or be knocked prone."
+ },
+ {
+   "name": "Bow Expert",
+   "prerequisite": "Prerequisite: Weapon Master with a bow, Warrior, Level 3",
+   "text": "Your mastery of bows allows you to fire rapidly. \\n When attacking with a bow you can take an extra attack every turn."
+ },
+ {
+   "name": "Charger",
+   "prerequisite": "Prerequisite: Warrior",
+   "text": "You learn to use the momentum of charging to your advantage, cutting through your enemy?s defence. \\n You have advantage on attacks when you charge."
  },
  {
    "name": "Chosen Weapon",
-   "prerequisite": "Warrior, Level 5, Weapon Master",
-   "effect": "Add full level when using chosen weapons"
+   "prerequisite": "Prerequisite: Warrior, Level 5, Weapon Master",
+   "text": "Your mastery of your chosen weapon allows you to take your skill with it to new heights. \\n You select a weapon which you have weapon master for. You may add your full level, instead of half, to attacks with this weapon. "
  },
  {
    "name": "Cleave",
-   "prerequisite": "Warrior and Weapon Master",
-   "effect": "You can cleave through enemies for extra attacks"
- },
- {
-   "name": "Improved Cleave",
-   "prerequisite": "Cleave",
-   "effect": "you can cleave an extra time"
+   "prerequisite": "Prerequisite: Warrior and Weapon Master",
+   "text": "Your strikes are so powerful that they can go clean through your enemies to hit multiple foes at once. \\n When you wound an enemy, you can immediately make another attack against a target within 5 feet of your original target. This extra attack is not restricted by normal limits on the number of attacks in a turn or a round. When using a ranged weapon, the target of your cleave attack must be directly in the line of fire from your weapon to be targeted by the second attack. \\n You can only make a single additional attack from this feat in a turn."
  },
  {
    "name": "Crippling Wound",
-   "prerequisite": "Warrior",
-   "effect": "Reduce your enemies speed when you wound them"
+   "prerequisite": "Prerequisite: Warrior.",
+   "text": "Your strikes cripple and slow your enemies. \\n Whenever you wound a target, you can force them to make a fortitude save or have their movement speed reduced by half for the next minute, providing they have physiology that would allow this slowing. A creature can only have their movement speed reduced once by this ability."
  },
  {
    "name": "Defender",
-   "prerequisite": "Warrior",
-   "effect": "+3 defence, hit people who hit your friends"
+   "prerequisite": "Prerequisite: Warrior",
+   "text": "You are a stalwart bastion on the battlefield, tough and able to protect your allies. \\n  You gain 3 defence. When an enemy goes to attack another creature while they are within your reach, you can immediately make a melee attack against the creature making the attack. If your attack hits, your target has disadvantage on the triggering attack. "
  },
  {
    "name": "Firearm Expert",
-   "prerequisite": "Warrior",
-   "effect": "+2 to hit with firearms, critical hits with firearms deal extra damage"
+   "prerequisite": "Prerequisite: Warrior",
+   "text": "You are trained in the use of firearms and are able to make use of their devastating power. \\n You gain +2 to hit with firearms. Critical hits with firearms deal an extra dice of damage."
  },
  {
    "name": "Harry the Wounded",
-   "prerequisite": "Warrior",
-   "effect": "You deal an extra 2d10 damage to wounded creatures"
+   "prerequisite": "Prerequisite: Warrior",
+   "text": "Your attacks are more effective at creatures that are already wounded. \\n Once per turn when you hit a wounded target with an attack you can deal an extra 2d10 damage."
+ },
+ {
+   "name": "Improved Cleave",
+   "prerequisite": "Prerequisite: Cleave, Level 5",
+   "text": "Your cleaves become even more powerful, able to strike up to three enemies with a single blow. \\n When you cleave you can make a third attack against a third target if you also wound the second target. You can also make up to two additional attacks from cleave in a single turn."
  },
  {
    "name": "Improved Rage",
-   "prerequisite": "Warrior and Rage",
-   "effect": "You can rage an extra time, you deal extra damage while raging"
+   "prerequisite": "Prerequisite: Warrior and Rage",
+   "text": "Your rage becomes less taxing and more effective \\n You can rage an extra time per long rest. While raging your extra damage on each hit increases to 5."
  },
  {
    "name": "Monkey Grip",
-   "prerequisite": "Warrior, Str 20",
-   "effect": "You can use two handed melee weapons in one hand"
- },
- {
-   "name": "Mounted Expert",
-   "prerequisite": "Ride 10, Warrior",
-   "effect": "You can attack twice while charging on a horse."
+   "prerequisite": "Prerequisite: Warrior, Strength 20",
+   "text": "Your immense strength allows you to use large weapons in one hand. \\n  You can use a two-handed melee weapon one handed."
  },
  {
    "name": "Mounted Charger",
-   "prerequisite": "Mounted Expert",
-   "effect": "You can move further when charging on a horse. You deal extra damage when you charge while on a horse."
+   "prerequisite": "Prerequisite: Mounted Expert",
+   "text": "You and your horse move as one when performing a charge, allowing you to devastate the target of your charge. \\n While mounted you may move up to double your horses speed when charging. If you move up to your horse?s base speed before your first attack it deals an additional 3d10 damage."
+ },
+ {
+   "name": "Mounted Expert",
+   "prerequisite": "Prerequisite: Ride 10, Warrior",
+   "text": "When you charge while riding you can channel the momentum of your mount in order to strike twice. \\n  While mounted you may take an extra attack while charging as long as you have at least two attacks."
  },
  {
    "name": "Rage",
-   "prerequisite": "Tough and Warrior",
-   "effect": "Rage to deal 2 extra damage, ignore a wound and gain DR 2"
+   "prerequisite": "Prerequisite: Tough and Warrior",
+   "text": "During battle you enter a mindless rage, ignoring damage and striking with great ferocity. \\n Twice per long rest you can rage as a bonus action for a minute. You deal an additional 3 damage on melee attacks using strength and can ignore one wound during this minute. You also gain DR 2. \\n While raging you cannot cast magic and you have disadvantage on any checks using intelligence or wisdom."
  },
  {
    "name": "Sniper",
-   "prerequisite": "Warrior",
-   "effect": "Stay still to gain +5 to hit on ranged attacks"
+   "prerequisite": "Prerequisite: Warrior",
+   "text": "While standing still you gain great accuracy with ranged weapons. \\n If you do not move during your turn you gain a +3 bonus to hit on the first ranged weapon attack you make on your turn, and a +2 bonus to hit on any subsequent ranged weapon attack."
  },
  {
    "name": "Spear Master",
-   "prerequisite": "Warrior",
-   "effect": "You can hit people as they enter your reach and can still use reach weapons when enemies are near"
+   "prerequisite": "Prerequisite: Warrior",
+   "text": "You have learned to set your weapon against a charge. \\n When using a reach weapon, you can make an attack when an enemy enters your reach once per round. You do not have -2 to hit when attacking a target inside your reach."
+ },
+ {
+   "name": "Stay with Me",
+   "prerequisite": "Prerequisite: Warrior ",
+   "text": "You have learned to prevent your opponent from running away from you while locked in combat. \\n If you hit a creature with an attack of opportunity you reduce its speed to 0."
  },
  {
    "name": "Stunning Blow",
-   "prerequisite": "Warrior",
-   "effect": "You can stun those you hit"
+   "prerequisite": "Prerequisite: Warrior",
+   "text": "Your strikes can muddy your opponents? thoughts, leaving them vulnerable and unable to retaliate. \\n Once per short rest you can attempt to stun a creature you hit with an attack. They must succeed on a fortitude save or be stunned until the end of their next round."
  },
  {
    "name": "Take the Hit",
-   "prerequisite": "Warrior",
-   "effect": "You can ignore a hit every short rest."
- },
- {
-   "name": "Two Weapon Fighter",
-   "prerequisite": "Warrior",
-   "effect": "You can add your ability score modifier to weapons in your off hand, +2 ac while dual wielding"
- },
- {
-   "name": "Two Weapon Extra Attack",
-   "prerequisite": "Extra Attack, Two Weapon Fighter",
-   "effect": "You can make an extra attack when you attack with your main hand."
+   "prerequisite": "Prerequisite: Warrior",
+   "text": "You have trained your body to ignore damage, becoming able to shrug off deadly blows. \\n Once per short rest, when you are hit with an attack you can take no damage from that attack. On your next turn after using this ability you cannot run or charge and make one less attack than you usually would. Any attacks you make during this turn are at disadvantage."
  },
  {
    "name": "Two Weapon Beast",
-   "prerequisite": "Two Weapon Master, Monkey Grip",
-   "effect": "You can dual wield any melee weapons"
+   "prerequisite": "Prerequisite: Two Weapon Master, Monkey Grip",
+   "text": "You can dual wield any melee weapons that you can hold in one hand."
+ },
+ {
+   "name": "Two Weapon Extra Attack",
+   "prerequisite": "Prerequisite: Extra Attack, Two Weapon Fighter",
+   "text": "When dual wielding you can make an attack with your off-hand weapon whenever you attack with your main weapon instead of just once per turn."
+ },
+ {
+   "name": "Two Weapon Fighter",
+   "prerequisite": "Prerequisite: Warrior",
+   "text": "Your skill with weapons allows you to use two weapons at once to great effect, dealing more damage and avoiding some blows. \\n When dual wielding you can add your ability score modifier to damage rolls made with your off hand weapon. You gain +2 to armour class against melee attackers while using two melee weapons."
  },
  {
    "name": "Two Weapon Master",
-   "prerequisite": "Two Weapon Fighter, Str 14",
-   "effect": "You can dual wield any non-heavy weapons"
+   "prerequisite": "Prerequisite: Two Weapon Fighter. Strength 14",
+   "text": "You may dual wield any non-heavy weapons."
  },
  {
    "name": "Uncanny Reflexes",
-   "prerequisite": "Warrior",
-   "effect": "You can add either intelligence or wisdom to your armour class while not wearing armour"
+   "prerequisite": "Prerequisite: Warrior.",
+   "text": "You always seems to know where your enemies will strike, allowing you to avoid the worst of their attacks. \\n While not wearing armour and not using a shield you can add either your intelligence modifier or wisdom modifier to your AC and reflex saves."
  },
  {
    "name": "Aura",
-   "prerequisite": "Priest, Level 3",
-   "effect": "You can make an aura to give allies +2 to saves"
- },
- {
-   "name": "Aura of Courage",
-   "prerequisite": "Level 7, Aura",
-   "effect": "Your aura protects against  mental effects and fear"
+   "prerequisite": "Prerequisites: Priest, Level 3 ",
+   "text": "You can create an aura around yourself that bolsters your allies? defences. \\n You can use your main action to and spend 3 points of wisdom to make an aura that lasts until the end of your next long rest. This aura grants all creatures of your choice within 15 feet of you a +2 bonus on all saving throws."
  },
  {
    "name": "Aura of Protection",
-   "prerequisite": "Level 5, Aura",
-   "effect": "Your aura grants damage resistance"
+   "prerequisite": "Prerequisites: Level 5, Aura",
+   "text": "Your aura improves, defending your allies against physical damage. \\n Any creature of your choice within your aura gains damage resistance 2."
+ },
+ {
+   "name": "Aura of Courage",
+   "prerequisite": "Prerequisites: Level 7, Aura",
+   "text": "Your aura protects your allies against fear and other mental effects. \\n Any creature of your choice within your aura gains resistance to sanity and psychic damage and cannot be frightened."
  },
  {
    "name": "Improved Aura",
-   "prerequisite": "Level 5, Aura",
-   "effect": "Your aura grants a +1 ac bonus and covers a wider area"
+   "prerequisite": "Prerequisites: Level 5, Aura",
+   "text": "Your aura covers even more ground and provides more protection. \\n The range of your aura increases to 30 ft. You can also choose to spend additional wisdom when you create your aura. Each point you spend increases the range by 5ft. \\n Any creature in your aura gains a +1 bonus to armour class. "
  },
  {
    "name": "Divine Faith",
-   "prerequisite": "Priest",
-   "effect": "Adv on will saves, cure with a touch"
+   "prerequisite": "Prerequisite: Priest",
+   "text": "Your belief grants you protection against the horrors of the world, as well as a healing touch to save others from terrible fates. \\n You have advantage on will saves. You can use a bonus action and spend 2 points of wisdom to cure a creature you touch of one of the following conditions. Stunned, Paralysed, Poisoned. \\n  These spent points can be regained in the same way as points spent on casting spells."
  },
  {
    "name": "Divine Secrets",
-   "prerequisite": "Priest",
-   "effect": "You learn magical secrets"
- },
- {
-   "name": "Secrets of the Gods",
-   "prerequisite": "Divine Secrets",
-   "effect": "You focus on one secret, making it cheaper to cast"
+   "prerequisite": "Prerequisite: Priest",
+   "text": "Your faith grants you access to magical secrets like those of the mage. \\n When you select this feat, you can learn two secrets from the following list: Life, Fire, Plants, Light, Storm. \\n Every level you gain can you learn one additional secret from the above list, or you can deepen your knowledge of a secret you already know. \\n When casting spells, your casting ability score is wisdom."
  },
  {
    "name": "Faith Healer",
-   "prerequisite": "Priest",
-   "effect": "You can call upon your god to heal"
+   "prerequisite": "Prerequisites: Priest",
+   "text": "Once per long rest you can call upon your god to aid you while attempting to heal a creature. You gain +5 on one medicine check and the creature you are attempting to heal gains a +2 bonus to fortitude saves to heal any wounds during their next long rest.  "
  },
  {
    "name": "Flaming Weapons",
-   "prerequisite": "Priest",
-   "effect": "Your weapons can burn with fire"
+   "prerequisite": "Prerequisite: Priest",
+   "text": "Your weapons burn with the power of your faith. \\n Once per short rest you can use a bonus action and spend 2 points of wisdom to light all melee weapons you are holding on fire with the power of your god. For ten minutes any attack you make with those weapons deals an extra 1d10 fire damage. You can use this ability as part of an attack. \\n The spent wisdom can be regained the same was as points spent on casting spells."
  },
  {
    "name": "Martial Clergy",
-   "prerequisite": "Priest",
-   "effect": "You can add half your level (min 1) to weapon attack rolls"
- },
- {
-   "name": "Smite",
-   "prerequisite": "Priest, Martial Clergy",
-   "effect": "You can spend wisdom to deal extra damage"
+   "prerequisite": "Prerequisite: Priest",
+   "text": "Your clerical training has given you martial skills beyond that of normal priests. \\n You can add half your level (minimum 1) to your weapon attack rolls."
  },
  {
    "name": "Saint",
-   "prerequisite": "Priest, Level 9",
-   "effect": "You learn a powerful ceremony"
+   "prerequisite": "Prerequisites: Priest, Level 9 ",
+   "text": "You learn the powers of the saints, gaining a powerful magical ceremony. \\n Select one ceremony that is marked as a saintly ceremony. You learn this ceremony. You can take this feat twice."
  },
  {
-   "name": "Assassin",
-   "prerequisite": "Rogue, Level 7",
-   "effect": "Double damage on the first round of combat."
+   "name": "Secrets of the Gods",
+   "prerequisite": "Prerequisite: Divine Secrets ",
+   "text": "You focus on a singular secret, mastering its use. \\n One secret you have learned through divine secrets becomes your primary secret. The first invocation you cast from this secret after a downtime is free. Whenever you cast an invocation from this secret its cost is halved. "
  },
  {
-   "name": "Bleeding Strike",
-   "prerequisite": "Rogue, Level 5",
-   "effect": "Your attacks leave your enemies bleeding"
+   "name": "Smite",
+   "prerequisite": "Prerequisite: Priest, Martial Clergy",
+   "text": "You channel divine light through your weapons, smiting the foes of your god. \\n When you hit a creature with a melee weapon you can spend 1 point of wisdom to deal an extra d8 damage to your target. If the target is daemonic or undead in nature you instead deal an extra 2d8 damage. You can spend up to 8 additional points of wisdom to dead 1d8 extra damage per 2 points spent. \\n The spent wisdom can be regained the same was as points spent on casting spells"
  },
  {
-   "name": "Careful Shooter",
-   "prerequisite": "Rogue",
-   "effect": "Reroll misfire dice"
- },
- {
-   "name": "Deadly Critical",
-   "prerequisite": "Rogue, Level 5",
-   "effect": "Critical hits ignore defence"
- },
- {
-   "name": "Expert Stealth",
-   "prerequisite": "Rogue",
-   "effect": "Rogue stealth bonus increase"
- },
- {
-   "name": "Expert Trapmaster",
-   "prerequisite": "Rogue",
-   "effect": "Rogue trapmaster bonus increase"
- },
- {
-   "name": "Improved Precise Strike",
-   "prerequisite": "Rouge, Level 3, Precise Strike",
-   "effect": "More precise strike damage"
- },
- {
-   "name": "Jack of all Trades",
-   "prerequisite": "Rogue, Level 3",
-   "effect": "Bonus to all untrained skill checks"
- },
- {
-   "name": "Roguish Speed",
-   "prerequisite": "Rogue, Speedy",
-   "effect": "+10 move speed"
- },
- {
-   "name": "Skill Focus",
-   "prerequisite": "Rogue, Level 3",
-   "effect": "Level bonus to one skill"
- },
- {
-   "name": "Stealth",
-   "prerequisite": "Rogue",
-   "effect": "Ignore half defence while hidden"
+   "name": "Saint of Gunpowder",
+   "prerequisite": "Prerequisite: Priest, Martial Clergy",
+   "text": "Your devotion rings with the sound of gunfire and the smell of powder. \\n When you hit an enemy with a ranged attack with a firearm you can spend 1 point of wisdom to deal an extra d6 damage to your target. If the target is daemonic or undead in nature you instead deal an extra 2d6 damage. You can spend up to 8 additional points of wisdom to dead 1d6 extra damage per 2 points spent. \\n The spent wisdom can be regained the same was as points spent on casting spells"
  },
  {
    "name": "Arcane Recovery",
-   "prerequisite": "Mage",
-   "effect": "You can recover intelligence during a fight"
+   "prerequisite": "Prerequisite: Mage",
+   "text": "You have learned to quickly recover your mental strength in order to keep casting magic. \\n You can use your main action to spend a recovery dice and regain 1d8+2 intelligence. Once you use this ability you cannot use it again until you finish a long rest."
  },
  {
    "name": "Arcane Ward",
-   "prerequisite": "Mage",
-   "effect": "You can defend yourself with magic, gaining 10 defence."
+   "prerequisite": "Prerequisite: Mage",
+   "text": "You can create a wall of magic to defend yourself against an attack. \\n When you are hit by an attack you can spend 2 points of intelligence to grant yourself an additional 10 defence against that attack. This additional defence lasts until the end of your next turn. Once your use this ability you cannot use it until you complete a short rest. \\n The spent intelligence can be regained the same was as points spent on casting spells."
  },
  {
    "name": "Blood Magic",
-   "prerequisite": "Mage",
-   "effect": "You learn blood magic. You can injure yourself to make spells cheaper."
+   "prerequisite": "Prerequisite: Mage ",
+   "text": "You learn the basics of blood magic, a secret form of magic that draws upon the strength of blood to empower spells. \\n When casting an invocation, you can reduce its cost by 1 and instead take 1d6 damage. You also may select the secret of blood as one of your secrets when you would normally learn a secret. "
  },
  {
    "name": "Advanced Blood Magic",
-   "prerequisite": "Blood Magic",
-   "effect": "You can make spells even cheaper by taking more damage."
- },
- {
-   "name": "Daemon Blood Tattoo",
-   "prerequisite": "Mage, Level 5",
-   "effect": "You can make tattoos from the blood of powerful creatures or daemons"
- },
- {
-   "name": "Devastating Magic",
-   "prerequisite": "Mage, Level 9",
-   "effect": "You deal more damage when using offensive magic."
- },
- {
-   "name": "Eldritch Secrets",
-   "prerequisite": "Mage, Not and Elf, Level 5",
-   "effect": "You learn forbidden secrets"
- },
- {
-   "name": "Elemental Focus",
-   "prerequisite": "Mage, Must be taken at level 1",
-   "effect": "You can cast with strength or dexterity. You only start with one secret. +2 defence."
- },
- {
-   "name": "Empowered Casting",
-   "prerequisite": "Mage, Level 7",
-   "effect": "Two of your secrets become deadlier."
- },
- {
-   "name": "Prepared Caster",
-   "prerequisite": "Mage, Must be taken at level 1",
-   "effect": "You learn more secrets but must prepare your invocations before you can cast them."
- },
- {
-   "name": "Primal Magic",
-   "prerequisite": "Mage, Must me taken at level 1",
-   "effect": "Your spells are more powerful but have a chance to go haywire"
- },
- {
-   "name": "Secret Mastery",
-   "prerequisite": "Mage, Must have mastered one secret",
-   "effect": "All invocations in a secret you have mastered are reduced by 2"
- },
- {
-   "name": "Secret of Summoning",
-   "prerequisite": "Mage, Level 5, One secret deepened twice",
-   "effect": "You learn to summon magical creatures based on your secrets"
- },
- {
-   "name": "Witchery",
-   "prerequisite": "Mage",
-   "effect": "You focus on witchery, learning the secret of witchery and gain a pool of points to spend on spells"
+   "prerequisite": "Prerequisite: Blood Magic",
+   "text": "Your mastery of blood improves. \\n When casting an invocation, you can decrease its cost by 2 or 3, taking 2d6 or 3d6 damage respectively. When casting an invocation from the secret of blood you can deal an additional 3d8 damage to your target by dealing 2d6 to yourself. \\n  Any invocations from the secret of blood have their cost reduced by twice the normal amount when using your own blood."
  },
  {
    "name": "Create Trinket",
-   "prerequisite": "Witchery, Level 5",
-   "effect": "You learn to make minor magic items."
+   "prerequisite": "Prerequisite: Witchery, Level 5 ",
+   "text": "You can create minor magical items."
  },
  {
-   "name": "Hex",
-   "prerequisite": "Witchery",
-   "effect": "You can hex your enemies"
+   "name": "Daemon Blood Tattoo",
+   "prerequisite": "Prerequisite: Mage, Level 5",
+   "text": "You learn to harvest the blood of daemons or monsters to create powerful magical tattoos. \\n Many creatures have powerful blood that can be used. The GM has the details, go bother them about it."
  },
  {
-   "name": "Witches? March",
-   "prerequisite": "Witchery",
-   "effect": "You make a spell cheaper but gain a mark of evil."
+   "name": "Devastating Magic",
+   "prerequisite": "Prerequisite: Mage, Level 9",
+   "text": "Your magic deals an extra punch, causing more, and more serious wounds. \\n Whenever you cast an invocation that deals damage you roll an extra 2 damage dice and can reroll any 1s or 2s on the dice. Whenever a creature takes a wound from your spells those wounds cannot be healed without magic."
+ },
+ {
+   "name": "Eldritch Secrets",
+   "prerequisite": "Prerequisite: Mage, cannot be an elf, Level 5 ",
+   "text": "There is some magic that is not meant to be learned by mortal minds. \\n You learn an eldritch secret. When you level up you may choose this secret to deepen your knowledge. This Feat can be picked multiple times. \\n Note: This feat might require a source of knowledge like an ancient carving or forgotten tome. Speak with your GM before taking this feat."
+ },
+ {
+   "name": "Elemental Focus",
+   "prerequisite": "Prerequisite: Mage, must be taken at level 1",
+   "text": "Your path to magic is an unusual one. Instead of learning from books or scrolls you attune with the elements and use your body to cast spells. \\n You only begin with one mage secret. You can only learn from the following secrets. Fire, Water, Air, Stone, Light. You can use dexterity or strength instead of intelligence when calculating DC and spell attack rolls. You gain an additional 2 defence."
+ },
+ {
+   "name": "Empowered Casting",
+   "prerequisite": "Prerequisite: Mage, Level 7",
+   "text": "Pick two secrets you have learned. Whenever you cast an invocation from either of those secrets all dice involved in that invocation explode."
+ },
+ {
+   "name": "Hex ",
+   "prerequisite": "Prerequisite: Witchery",
+   "text": "You can use your main action to hex a target, gaining various benefits. While hexed the target has disadvantage on saving throws against your spells.  \\n When you select this feat, you may choose one of the following options for your hex. Every second level you gain after taking this feat you can select another option. You can only have one target hexed at a time. A hex lasts for a number of hours equal to your level. At level 8 your hex lasts for a day. \\n - Tracking Hex. You know the rough location and direction of the target. \\n - Baleful Hex. Whenever the target takes damage, they take an additional 1d8 damage. \\n - Burning Hex. The target feels like it is on fire. They take 1d6 psychic damage every minute they are  hexed. "
+ },
+ {
+   "name": "Secret Mastery",
+   "prerequisite": "Prerequisite: Mage, Maximum mastery of a secret.",
+   "text": "Your focus on one secret has made the spells of that secret easier to cast. \\n Select a secret you have completely mastered. All invocations in that secret have their costs reduced by 2. Whenever you cast a spell from this secret you can spend an additional 2 points to give yourself advantage on an attack roll or the target disadvantage on a saving throw against the spell."
+ },
+ {
+   "name": "Secrets of Summoning",
+   "prerequisite": "Prerequisite: Mage, Level 5, At least one secret deepened twice.",
+   "text": "You learn to summon a creature, based on your secrets. You learn the summon creature ceremony. "
+ },
+ {
+   "name": "Prepared Caster",
+   "prerequisite": "Prerequisites: Mage, must be taken at level 1",
+   "text": "You cast spells from books or tomes, instead of memorising the exact magic. This grants you a wider variety of magic but forces you to prepare your spells in advance instead of being able to cast on the fly. \\n You learn an additional 2 secrets at level one and 1 extra secret per level. However, you no longer can cast an invocation without preparing it beforehand. At the end of each long rest you must spend an hour to prepare a number of invocations equal to your level + your intelligence modifier, you can then only cast these invocation until the end of your next long rest. Any rituals or ceremonies you know are always available for you to cast.  "
+ },
+ {
+   "name": "Primal Magic",
+   "prerequisite": "Prerequisites: Mage, must be taken at level 1",
+   "text": "Your magic is wilder and more primal than most mages. \\n You can choose to change your casting ability score to wisdom. Once changed you cannot change it back. \\n You cannot take any of the following secrets: Daemon Protection, Protection, Antimagic, Arcane. \\n Whenever you cast an invocation that deals damage it deals an extra dice of damage. \\n Whenever you cast an invocation you must roll a d12. If the number rolled is lower than the cost or a 1, then you overload the invocation, causing the cost to double and any effects to double. \\n The invocation also releases a powerful burst of magic. Roll on the following table. If you roll the same number twice apply the rolled effect and then roll again."
+ },
+ {
+   "name": "Witchery",
+   "prerequisite": "Prerequisite: Mage",
+   "text": "You can learn the secret of witchcraft. You cannot deepen your knowledge of any secret besides the secret of witchcraft. This limitation does not apply to a secret gained through the Eldritch Secret feat. \\n You gain a number of witchery points equal to your wisdom modifier + your intelligence modifier. You can spend these points instead of intelligence when casting an invocation. You regain 1d6 points at the end of a long rest."
+ },
+ {
+   "name": "Witches Mark",
+   "prerequisite": "Prerequisite: Witchery",
+   "text": "Chose an invocation you can cast. Its cost is reduced by 2. You gain a visible mark on your face. The mark of witchcraft. Those who recognise this mark will know you are a witch and mistrust you accordingly. \\n Whenever you level up you can select a new invocation to reduce the cost of by 1. Whenever you do this your constitution is reduced by 1."
+ },
+ {
+   "name": "Assassin",
+   "prerequisite": "Prerequisite: Rogue, Level 7",
+   "text": "You are at your most deadly when you get the drop on your opponents. \\n You deal double damage on the first round of combat if you are not surprised."
+ },
+ {
+   "name": "Bleeding Strike",
+   "prerequisite": "Prerequisite: Rogue level 5",
+   "text": "Your attacks leave your enemies bleeding. \\n Whenever you hit with a melee weapon your target must succeed on a fortitude save or gain bleed equal to the damage dice of your weapon."
+ },
+ {
+   "name": "Careful Shooter",
+   "prerequisite": "Prerequisite: Rogue",
+   "text": "Your practice with firearms allows you to negate the worst misfires. \\n You can reroll the misfire dice when using a firearm."
+ },
+ {
+   "name": "Deadly Critical",
+   "prerequisite": "Prerequisite: Rogue, Level 5 ",
+   "text": "Your critical hits ignore defence."
+ },
+ {
+   "name": "Expert Stealth",
+   "prerequisite": "Requirement: Rogue",
+   "text": "Your bonus to stealth from rogue talents increases to be equal to your level."
+ },
+ {
+   "name": "Expert Trapmaster",
+   "prerequisite": "Requirement: Rogue",
+   "text": "Your bonus to checks from rogue talents to unlock locks or disarm traps increases to be equal to your level."
+ },
+ {
+   "name": "Improved Precise Strike",
+   "prerequisite": "Prerequisite: Rogue, level 3, Precise Strike",
+   "text": "Your precise strike damage increases to 2d6. When you reach level 5 (or if you have already passed it) it increases to 4d6. When you reach level 10 (or if you are already there) it increases to 8d6."
+ },
+ {
+   "name": "Jack of All Trades",
+   "prerequisite": "Prerequisite: Rogue and Level 3",
+   "text": "You have a wide variety of skills, not as well trained as others, but good enough for an attempt. \\n You receive a bonus equal to half your level to all skill checks you are not trained in."
+ },
+ {
+   "name": "Roguish Speed",
+   "prerequisite": "Prerequisite: Speedy, Rogue",
+   "text": "You can move more quickly than others. \\n  Your movement speed is increased by 10ft."
+ },
+ {
+   "name": "Skill Focus",
+   "prerequisite": "Prerequisites: Rogue and Level 3",
+   "text": "You focus on one skill, honing your ability to extraordinary levels. \\n You gain a bonus to one skill equal to your level. You must be trained in this skill. You can only pick this feat once."
+ },
+ {
+   "name": "Stealth",
+   "prerequisite": "Prerequisite: Rogue",
+   "text": "When hidden from your target you ignore half of its defence. If you are already ignoring half its defence, you instead ignore all its defence."
  },
  {
    "name": "Dwarven Armour Training",
-   "prerequisite": "Heavy Armour, Dwarf",
-   "effect": "+2 DR while using heavy armour and a shield"
- },
- {
-   "name": "Dwarven Runic Armour",
-   "prerequisite": "Dwarven Armour Training, Runic Magic",
-   "effect": "You can put your runes on shields or amour."
- },
- {
-   "name": "Runic Magic",
-   "prerequisite": "Dwarf",
-   "effect": "You learn some runes and can put them on weapons"
- },
- {
-   "name": "Elvish Archery",
-   "prerequisite": "Elf",
-   "effect": "+4 to hit with bows, can't use guns"
+   "prerequisite": "Prerequisite: Heavy Armour, Dwarf",
+   "text": "You gain an additional 2 damage resistance while using heavy armour and a shield."
  },
  {
    "name": "Elvish Magic",
-   "prerequisite": "Elf",
-   "effect": "Spend wisdom to increase power of spells"
+   "prerequisite": "Prerequisites: Elf",
+   "text": "When casting an invocation, you can spend wisdom to increase the power of the invocation. If the invocation requires a saving throw you can spend wisdom equal to the cost to give the target disadvantage on the save. If the invocation deals damage to a single target you can spend up to 3 points of wisdom to deal an extra 1d8 damage per point spent. \\n If you are casting with wisdom you can instead spend intelligence. \\n The cost of increasing the power of an invocation cannot be reduced. \\n The spent wisdom or intelligence can be regained the same was as points spent on casting spells."
+ },
+ {
+   "name": "Elvish Archery",
+   "prerequisite": "Prerequisites: Elf",
+   "text": "You gain +4 to hit with bows. You cannot use firearms."
  },
  {
    "name": "Halfling Charm",
-   "prerequisite": "Halfling",
-   "effect": "adv on charisma checks with other species, can surprise them more easily"
+   "prerequisite": "Prerequisites: Halfling",
+   "text": "You get along well with the big folk. \\n  You have advantage on charisma skills when interacting with humans, elves, or dwarves. You always count as surprising one of these as long as you are not overtly hostile before starting combat."
  },
  {
    "name": "Halfling Resilience",
-   "prerequisite": "Halfling",
-   "effect": "+ level bonus to will saves, +1 wisdom"
+   "prerequisite": "Prerequisites: Halfling",
+   "text": "You gain a bonus equal to your level on will saves. You gain a +1 bonus to wisdom."
+ },
+ {
+   "name": "Runic Magic",
+   "prerequisite": "Prerequisites: Dwarf",
+   "text": "You have learned a smattering of runic magic. Pick two mage invocations that make sense as runes. You can spend a turn applying one of these runes to a metal melee weapon, spending intelligence as normal. The next time this weapon hits a target, you cast the invocation, targeting the creature you have hit. If the invocation normally requires a spell attack roll you can instead roll another attack with whatever bonus you just used to make the triggering attack. \\n You can take this feat multiple times. \\n You can have a number of active runes equal to your maximum intelligence modifier. Once placed, a rune lasts for a year and a day, unless it has a set duration or is used."
+ },
+ {
+   "name": "Dwarven Runic Armour",
+   "prerequisite": "Prerequisite: Dwarven Armour Training, Runic Magic",
+   "text": "You can put one of your runes onto metal armour or a shield. You gain +2 to armour class until either a creature hits you with a melee attack or the end of your next long rest. If it ends when a creature hits you, you can cast the spell at them as if you had hit them with a runed weapon."
+ },
+ {
+   "name": "Dwarven Anti-magic",
+   "prerequisite": "Prerequisite: Dwarf ",
+   "text": "You learn the Secret of Nullification. Every two levels you gain you deepen your knowledge of this secret. \\n Intelligence is the casting ability for this secret."
  }
 ]

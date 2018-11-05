@@ -127,7 +127,7 @@ exports.run = (client, message, args) => {
       .setTimestamp()
       .addField("Name: ", target.name)
       .addField("Prerequisite: ", target.prerequisite)
-      .addField("Description", target.effect);
+      .addField("Description", target.text);
 
     message.channel.send({ embed });
   }
