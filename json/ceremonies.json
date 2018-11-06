@@ -7,12 +7,12 @@
  {
    "name": "Awaken Plant",
    "secret": "Secret of Plants",
-   "text": "You spend a week carving sacred symbols into a tree and imbuing them with your blood, giving it a part of your life-force. \\n At the end of the week the tree turns into a treeant. You permanently lose one wound limit and your constitution is reduced by 2. \\n Alternatively, you can awaken an area of smaller plants, creating a plantmind-amalgam."
+   "text": "You spend a week carving sacred symbols into a tree and imbuing them with your blood, giving it a part of your life-force. \n At the end of the week the tree turns into a treeant. You permanently lose one wound limit and your constitution is reduced by 2. \n Alternatively, you can awaken an area of smaller plants, creating a plantmind-amalgam."
  },
  {
    "name": "Avatar of Light",
    "secret": "Secret of Light",
-   "text": "You spend a day praying. \\n For the next week, you gain a flying speed of 80 ft, an extra attack and each of your attacks deals an extra 2d8 damage on a hit, and 1d8 damage on a miss. At the end of the week, or whenever the spell ends, you permanently lose 2 points of strength and constitution. Your wisdom is also reduced to 0. \\n You can also activate this ability as a reaction to anything, but it only lasts a minute."
+   "text": "You spend a day praying. \n For the next week, you gain a flying speed of 80 ft, an extra attack and each of your attacks deals an extra 2d8 damage on a hit, and 1d8 damage on a miss. At the end of the week, or whenever the spell ends, you permanently lose 2 points of strength and constitution. Your wisdom is also reduced to 0. \n You can also activate this ability as a reaction to anything, but it only lasts a minute."
  },
  {
    "name": "Bring Back the Dead",
@@ -27,12 +27,12 @@
  {
    "name": "Call the Storm",
    "secret": "Secret of the Storm",
-   "text": "You spend an hour and 4 points calling a lightning storm to your location. Until the end of your next long rest you can call down lightning. The 4 points spent here cannot be restored until you finish a downtime. \\n To call lighting you can spend 2 points to deal 4d8 to every creature within 10 ft of a point you pick within 150 ft."
+   "text": "You spend an hour and 4 points calling a lightning storm to your location. Until the end of your next long rest you can call down lightning. The 4 points spent here cannot be restored until you finish a downtime. \n To call lighting you can spend 2 points to deal 4d8 to every creature within 10 ft of a point you pick within 150 ft."
  },
  {
    "name": "Contact Daemon",
    "secret": "Secret of Chaos",
-   "text": "You sacrifice a living creature and attempt to contact a daemon. The type of daemon contacted depends on the quality of the sacrifice. \\n The daemon appears within a chalk circle you draw. Once the daemon appears you must bind it with a knowledge daemons check. If successful you can have it complete a single task. Any additional task beyond the first increases the DC, as do long or difficult tasks. \\n If you fail the check by 5 the daemon instead attacks you."
+   "text": "You sacrifice a living creature and attempt to contact a daemon. The type of daemon contacted depends on the quality of the sacrifice. \n The daemon appears within a chalk circle you draw. Once the daemon appears you must bind it with a knowledge daemons check. If successful you can have it complete a single task. Any additional task beyond the first increases the DC, as do long or difficult tasks. \n If you fail the check by 5 the daemon instead attacks you."
  },
  {
    "name": "Create Undead",
@@ -67,12 +67,13 @@
  {
    "name": "Stone Building",
    "secret": "Secret of Stone",
-   "text": "Casting Time: 1 hour.\\n By spending 1 hour meditating on the nature and mutability of stone you can create walls of stone that slowly grow out of stone. Depending on how much you spend the amount and stability of the wall?s changes. The last option spends 2 points permanently, points spent to make a permanent structure cannot be recovered by any means."
- },
+   "text": "Casting Time: 1 hour.\n By spending 1 hour meditating on the nature and mutability of stone you can create walls of stone that slowly grow out of stone. Depending on how much you spend the amount and stability of the wall?s changes. The last option spends 2 points permanently, points spent to make a permanent structure cannot be recovered by any means.",
+   "img": "https://cdn.discordapp.com/attachments/507858027215323136/509187902010556426/stonebuilding.PNG"
+   },
  {
    "name": "Stormlord",
    "secret": "Secret of the Storm",
-   "text": "You find a storm (or create one yourself). During the storm you mark yourself and call lightning to strike you. \\n You must make 3 fortitude saves. \\n The first is DC 15, on a fail you take 1d6 minor wounds, on a pass you take half the number rolled. \\n The second is DC 20, on a fail you take 1d2 major wounds, on a pass you take one major wound. \\n The third is DC 25, on a fail you take a mortal wound. \\n If you are conscious after taking these wounds, then you can cast all spells from the secret of the storm at half cost and deal an extra 2 dice of damage. You are immune to lightning damage. These effects are permanent."
+   "text": "You find a storm (or create one yourself). During the storm you mark yourself and call lightning to strike you. \n You must make 3 fortitude saves. \n The first is DC 15, on a fail you take 1d6 minor wounds, on a pass you take half the number rolled. \n The second is DC 20, on a fail you take 1d2 major wounds, on a pass you take one major wound. \n The third is DC 25, on a fail you take a mortal wound. \n If you are conscious after taking these wounds, then you can cast all spells from the secret of the storm at half cost and deal an extra 2 dice of damage. You are immune to lightning damage. These effects are permanent."
  },
  {
    "name": "Sword Dance",

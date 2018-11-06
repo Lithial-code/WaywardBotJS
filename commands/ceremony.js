@@ -1,7 +1,6 @@
 const Discord = require("discord.js");
 const fuzzysort = require('fuzzysort');
 
-
 exports.run = (client, message, args) => {
   var fs = require('fs');
   const json = JSON.parse(fs.readFileSync('./json/ceremonies.json', 'utf8'));
@@ -18,7 +17,7 @@ exports.run = (client, message, args) => {
     var counter = 1;
     var target = "";
     args.forEach(element => {
-    target += element + " ";
+      target += element + " ";
     });
     //organise word to search and document to search
     var targettrim = target.trim(); //trim the white space off the end so .includes reads it properly
@@ -32,10 +31,10 @@ exports.run = (client, message, args) => {
       keys: null, // For when targets are objects (see its example usage)
       scoreFn: null, // For use with `keys` (see its example usage)
     });
-    if(results.length <= 0) {
-      errorwrong ();
-    return;
-  }
+    if (results.length <= 0) {
+      errorwrong();
+      return;
+    }
     //if perfect response
     if (results[0].obj.name.toLowerCase() == targettrim) {
       embedMessage(results[0].obj);
@@ -113,14 +112,16 @@ exports.run = (client, message, args) => {
   }
   //Method for making condition embed
   function embedMessage(target) {
+
+    //  if (target.img != null||target.img != "") {
     const embed = new Discord.RichEmbed()
       .setColor(0x00AE86)
       .setFooter("© Lelantos Studios", client.user.avatarURL)
       .setTimestamp()
       .addField("Name: ", target.name)
       .addField("Secret", target.secret)
-      .addField("Description", target.text);
-
+      .addField("Description", target.text)
+      .setImage(target.img);
     message.channel.send({ embed }).catch(console.error);
   }
 
