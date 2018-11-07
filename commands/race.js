@@ -42,17 +42,31 @@ exports.run = (client, message, args) => {
         }
     }
 
-    function EmbedMessage(client,target) {
-        const embed = new Discord.RichEmbed()
-            .setColor(0x00AE86)
-            .setFooter("© Lelantos Studios", client.user.avatarURL)
-            .setTimestamp()
-            .addField("Race: ", target.name)
-            .addField("Race Bonus", target.stat)
-            .addField("Subrace Bonus", target.substat)
-            .addField("Skills Bonus", target.skill)
-            .addField("Flaw", target.flaw)
-            .addField("Bonus", target.bonus);
-        return embed;
+    function EmbedMessage(client, target) {
+        if (target.type != null || target.type != "") {
+            const embed = new Discord.RichEmbed()
+                .setColor(0x00AE86)
+                .setFooter("© Lelantos Studios", client.user.avatarURL)
+                .setTimestamp()
+                .addField("Type: ", target.name)
+                .addField("Races Allowed", target.race)
+                .addField("Stat Bonus", target.stat)
+                .addField("Flaw", target.flaw)
+                .addField("Bonus", target.bonus);
+            return embed;
+        }
+        else {
+            const embed = new Discord.RichEmbed()
+                .setColor(0x00AE86)
+                .setFooter("© Lelantos Studios", client.user.avatarURL)
+                .setTimestamp()
+                .addField("Race: ", target.name)
+                .addField("Race Bonus", target.stat)
+                .addField("Subrace Bonus", target.substat)
+                .addField("Skills Bonus", target.skill)
+                .addField("Flaw", target.flaw)
+                .addField("Bonus", target.bonus);
+            return embed;
+        }
     }
 }

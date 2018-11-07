@@ -1,9 +1,10 @@
-[{
+[
+	{
 		"name": "City Born Human",
 		"race": "Human",
 		"subrace": "City Born",
 		"stat": "+2 any 2 stats",
-		"bonus": "+1 skill",
+		"bonus": "+1 skill or +2 languages",
 		"substat": "+1 int, +1 cha",
 		"skill": "none",
 		"flaw": "none"
@@ -13,7 +14,7 @@
 		"race": "Human",
 		"subrace": "Wild Born",
 		"stat": "+2 any 2 stats",
-		"bonus": "none",
+		"bonus": "+1 skill or +2 languages",
 		"substat": "+1 wisdom",
 		"skill": "+2 survival",
 		"flaw": "none"
@@ -23,7 +24,7 @@
 		"race": "Human",
 		"subrace": "Mountain Born",
 		"stat": "+2 any 2 stats",
-		"bonus": "none",
+		"bonus": "+1 skill or +2 languages",
 		"substat": "+2 strength",
 		"skill": "+2 climb",
 		"flaw": "none"
@@ -33,7 +34,7 @@
 		"race": "Human",
 		"subrace": "Saddle Born",
 		"stat": "+2 any 2 stats",
-		"bonus": "none",
+		"bonus": "+1 skill or +2 languages",
 		"substat": "+1 wisdom",
 		"skill": "+4 ride",
 		"flaw": "none"
@@ -43,7 +44,7 @@
 		"race": "Human",
 		"subrace": "Sea Born",
 		"stat": "+2 any 2 stats",
-		"bonus": "none",
+		"bonus": "+1 skill or +2 languages",
 		"substat": "+1 wisdom",
 		"skill": "+2 seacraft",
 		"flaw": "none"
@@ -52,130 +53,170 @@
 		"name": "Wood Elf",
 		"race": "Elf",
 		"subrace": "Wood",
-		"stat": "+2 dexterity, +1 int or+1 wis",
-		"bonus": "low-light vision, adv vs disease/poison, deadly in forests",
+		"stat": "+2 dexterity, +1 int or +1 wis",
+		"bonus": "low-light vision, 35 speed, adv vs disease/poison, deadly in forests, forest BA hide",
 		"substat": "+1 wisdom",
 		"skill": "+2 survival",
-		"flaw": "none"
+		"flaw": "half defense from recovery dice"
 	},
 	{
 		"name": "High Elf",
 		"race": "Elf",
 		"subrace": "High",
-		"stat": "+2 dexterity, +1 int or+1 wis",
-		"bonus": "low-light vision, adv vs disease/poison, free ritual",
+		"stat": "+2 dexterity, +1 int or +1 wis",
+		"bonus": "low-light vision, 35 speed, adv vs disease/poison, free ritual",
 		"substat": "+1 intelligence",
 		"skill": "none",
-		"flaw": "none"
+		"flaw": "half defense from recovery dice"
 	},
 	{
 		"name": "Moon Elf",
 		"race": "Elf",
 		"subrace": "Moon",
-		"stat": "+2 dexterity, +1 int or+1 wis",
-		"bonus": "low-light vision, adv vs disease/poison, free Spell, no sleep",
+		"stat": "+2 dexterity, +1 int or +1 wis",
+		"bonus": "low-light vision, 35 speed, adv vs disease/poison, free Spell, no sleep, moonlight spell buff",
 		"substat": "none",
 		"skill": "none",
-		"flaw": "Lunar Curse"
+		"flaw": "Lunar Curse, half defense from recovery dice"
 	},
 	{
 		"name": "Desert Elf",
 		"race": "Elf",
 		"subrace": "Desert",
-		"stat": "+2 dexterity, +1 int or+1 wis",
-		"bonus": "low-light vision, adv vs disease/poison, adv on fort saves, desert",
+		"stat": "+2 dexterity, +1 int or +1 wis",
+		"bonus": "low-light vision, 35 speed, adv vs disease/poison, adv on fort saves, desert",
 		"substat": "+2 strength",
 		"skill": "none",
-		"flaw": "none"
+		"flaw": "half defense from recovery dice"
 	},
 	{
 		"name": "Sea Elf",
 		"race": "Elf",
 		"subrace": "Sea",
-		"stat": "+2 dexterity, +1 int or+1 wis",
-		"bonus": "low-light vision, adv vs disease/poison,swim speed, water breathing",
+		"stat": "+2 dexterity, +1 int or +1 wis",
+		"bonus": "low-light vision, 35 speed, adv vs disease/poison, swim speed, water breathing",
 		"substat": "+2 charisma",
 		"skill": "none",
-		"flaw": "none"
+		"flaw": "half defense from recovery dice"
 	},
 	{
 		"name": "Hill Dwarf",
 		"race": "Dwarf",
 		"subrace": "Hill",
 		"stat": "+2 constitution",
-		"bonus": "magic reduction 5, reduce armour penalty, medium armour feat,adv on crafting, sell for more",
+		"bonus": "+2 fort saves, -1 dex penalty on armour, medium armour feat, magic reduction 5, +2 defense, immune to attraction, adv stone/metal, +10% selling things you made",
 		"substat": "+2 strength",
 		"skill": "none",
-		"flaw": "none"
+		"flaw": "Cannot be mages, 25 speed"
 	},
 	{
 		"name": "Mountain Dwarf",
 		"race": "Dwarf",
 		"subrace": "Mountain",
 		"stat": "+2 constitution",
-		"bonus": "magic reduction 5, reduce armour penalty, medium armour feat,adv on crafting, sell for more,heavy armour feat, low light vision",
+		"bonus": "+2 fort saves, -1 dex penalty on armour, medium armour feat, magic reduction 5, +2 defense, immune to attraction, heavy armour feat, low light vision",
 		"substat": "none",
 		"skill": "none",
-		"flaw": "none"
+		"flaw": "Cannot be mages, 25 speed"
 	},
 	{
 		"name": "Sea Dwarf",
 		"race": "Dwarf",
 		"subrace": "Sea",
 		"stat": "+2 constitution",
-		"bonus": "magic reduction 5, reduce armour penalty, medium armour feat",
+		"bonus": "+2 fort saves, -1 dex penalty on armour, medium armour feat, magic reduction 5, +2 defense, immune to attraction",
 		"substat": "+2 wisdom",
 		"skill": "+2 seacraft",
-		"flaw": "none"
+		"flaw": "Cannot be mages, 25 speed"
 	},
 	{
 		"name": "Clanless Dwarf",
 		"race": "Dwarf",
 		"subrace": "Clanless",
 		"stat": "+2 constitution",
-		"bonus": "magic reduction 5, reduce armour penalty, medium armour feat",
+		"bonus": "+2 fort saves, -1 dex penalty on armour, medium armour feat, magic reduction 5, +2 defense, immune to attraction",
 		"substat": "+1 intelligence or +2 charisma",
 		"skill": "extra language",
-		"flaw": "none"
+		"flaw": "Cannot be mages, 25 speed"
 	},
 	{
 		"name": "Stout Halfling",
 		"race": "Halfling",
 		"subrace": "Stout",
-		"stat": "+2 dexterity",
-		"bonus": "+2 stealth, stone throw, +2 to healing wounds",
+		"stat": "+2 dexterity, +1 any",
+		"bonus": "better cover and hide, stone throw, +2 healing saves",
 		"substat": "+2 strength, +1 constitution",
-		"skill": "none",
-		"flaw": "none"
+		"skill": "+2 stealth",
+		"flaw": "25 speed, cannot be priests"
 	},
 	{
 		"name": "River Halfling",
 		"race": "Halfling",
 		"subrace": "River",
-		"stat": "+2 dexterity",
-		"bonus": "+2 stealth, stone throw, swim speed",
+		"stat": "+2 dexterity, +1 any",
+		"bonus": "better cover and hide, stone throw, 15ft swim speed",
 		"substat": "+2 wisdom",
-		"skill": "none",
-		"flaw": "none"
+		"skill": "+2 stealth",
+		"flaw": "25 speed, cannot be priests"
 	},
 	{
 		"name": "Lightfoot Halfling",
 		"race": "Halfling",
 		"subrace": "Lightfoot",
-		"stat": "+2 dexterity",
-		"bonus": "+2 stealth, stone throw",
+		"stat": "+2 dexterity, +1 any",
+		"bonus": "better cover and hide, stone throw, +2 ranged damage",
 		"substat": "+2 charisma",
-		"skill": "adv on stealth",
-		"flaw": "none"
+		"skill": "+2 stealth, adv on stealth",
+		"flaw": "25 speed, cannot be priests"
 	},
 	{
 		"name": "Streetwise Halfling",
 		"race": "Halfling",
 		"subrace": "Streetwise",
-		"stat": "+2 dexterity",
-		"bonus": "+2 stealth, stone throw, +2 damage with ranged weapons",
+		"stat": "+2 dexterity, +1 any",
+		"bonus": "better cover and hide, stone throw, city knowledge, halfling charm feat, adv on city stuff",
 		"substat": "+2 intelligence",
-		"skill": "none",
-		"flaw": "none"
-	}
+		"skill": "+2 stealth",
+		"flaw": "25 speed, cannot be priests"
+	},
+	{
+		"name": "Beast Blooded",
+		"type": "special",
+        "race":"Human \n Elf \n Halfling",
+        "stat": "+2 str, +2 dex",
+        "bonus": "+10 speed",
+        "flaw": "-4 int, -4 cha"
+    },
+    {
+		"name": "Daemon Blood",
+		"type": "special",
+        "race":"Human \n Elf \n Dwarf \n Halfling",
+        "stat": "+4 cha",
+        "bonus": "Adv on diplomacy and deception with humanoids",
+        "flaw": "-2 str, -2 dex,-2 con"
+    },
+    {
+		"name": "Dragon Blood",
+		"type": "special",
+        "race":"Human \n Elf",
+        "stat": "+2 int",
+        "bonus": "+1 AC",
+        "flaw": "-2 con, -2 wis"
+    },
+    {
+		"name": "Giant Blood",
+		"type": "special",
+        "race":"Human \n Dwarf",
+        "stat": "+3 str",
+        "bonus": "+4 defense at level 1",
+        "flaw": "-4 int, -4 dex"
+    },
+    {
+		"name": "Half Elf",
+		"type": "special",
+		"race":"Human \n Elf",
+		"stat": "none",
+		"flaw": "none",
+        "bonus": "Can swap parent race traits. see phb pg 25 for more details"
+    }
 ]
