@@ -61,6 +61,7 @@ typings/
 .next
 
 config.json
+/json
 /json/OpenCMD.bat
 /json/gitignore
 commit and push.bat
