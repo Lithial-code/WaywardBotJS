@@ -32,8 +32,9 @@
  {
    "name": "Contact Daemon",
    "secret": "Secret of Chaos",
-   "text": "You sacrifice a living creature and attempt to contact a daemon. The type of daemon contacted depends on the quality of the sacrifice. \n The daemon appears within a chalk circle you draw. Once the daemon appears you must bind it with a knowledge daemons check. If successful you can have it complete a single task. Any additional task beyond the first increases the DC, as do long or difficult tasks. \n If you fail the check by 5 the daemon instead attacks you."
- },
+   "text": "You sacrifice a living creature and attempt to contact a daemon. The type of daemon contacted depends on the quality of the sacrifice. \n The daemon appears within a chalk circle you draw. Once the daemon appears you must bind it with a knowledge daemons check. If successful you can have it complete a single task. Any additional task beyond the first increases the DC, as do long or difficult tasks. \n If you fail the check by 5 the daemon instead attacks you.",
+  "img":"https://cdn.discordapp.com/attachments/507858027215323136/510054947384066051/unknown.png"
+  },
  {
    "name": "Create Undead",
    "secret": "Secret of Death",

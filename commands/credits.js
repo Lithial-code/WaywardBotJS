@@ -1,6 +1,7 @@
 const Discord = require("discord.js");
+
 exports.run = (client, message, args) => {
-    embedMessage();
+    message.reply(embedMessage());
     function embedMessage() {
         const embed = new Discord.RichEmbed()
             .setColor(0x00AE86)
@@ -9,7 +10,7 @@ exports.run = (client, message, args) => {
             .addField("Wayward Adventurers brought to you by: ", "Lelantos Studios")             
             .addField("Game Designer: ", "KawaiiSpider")
             .addField("Bot and data sets brought to you by: ", "Lithial - Lead Programmer");
-        message.channel.send({ embed });
+        return embed;
     }
 
 }

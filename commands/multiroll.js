@@ -1,13 +1,9 @@
 const Discord = require("discord.js");
-
+//TODO
 exports.run = (client, message, args) => {
     for (let i = 0; i < parseInt(args[0]); i++) {
         dieRoll(args[1], client, message);
      }
-
-
-
-
     function dieRoll(dieSpec, client, message) {
         var match = /^(\d+?)?d(\d+)([a-zA-Z!]?[a-zA-Z!]?)(.?)(\d+?)?$/.exec(dieSpec);
         if (!match) {
@@ -15,7 +11,6 @@ exports.run = (client, message, args) => {
             
             //throw "Invalid dice notation: " + dieSpec;
         }
-
         var number = (typeof match[1] == 'undefined') ? 1 : parseInt(match[1]);
         var sides = parseInt(match[2]);
         var optional = match[3].toString();
@@ -27,7 +22,6 @@ exports.run = (client, message, args) => {
         var dicestring = "";
         var strikeoutstring = "";
         var strikeout = [];
-
         for (let i = 0; i < number; i++) {
             var roll = Math.floor(Math.random() * sides) + 1;
             dicerolls.push(roll);
@@ -73,7 +67,6 @@ exports.run = (client, message, args) => {
             default:
                 break;
         }
-
         if (strikeout.length != 0) {
             for (let j = 0; j < strikeout.length; j++) {
                 const element = strikeout[j];
@@ -83,7 +76,6 @@ exports.run = (client, message, args) => {
                 }
             }
         }
-
         for (let i = 0; i < dicerolls.length; i++) {
             const element = dicerolls[i];
             if (element == sides) {
@@ -97,7 +89,6 @@ exports.run = (client, message, args) => {
                 dicestring += ",";
             }
         }
-
         switch (dmas.toString()) {
             case "+": total += modifier;
 

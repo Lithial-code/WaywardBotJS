@@ -1,82 +1,60 @@
 [
 	{
-	   "name": "Warrior",
-	   "ability1":"Warrior Extra Attack",
-	   "ability2":"Warrior Fighting Skills",
-	   "ability3":"Warrior Armour Mastery",
-	   "ability4":"Warrior Starting Attributes",
-	   "ability5":"Warrior Saves",
-	   "ability6":"",
-	   
-	   "text1": "A warrior can attack twice a turn at level 1. This extra attack stacks with other abilities that grant additional attacks."
-	   ,
-	   "text2": "A warrior can add a bonus equal to half their level, minimum 1, to weapon attack rolls."
-	   ,
-	   "text3": "A warrior starts with the Medium Armour Feat but does not gain the +1 strength bonus of that feat."
-	   ,
-	   "text4": "A warrior has a wound limit of 3 at level 1.\n A warrior has defence equal to their constitution modifier + 7 at level 1."
-	   ,
-	   "text5": "Major Save: Fortitude \n Minor Save: Will"
-	 },
-	 {
-	   "name": "Rogue",
-	    "ability1":"Extra Rogue Skills",
-	   "ability2":"Rogue Starting Attributes",
-	   "ability3":"Fighting Dirty",
-	   "ability4":"Get the Drop",
-	   "ability5":"Rogue Talents",
-	   "ability6":"Rogue Saves",
-	   
-	   "text1": "The rogue can select two additional skills to be trained in at level 1."
-	   ,
-	   "text2": "A rogue has a wound limit of 2 at level 1. \n A rogue has defence equal to their constitution modifier + 6 at level 1."
-	   ,
-	   "text3": "A rogue can add a bonus of half their level, minimum 1 to attack rolls."
-	   ,
-	   "text4": "A rogue gains advantage on attacks against targets who are surprised or stunned."
-	   ,
-	   "text5": "A rogue gains a bonus equal to half their level, minimum 1, to stealth checks and checks to unlock locks or disarm traps. "
-	   ,
-	   "text6": "Major Save: Reflex \n Minor Save: Will"
-	 },
-	 {
-	   "name": "Mage",
-	   "ability1":"Mage Secrets",
-	   "ability2":"Mage Spell Attack Mastery",
-	   "ability3":"Mage Starting Attributes",
-	   "ability4":"Mage Casting Ability Score",
-	   "ability5":"Mage  Saves",
-	   "ability6":"",
-	   "text1": "At level one you pick 3 mage secrets from the list of basic or advanced mage secrets to learn.\n Learning a secret gives you access to that secrets base level of spells and/or abilities.Whenever you level up you can choose to either learn a new secret, gaining its base abilities as normal, or you can deepen your knowledge of a secret you have already learned, gaining access to its next level of mastery and the abilities or spells that provides. \n Secrets can be viewed with the secrets * command"
-	   ,
-	   "text2": "A mage can add a bonus equal to half their level, minimum 1, to any spell attacks."
-	   ,
-	   "text3": "A mage has a wound limit of 2 at level 1.\n A mage has defence equal to their constitution modifier + 5 at level 1. \n A mage gains +2 sanity at level 1 and an additional +1 sanity each time they level up."
-	   ,
-	   "text4": "A mage’s casting ability score is intelligence."
-	   ,
-	   "text5": "Major Save: Will \n Minor Save: Fortitude"
-	 },
-	 {
-	   "name": "Priest",
-	   "ability1":"Divine Healing",
-	   "ability2":"Priest Bonus Feat",
-	   "ability3":"Priest Spell Attack Mastery",
-	   "ability4":"Priest Starting Attributes",
-	   "ability5":"Priest Casting Ability Score",
-	   "ability6":"Priest Saves",
-	   
-	   "text1": "The priest can use a turn to call on their god to heal a single minor wound with a touch. You can also use this on an enemies turn when you are wounded. \n Once you use this ability you cannot use it again until you finish a downtime. \n When you reach level 4 you can cure a minor or major wound with this touch.When you reach level 8 you can use this ability after you complete a long rest, instead of a downtime."
-	   ,
-	   "text2": "A priest starts the game with a bonus feat. This feat must have priest as a prerequisite."
-	   ,
-	   "text3": "A priest can add a bonus equal to half their level, minimum 1, to any spell attacks."
-	   ,
-	   "text4": "A priest has a wound limit of 3 at level 1. \n A priest has defence equal to their constitution modifier + 7 at level 1."
-	   ,
-	   "text5": "A priest’s casting ability score is wisdom."
-	   ,
-	   "text6": "Major Save: Will \n Minor Save: Reflex"
-	 
-	 }
+		"name": "Warrior",
+		"ability1": "Warrior Extra Attack",
+		"ability2": "Warrior Fighting Skills",
+		"ability3": "Warrior Armour Mastery",
+		"ability4": "Warrior Starting Attributes",
+		"ability5": "Warrior Saves",
+		"ability6": "",
+		"text1": "A warrior can attack twice a turn at level 1. This extra attack stacks with other abilities that grant additional attacks.",
+		"text2": "A warrior can add a bonus equal to half their level, minimum 1, to weapon attack rolls.",
+		"text3": "A warrior starts with the Medium Armour Feat but does not gain the +1 strength bonus of that feat.",
+		"text4": "A warrior has a wound limit of 3 at level 1.\n A warrior has defence equal to their constitution modifier + 7 at level 1.",
+		"text5": "Major Save: Fortitude \n Minor Save: Will"
+	},
+	{
+		"name": "Rogue",
+		"ability1": "Extra Rogue Skills",
+		"ability2": "Rogue Starting Attributes",
+		"ability3": "Fighting Dirty",
+		"ability4": "Get the Drop",
+		"ability5": "Rogue Talents",
+		"ability6": "Rogue Saves",
+		"text1": "The rogue can select two additional skills to be trained in at level 1.",
+		"text2": "A rogue has a wound limit of 2 at level 1. \n A rogue has defence equal to their constitution modifier + 6 at level 1.",
+		"text3": "A rogue can add a bonus of half their level, minimum 1 to attack rolls.",
+		"text4": "A rogue gains advantage on attacks against targets who are surprised or stunned.",
+		"text5": "A rogue gains a bonus equal to half their level, minimum 1, to stealth checks and checks to unlock locks or disarm traps. ",
+		"text6": "Major Save: Reflex \n Minor Save: Will"
+	},
+	{
+		"name": "Mage",
+		"ability1": "Mage Secrets",
+		"ability2": "Mage Spell Attack Mastery",
+		"ability3": "Mage Starting Attributes",
+		"ability4": "Mage Casting Ability Score",
+		"ability5": "Mage  Saves",
+		"ability6": "",
+		"text1": "At level one you pick 3 mage secrets from the list of basic or advanced mage secrets to learn.\n Learning a secret gives you access to that secrets base level of spells and/or abilities.Whenever you level up you can choose to either learn a new secret, gaining its base abilities as normal, or you can deepen your knowledge of a secret you have already learned, gaining access to its next level of mastery and the abilities or spells that provides. \n Secrets can be viewed with the secrets * command",
+		"text2": "A mage can add a bonus equal to half their level, minimum 1, to any spell attacks.",
+		"text3": "A mage has a wound limit of 2 at level 1.\n A mage has defence equal to their constitution modifier + 5 at level 1. \n A mage gains +2 sanity at level 1 and an additional +1 sanity each time they level up.",
+		"text4": "A mage’s casting ability score is intelligence.",
+		"text5": "Major Save: Will \n Minor Save: Fortitude"
+	},
+	{
+		"name": "Priest",
+		"ability1": "Divine Healing",
+		"ability2": "Priest Bonus Feat",
+		"ability3": "Priest Spell Attack Mastery",
+		"ability4": "Priest Starting Attributes",
+		"ability5": "Priest Casting Ability Score",
+		"ability6": "Priest Saves",
+		"text1": "The priest can use a turn to call on their god to heal a single minor wound with a touch. You can also use this on an enemies turn when you are wounded. \n Once you use this ability you cannot use it again until you finish a downtime. \n When you reach level 4 you can cure a minor or major wound with this touch.When you reach level 8 you can use this ability after you complete a long rest, instead of a downtime.",
+		"text2": "A priest starts the game with a bonus feat. This feat must have priest as a prerequisite.",
+		"text3": "A priest can add a bonus equal to half their level, minimum 1, to any spell attacks.",
+		"text4": "A priest has a wound limit of 3 at level 1. \n A priest has defence equal to their constitution modifier + 7 at level 1.",
+		"text5": "A priest’s casting ability score is wisdom.",
+		"text6": "Major Save: Will \n Minor Save: Reflex"
+	}
 ]

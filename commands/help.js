@@ -2,10 +2,10 @@ const Discord = require("discord.js");
 const config = require("../config.json");
 exports.run = (client, message,args) => {
   var listOfCommands = "";
-  generateHelp();
-    embedMessage();
+  GenerateHelp();
+  message.reply(EmbedMessage());
 
-function generateHelp()
+function GenerateHelp()
 {
   var commandarray = client.commands.keyArray();
   listOfCommands = "";
@@ -25,7 +25,7 @@ function generateHelp()
 }
 
     //Method for making condition embed
- function embedMessage(target) {
+ function EmbedMessage(target) {
     const embed = new Discord.RichEmbed()
       .setColor(0x00AE86)
       .setFooter("© Lelantos Studios", client.user.avatarURL)
@@ -34,7 +34,7 @@ function generateHelp()
       .addField("Other commands", "You can also use the * argument on any search command to bring up a list of all possible search options")
       .addField("Prefix", config.prefix);
 
-    message.channel.send({ embed });
+    return embed;
   }
 }
 

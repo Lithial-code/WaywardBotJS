@@ -23,3 +23,4 @@ module.exports = (client, message) => {
         cmd.run(client, message, args);
     }
 }
+process.on('unhandledRejection', console.error);
