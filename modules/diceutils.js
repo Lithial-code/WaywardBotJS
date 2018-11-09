@@ -142,11 +142,15 @@ function EmbedMessage(client, finalstring, total, mover, strikeoutstring) {
     }
     var message = "";
     var toEmbed = finalstring + strikeEmbed;
-    // const embed = new Discord.RichEmbed()
-    //     .setColor(0x00AE86)
-    //     .setFooter("© Lelantos Studios", client.user.avatarURL)
-    //     .setTimestamp()
     message +=("**Result: **" + mover[0] + "d" + mover[1] + " (" + toEmbed + ") " + mover[2] + " " + mover[3]);
     message +=("\n**Total: **" + total);
     return message;
+}
+exports.ToManyRollsEmbed = (client) =>{
+    const embed = new Discord.RichEmbed()
+    .setColor(0x00AE86)
+    .setFooter("© Lelantos Studios", client.user.avatarURL)
+    .setTimestamp()
+    .addField("Error: ", "You rolled too many dice. Current cap is 20 per roll");
+return embed;
 }

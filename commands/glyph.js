@@ -26,8 +26,12 @@ exports.run = (client, message, args) => {
         .then(() => {
           message.channel.awaitMessages(filter, { maxMatches: 1, time: 30000, errors: ['time'] })
             .then(collected => {
-              // console.log(`collected is ${(collected.first())}`);
-              message.reply(EmbedMessage(client, results[parseInt(collected.first()) - 1].obj)).catch(err => console.log(err));
+              if (collected.first() == "c") {
+                message.reply(Utils.SelectionCancelled(client));
+              }
+              else {
+                message.reply(EmbedMessage(client, results[parseInt(collected.first()) - 1].obj)).catch(err => console.log(err));
+              }
             })
             .catch(collected => {
               message.reply(Utils.ErrorWrongNumber(client));
@@ -46,7 +50,7 @@ function EmbedMessage(client, target) {
     .addField("Name: ", target.name)
     .addField("Power: ", target.power)
     .addField("Description: ", target.text);
-    
+
   return embed;
 }
 
