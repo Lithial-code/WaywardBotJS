@@ -12,6 +12,8 @@ function ReloadAll()
     commandarray.forEach(element => {
         var commandName = element.toString();
         if (commandName == "r") return;
+        if (commandName == "magic") return;
+        if (commandName == "invocation") return;
         delete require.cache[require.resolve(`./${commandName}.js`)];
         const props = require(`./${commandName}.js`);
         client.commands.set(commandName, props);

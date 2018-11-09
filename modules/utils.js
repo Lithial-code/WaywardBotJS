@@ -21,27 +21,87 @@ exports.filter = response => {
 exports.EmbedList = (client, json) => {
     var list = "";
     var list2 = "";
+    var list3 = "";
+    var list4 = "";
+    var list5 = "";
     json.forEach(element => {
-        if (list.length < 1000)
-            list += element.name + '\n';
-        else
-            list2 += element.name + '\n';
+        if (list.length < 1000) {
+            if (element.type != "")
+                list += `${element.name} (${element.type}) \n`;
+            else list += `${element.name} \n`;
+        }
+        else if (list2.length < 1000 && list.length > 1000) {
+            if (element.type != "")
+                list2 += `${element.name} (${element.type}) \n`;
+            else list2 += `${element.name} \n`;
+        }
+        else if (list3.length < 1000 && list2.length > 1000) {
+            if (element.type != "")
+                list3 += `${element.name} (${element.type}) \n`;
+            else list3 += `${element.name} \n`;
+        }
+        else if (list4.length < 1000 && list3.length > 1000) {
+            if (element.type != "")
+                list4 += `${element.name} (${element.type}) \n`;
+            else list4 += `${element.name} \n`;
+        }
+        else if (list5.length < 1000 && list4.length > 1000) {
+            if (element.type != "")
+                list5 += `${element.name} (${element.type}) \n`;
+            else list5 += `${element.name} \n`;
+        }
+        else{
+            
+        }
     });
     if (list2 == "") {
         const embed = new Discord.RichEmbed()
             .setColor(0x00AE86)
             .setFooter("© Lelantos Studios", client.user.avatarURL)
             .setTimestamp()
-            .addField("List: ", list)
+            .addField("List: ", list);
         return embed;
-    } else {
+    }
+    else if (list3 == "") {
         const embed = new Discord.RichEmbed()
             .setColor(0x00AE86)
             .setFooter("© Lelantos Studios", client.user.avatarURL)
             .setTimestamp()
             .addField("List: ", list)
-            .addBlankField()
+            .addField("List continued: ", list2);
+        return embed;
+    }
+    else if (list4 == "") {
+        const embed = new Discord.RichEmbed()
+            .setColor(0x00AE86)
+            .setFooter("© Lelantos Studios", client.user.avatarURL)
+            .setTimestamp()
+            .addField("List: ", list)
             .addField("List continued: ", list2)
+            .addField("List continued: ", list3);
+        return embed;
+    }
+    else if (list5 == "") {
+        const embed = new Discord.RichEmbed()
+            .setColor(0x00AE86)
+            .setFooter("© Lelantos Studios", client.user.avatarURL)
+            .setTimestamp()
+            .addField("List: ", list)
+            .addField("List continued: ", list2)
+            .addField("List continued: ", list3)
+            .addField("List continued: ", list4);
+        return embed;
+    }
+    else {
+        const embed = new Discord.RichEmbed()
+            .setColor(0x00AE86)
+            .setFooter("© Lelantos Studios", client.user.avatarURL)
+            .setTimestamp()
+            .addField("List: ", list)
+            .addField("List continued: ", list2)
+            .addField("List continued: ", list3)
+            .addField("List continued: ", list4)
+            .addField("List continued: ", list5);
         return embed;
     }
 }

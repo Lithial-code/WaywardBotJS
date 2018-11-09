@@ -40,15 +40,40 @@ exports.run = (client, message, args) => {
   }
 }
 function EmbedMessage(client, target) {
-  const embed = new Discord.RichEmbed()
-    .setColor(0x00AE86)
-    .setFooter("© Lelantos Studios", client.user.avatarURL)
-    .setTimestamp()
-    .addField("Name: ", target.name)
-    .addField("Time", target.time, true)
-    .addField("Cost", target.cost, true)
-    .addField("Range", target.range, true)
-    .addField("Duration", target.duration, true)
-    .addField("Description", target.text);
-  return embed;
+  if (target.type == "spell") {
+    const embed = new Discord.RichEmbed()
+      .setColor(0x00AE86)
+      .setFooter("© Lelantos Studios", client.user.avatarURL)
+      .setTimestamp()
+      .addField("Name: ", target.name)
+      .addField("Time", target.time, true)
+      .addField("Cost", target.cost, true)
+      .addField("Range", target.range, true)
+      .addField("Duration", target.duration, true)
+      .addField("Description", target.text);
+    return embed;
+  }
+  else if (target.type == "ceremony") {
+    const embed = new Discord.RichEmbed()
+      .setColor(0x00AE86)
+      .setFooter("© Lelantos Studios", client.user.avatarURL)
+      .setTimestamp()
+      .addField("Name: ", target.name)
+      .addField("Secret", target.secret)
+      .addField("Description", target.text)
+      .setImage(target.img);
+    return embed;
+  }
+  else if (target.type == "ritual") {
+
+    const embed = new Discord.RichEmbed()
+      .setColor(0x00AE86)
+      .setFooter("© Lelantos Studios", client.user.avatarURL)
+      .setTimestamp()
+      .addField("Name", target.name, true)
+      .addField("Casting Time: ", target.castingtime, true)
+      .addBlankField(true)
+      .addField("Description", target.text, false);
+    return embed;
+  }
 }

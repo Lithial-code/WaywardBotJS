@@ -13,8 +13,7 @@ function GenerateHelp()
   commandarray.forEach(element => {
  
      var commandName = element.toString();
-     if (commandName == "r"||commandName == "reload"||commandName == "reloadall"
-     ||commandName == "ping"||commandName == "racealt") return;
+     if (commandName == "r"||commandName == "reload"||commandName == "reloadall") return;
 
      listOfCommands += commandName;
      listOfCommands += ", ";

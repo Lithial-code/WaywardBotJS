@@ -29,6 +29,11 @@ fs.readdir("./commands/", (err, files) => {
       if (commandName == "roll") {
         client.commands.set("r", props);
       }
+      if(commandName == "spell")
+      {
+        client.commands.set("magic", props);
+        client.commands.set("invocation", props);
+      }
       client.commands.set(commandName, props);
     
     });

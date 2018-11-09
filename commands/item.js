@@ -65,7 +65,7 @@ function EmbedMessage(client, target) {
             .setTimestamp()
             .addField("Name", target.name)
             .addField("Damage", target.damage)
-            .addField("Type", target.type)
+            .addField("Type", target.damagetype)
             .addField("Reach/Range", target.range)
             .addField("Cost", target.cost)
             .addField("Properties", target.properties)
