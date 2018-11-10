@@ -10,5 +10,4 @@ exports.run = (client, message, args) => {
             .addField("Support: ", "If you want to support the continued development of Wayward Adventurers you can support me on patreon here: https://www.patreon.com/wayward_adventurers")
        return embed;
     }
-
 }

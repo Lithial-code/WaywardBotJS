@@ -1,8 +1,8 @@
 const Discord = require("discord.js");
 
 exports.run = (client, message, args) => {
-    message.reply(embedMessage());
-    function embedMessage() {
+    message.reply(EmbedMessage());
+    function EmbedMessage() {
         const embed = new Discord.RichEmbed()
             .setColor(0x00AE86)
             .setFooter("© Lelantos Studios", client.user.avatarURL)
