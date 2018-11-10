@@ -1,14 +1,5 @@
 const Discord = require("discord.js");
 const fuzzysort = require('fuzzysort');
-
-FindTarget = (args) => {
-    var target = "";
-    args.forEach(element => {
-        target += element + " ";
-    });
-    target = target.toLowerCase().trim();
-    return target;
-}
 const filter = response => {
     var check = !isNaN(parseInt(response.content));
     if (check) {
@@ -17,6 +8,17 @@ const filter = response => {
     else if (response.content == "c") {
         return response.content == "c";
     }
+};
+Ucfirst = (string) => {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+};
+FindTarget = (args) => {
+    var target = "";
+    args.forEach(element => {
+        target += element + " ";
+    });
+    target = target.toLowerCase().trim();
+    return target;
 };
 EmbedList = (client, json) => {
     var list = "";
@@ -50,8 +52,7 @@ EmbedList = (client, json) => {
             .addField("List continued: ", list2);
         return embed;
     }
-
-}
+};
 FuzzySort = (target, json) => {
     const options = {
         limit: 5, // don't return more results than you need!
@@ -61,7 +62,7 @@ FuzzySort = (target, json) => {
     }
     var results = fuzzysort.go(target, json, options)
     return results;
-}
+};
 DidYouMeanEmbed = (client, searchmessage) => {
     const embed = new Discord.RichEmbed()
         .setColor(0x00AE86)
@@ -69,7 +70,7 @@ DidYouMeanEmbed = (client, searchmessage) => {
         .setTimestamp()
         .addField("Did you mean?: ", searchmessage + '\n' + "Reply with your choice");
     return embed;
-}
+};
 SearchMessage = (results) => {
     var counter = 1;
     var searchmessage = "";
@@ -79,7 +80,7 @@ SearchMessage = (results) => {
     })
     searchmessage += "You can also reply 'c' to cancel \n";
     return searchmessage;
-}
+};
 ErrorWrongNumber = (client) => {
     const embed = new Discord.RichEmbed()
         .setColor(0x00AE86)
@@ -87,7 +88,7 @@ ErrorWrongNumber = (client) => {
         .setTimestamp()
         .addField("Error", "Not a valid request please try again")
     return embed;
-}
+};
 ErrorWrong = (client) => {
     const embed = new Discord.RichEmbed()
         .setColor(0x00AE86)
@@ -95,7 +96,7 @@ ErrorWrong = (client) => {
         .setTimestamp()
         .addField("Error", "Not a valid request please try again")
     return embed;
-}
+};
 SelectionCancelled = (client) => {
     const embed = new Discord.RichEmbed()
         .setColor(0x00AE86)
@@ -103,102 +104,33 @@ SelectionCancelled = (client) => {
         .setTimestamp()
         .addField("Cancelled", "Your selection has been cancelled")
     return embed;
-}
-//for the majority of small cases this will be fine
+};
 EmbedMessage = (client, target, name) => {
+
+    var keys = Object.keys(target);
+    var values = Object.values(target);
+
     const embed = new Discord.RichEmbed()
         .setColor(0x00AE86)
         .setFooter("© Lelantos Studios", client.user.avatarURL)
-        .setTimestamp()
-        .addField("Name: ", target.name)
-    switch (name) {
-        case "actions" || "conditions" || "curses" || "traits":
-            embed.addField("Description", target.text);
-            break;
-        case "classes":
-            embed.addField(target.ability1, target.text1)
-                .addField(target.ability2, target.text2)
-                .addField(target.ability3, target.text3)
-                .addField(target.ability4, target.text4)
-                .addField(target.ability5, target.text5)
-            if (target.ability6 != "")
-                embed.addField(target.ability6, target.text6);
-            break;
-        case "feats":
-            embed.addField("Prerequisite: ", target.prerequisite)
-                .addField("Description", target.text);
-            break;
-        case "glyphs":
-            embed.addField("Power: ", target.power)
-                .addField("Description: ", target.text);
-            break;
-        case "items":
-            if (target.itemtype == "Armor") {
-                embed.addField("Base AC", target.baseac)
-                    .addField("Dex Pen", target.dexpen)
-                    .addField("DR", target.dr)
-                    .addField("Type", target.type)
-                    .addField("Max Dex", target.maxdex)
-                    .addField("Cost", target.cost);
-            }
-            else if (target.itemtype == "Weapon") {
-                embed.addField("Damage", target.damage)
-                    .addField("Type", target.damagetype)
-                    .addField("Reach/Range", target.range)
-                    .addField("Cost", target.cost)
-                    .addField("Properties", target.properties)
-                    .addField("Special", target.special);
-            }
-            break;
-        case "races":
-            if (target.type == "special") {
-                embed.addField("Races Allowed", target.race)
-                    .addField("Stat Bonus", target.stat)
-                    .addField("Flaw", target.flaw)
-                    .addField("Bonus", target.bonus);
-            }
-            else {
-                embed.addField("Race Bonus", target.stat)
-                    .addField("Subrace Bonus", target.substat)
-                    .addField("Skills Bonus", target.skill)
-                    .addField("Flaw", target.flaw)
-                    .addField("Bonus", target.bonus);
-            }
-            break;
-        case "secrets":
-            embed.addField("Text", target.text)
-                .addField("Invocation", target.invocation)
-                .addField("Ritual", target.ritual)
-                .addField("First Mastery", target.firstmastery, true)
-                .addField("Second Mastery", target.secondmastery, true)
-                .addField("Third Mastery", target.thirdmastery, true)
-                .addField("Final Mastery", target.finalmastery, true);
-            break;
-        case "spells":
-            if (target.type == "ceremony") {
-                embed.addField("Secret", target.secret)
-                    .addField("Description", target.text)
-                    .setImage(target.img);
-            }
-            else if (target.type == "ritual") {
-                embed.addField("Casting Time: ", target.castingtime, true)
-                    .addField("Description", target.text);
-            }
-            else if (target.type == "spell") {
-                embed.addField("Time", target.time, true)
-                    .addField("Cost", target.cost, true)
-                    .addField("Range", target.range, true)
-                    .addField("Duration", target.duration, true)
-                    .addField("Description", target.text);
-            }
-            break;
-        default:
-            break;
+        .setTimestamp();
+
+    for (let i = 0; i < keys.length; i++) {
+        const key = keys[i];
+        const value = values[i];
+        var inline = value.length < 5;
+        if (key == "type")
+            continue;
+        if (value == "")
+            continue;
+        if (key == "img")
+            embed.setImage(value);
+        else {
+            embed.addField(Ucfirst(key), value, inline);
+        }
     }
-
     return embed;
-}
-
+};
 exports.Generate = async (client, message, args, name) => {
     var fs = require('fs');
     const json = JSON.parse(fs.readFileSync(`./json/${name}.json`, 'utf8'));
@@ -221,8 +153,7 @@ exports.Generate = async (client, message, args, name) => {
 
         }
     }
-}
-
+};
 async function ClickCollector(client, message, results, name) {
     message.channel.awaitMessages(filter, { maxMatches: 1, time: 30000, errors: ['time'] })
         .then(collected => {
@@ -245,5 +176,5 @@ async function ClickCollector(client, message, results, name) {
         .catch(collected => {
             message.reply(ErrorWrongNumber(client));
         })
-}
+};
 
