@@ -144,7 +144,9 @@ exports.Generate = async (client, message, args, name) => {
         let results = FuzzySort(target, json);
         if (results.length <= 0)
             message.reply(ErrorWrong(client));
-
+        if (results.length == 1) {
+            message.reply(EmbedMessage(client, results[0].obj, name)).catch(err => console.log(err));
+        }
         else if (results[0].obj.name.toLowerCase() == target)
             message.reply(EmbedMessage(client, results[0].obj, name)).catch(err => console.log(err));
         else {

@@ -13,7 +13,8 @@ function GenerateHelp()
   commandarray.forEach(element => {
  
      var commandName = element.toString();
-     if (commandName == "r"||commandName == "reload"||commandName == "reloadall") return;
+     if (commandName == "r"||commandName == "reload"||commandName == "reloadall"||commandName == "delete"||
+     commandName == "createchannel") return;
 
      listOfCommands += commandName;
      listOfCommands += ", ";

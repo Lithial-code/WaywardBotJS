@@ -1,11 +1,35 @@
 const Discord = require("discord.js");
-
+exports.MultiRoll = (numberOfRolls, dieSpec, total, client, message) => {
+    if (numberOfRolls == "" || numberOfRolls == null || dieSpec == "" || dieSpec == null) {
+        return "This dice format is invalid. Please try again";
+    }
+    var rollTotal = "";
+    var passOutTotal = 0
+    if (parseInt(numberOfRolls) <= 20) {
+        for (let i = 0; i < parseInt(numberOfRolls); i++) {
+            var addToTotal = this.DieRoll(dieSpec, client, message);
+            rollTotal += addToTotal + "\n";
+            passOutTotal += parseInt(addToTotal.slice(-2));
+        }
+        if (total) {
+            return `\n ${rollTotal} \n For a total of : **${passOutTotal}**`;
+        }
+        else {
+            return "\n" + rollTotal;
+        }
+    }
+    else {
+        return "This dice format is invalid. Please try again";
+    }
+}
 exports.DieRoll = (dieSpec, client, message) => {
     var match = /^(\d+?)?d(\d+)([a-zA-Z!]?[a-zA-Z!]?)(.?)(\d+?)?$/.exec(dieSpec);
     if (!match) {
-        return DiceError(client);
+        return "This dice format is invalid. Please try again";
     }
-
+    if (!match && numberOfRolls > 1) {
+        return "This dice format is invalid. Please try again";
+    }
     var number = (typeof match[1] == 'undefined') ? 1 : parseInt(match[1]);
     var sides = parseInt(match[2]);
     var optional = match[3].toString();
@@ -109,7 +133,18 @@ exports.DieRoll = (dieSpec, client, message) => {
     }
     return EmbedMessage(client, finalstring, total, mover, strikeoutstring);
 }
-
+exports.Straight = (num, sides) =>
+{
+    num --;
+    var dice = 0;
+    for (let i = 0; i <= num; i++) {
+        var rolled = Math.floor(Math.random() * sides) + 1;
+        console.log(rolled);
+        dice += parseInt(rolled);
+    }
+    
+    return dice;
+}
 function RollDice(sides) {
     return Math.floor(Math.random() * sides) + 1;
 }
@@ -142,15 +177,15 @@ function EmbedMessage(client, finalstring, total, mover, strikeoutstring) {
     }
     var message = "";
     var toEmbed = finalstring + strikeEmbed;
-    message +=("**Result: **" + mover[0] + "d" + mover[1] + " (" + toEmbed + ") " + mover[2] + " " + mover[3]);
-    message +=("\n**Total: **" + total);
+    message += (`**Result: **${mover[0]}d${mover[1]}(${toEmbed})${mover[2]} ${mover[3]}`);
+    message += (`\n**Total: ** ${total}`);
     return message;
 }
-exports.ToManyRollsEmbed = (client) =>{
+exports.ToManyRollsEmbed = (client) => {
     const embed = new Discord.RichEmbed()
-    .setColor(0x00AE86)
-    .setFooter("© Lelantos Studios", client.user.avatarURL)
-    .setTimestamp()
-    .addField("Error: ", "You rolled too many dice. Current cap is 20 per roll");
-return embed;
+        .setColor(0x00AE86)
+        .setFooter("© Lelantos Studios", client.user.avatarURL)
+        .setTimestamp()
+        .addField("Error: ", "You rolled too many dice. Current cap is 20 per roll");
+    return embed;
 }
