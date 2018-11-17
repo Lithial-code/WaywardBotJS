@@ -12,7 +12,7 @@ exports.run = (client, message, args) => {
         var name = message.channel.name;
         var chan1 = message.guild.channels.find(channel => channel.name === name);
         var chan0 = message.guild.channels.find(channel => channel.name === `${name}_ooc`);
-        var role = message.guild.roles.find(role => role.name === name);
+        var role = message.guild.roles.find(role => role.name.toLowerCase() === name.toLowerCase());
         chan1.delete().then(result => console.log(result)).catch((err)=> {
             console.log(err)
             message.reply("You probably did the command in the wrong channel");

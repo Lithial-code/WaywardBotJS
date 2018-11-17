@@ -17,7 +17,6 @@ exports.run = (client, message, args) => {
             })
             .then(() => {
                 var role = message.guild.roles.find(role => role.name === createdRole);
-                console.log(role);
                 chan = message.guild.createChannel(`${createdRole}`)
                     .then((channel) => channel.setParent("510992175224586260"));
                 return chan;
@@ -31,7 +30,8 @@ exports.run = (client, message, args) => {
                         'SEND_MESSAGES': true,
                         'EMBED_LINKS': true,
                         'ATTACH_FILES': true,
-                        'READ_MESSAGE_HISTORY': true
+                        'READ_MESSAGE_HISTORY': true,
+                        'MENTION_EVERYONE': true
                     });
 
                 chan.overwritePermissions(message.guild.roles.find(role => role.name === GM_ROLE),
@@ -43,7 +43,8 @@ exports.run = (client, message, args) => {
                         'SEND_MESSAGES': true,
                         'EMBED_LINKS': true,
                         'ATTACH_FILES': true,
-                        'READ_MESSAGE_HISTORY': true
+                        'READ_MESSAGE_HISTORY': true,
+                        'MENTION_EVERYONE': true
                     });
                 chan.overwritePermissions(message.guild.roles.find(role => role.name === "Bot"),
                     {
@@ -52,12 +53,12 @@ exports.run = (client, message, args) => {
                         'MANAGE_ROLES_OR_PERMISSIONS': true,
                         'READ_MESSAGES': true,
                         'SEND_MESSAGES': true,
+                        'MENTION_EVERYONE': true
                     });
             })
 
             .then(() => {
                 var role = message.guild.roles.find(role => role.name === createdRole);
-                console.log(role);
                 chan2 = message.guild.createChannel(`${createdRole}_ooc`)
                     .then((channel) => channel.setParent("510992175224586260"));
                 return chan2;
@@ -73,7 +74,8 @@ exports.run = (client, message, args) => {
                         'SEND_MESSAGES': true,
                         'EMBED_LINKS': true,
                         'ATTACH_FILES': true,
-                        'READ_MESSAGE_HISTORY': true
+                        'READ_MESSAGE_HISTORY': true,
+                        'MENTION_EVERYONE': true
                     });
 
                 chan2.overwritePermissions(message.guild.roles.find(role => role.name === GM_ROLE),
@@ -85,7 +87,8 @@ exports.run = (client, message, args) => {
                         'SEND_MESSAGES': true,
                         'EMBED_LINKS': true,
                         'ATTACH_FILES': true,
-                        'READ_MESSAGE_HISTORY': true
+                        'READ_MESSAGE_HISTORY': true,
+                        'MENTION_EVERYONE': true
                     });
                 chan2.overwritePermissions(message.guild.roles.find(role => role.name === "Bot"),
                     {
@@ -94,13 +97,21 @@ exports.run = (client, message, args) => {
                         'MANAGE_ROLES_OR_PERMISSIONS': true,
                         'READ_MESSAGES': true,
                         'SEND_MESSAGES': true,
+                        'MENTION_EVERYONE': true
                     });
             })
             .then(() => {
                 var userlist = message.mentions.users; // Saving userlist to a variable
                 userlist.forEach(function (user) {
-                   user.addRole(createdRole); // This should log every mentioned user
+                    console.log(user);
+                    //user.addRole(createdRole); // This should log every mentioned user
                 });
+            })
+            .then(() => {
+                var role = message.guild.roles.find(role => role.name === createdRole);
+                role.setMentionable(true, 'Role needs to be pinged')
+                    .then(updated => console.log(`Role mentionable: ${updated.mentionable}`))
+                    .catch(console.error);
             })
             .catch(err => console.log(err));
 

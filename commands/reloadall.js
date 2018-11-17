@@ -11,6 +11,7 @@ exports.run = (client, message, args) => {
             if (commandName == "r") return;
             if (commandName == "magic") return;
             if (commandName == "invocation") return;
+            if (commandName == "species") return;
             delete require.cache[require.resolve(`./${commandName}.js`)];
             const props = require(`./${commandName}.js`);
             client.commands.set(commandName, props);
