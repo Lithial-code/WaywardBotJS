@@ -7,7 +7,7 @@ exports.run = (client, message,args) => {
           .setColor(0x00AE86)
           .setFooter("© Lelantos Studios", client.user.avatarURL)
           .setTimestamp()
-          .addField("Link: ", "https://drive.google.com/file/d/1EqYg0iwVhtGK3aGEhYFJ2V-hlczIenY6/view?usp=sharing" );   
+          .addField("PDF: ", "https://drive.google.com/file/d/1EqYg0iwVhtGK3aGEhYFJ2V-hlczIenY6/view?usp=sharing" );
         return embed;
       }
 }

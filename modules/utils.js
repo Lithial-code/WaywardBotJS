@@ -23,6 +23,7 @@ FindTarget = (args) => {
 EmbedList = (client, json) => {
     var list = "";
     var list2 = "";
+    var list3 = "";
     json.forEach(element => {
         if (list.length < 1000) {
             if (element.type != "")
@@ -34,13 +35,27 @@ EmbedList = (client, json) => {
                 list2 += `${element.name} (${element.type}) \n`;
             else list2 += `${element.name} \n`;
         }
+        else if (list3.length < 1000 && list2.length > 1000) {
+            if (element.type != "")
+                list3 += `${element.name} (${element.type}) \n`;
+            else list3 += `${element.name} \n`;
+        }
     });
-    if (list2 == "") {
+    if (list3 == "") {
         const embed = new Discord.RichEmbed()
             .setColor(0x00AE86)
             .setFooter("© Lelantos Studios", client.user.avatarURL)
             .setTimestamp()
             .addField("List: ", list);
+        return embed;
+    }
+    else if (list2 == "") {
+        const embed = new Discord.RichEmbed()
+            .setColor(0x00AE86)
+            .setFooter("© Lelantos Studios", client.user.avatarURL)
+            .setTimestamp()
+            .addField("List: ", list)
+            .addField("List continued: ", list2);
         return embed;
     }
     else {
@@ -49,7 +64,8 @@ EmbedList = (client, json) => {
             .setFooter("© Lelantos Studios", client.user.avatarURL)
             .setTimestamp()
             .addField("List: ", list)
-            .addField("List continued: ", list2);
+            .addField("List continued: ", list2)
+            .addField("List continued: ", list3);
         return embed;
     }
 };
@@ -118,6 +134,7 @@ EmbedMessage = (client, target, name) => {
     for (let i = 0; i < keys.length; i++) {
         const key = keys[i];
         const value = values[i];
+        //TODO split value into two if over 1000 length
         var inline = value.length < 5;
         if (key == "type")
             continue;

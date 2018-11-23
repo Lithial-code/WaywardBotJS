@@ -9,16 +9,12 @@ function GenerateHelp()
 {
   var commandarray = client.commands.keyArray();
   listOfCommands = "";
-  var counter = 0;
   commandarray.forEach(element => {
  
      var commandName = element.toString();
      if (commandName == "r"||commandName == "reload"||commandName == "reloadall"||commandName == "delete"||
-     commandName == "createchannel") return;
-
-     listOfCommands += commandName;
-     listOfCommands += ", ";
-     
+     commandName == "createchannel"||commandName == "cc") return;
+     listOfCommands += `${commandName}, `;
     });
     listOfCommands = listOfCommands.slice(0,listOfCommands.length-2);
     console.log(listOfCommands);

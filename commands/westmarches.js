@@ -5,6 +5,8 @@ exports.run = (client, message, args) => {
 
     const role = message.guild.roles.find(role => role.name === "West Marches");
     const member = message.member;
+    
+    //TODO make this tidier with a function
     if (member.user.username.toLowerCase().includes("utc")) {
         if (member.roles.has(role.id)) {
             member.removeRole(role);

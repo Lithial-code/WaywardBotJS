@@ -3,6 +3,7 @@ const Utils = require('../modules/utils.js');
 const DiceUtils = require('../modules/diceutils.js');
 
 exports.run = (client, message, args) => {
+    //TODO add * command
     var fs = require('fs');
     const json = JSON.parse(fs.readFileSync('./json/autorolls.json', 'utf8'));
     var whatToRoll = Ucfirst(args[0]);

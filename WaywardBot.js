@@ -32,6 +32,9 @@ fs.readdir("./commands/", (err, files) => {
     if (commandName == "race") {
       client.commands.set("species", props);
     }
+    if (commandName == "createchannel") {
+      client.commands.set("cc", props);
+    }
     if (commandName == "spell") {
       client.commands.set("magic", props);
       client.commands.set("invocation", props);
