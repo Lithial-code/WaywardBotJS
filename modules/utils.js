@@ -1,5 +1,6 @@
 const Discord = require("discord.js");
 const fuzzysort = require('fuzzysort');
+//filter for fuzzy search to check if response is either not a number or a c for cancel
 const filter = response => {
     var check = !isNaN(parseInt(response.content));
     if (check) {
@@ -9,9 +10,11 @@ const filter = response => {
         return response.content == "c";
     }
 };
+//returns capitalised versions of string
 Ucfirst = (string) => {
     return string.charAt(0).toUpperCase() + string.slice(1);
 };
+//creates combined args string 
 FindTarget = (args) => {
     var target = "";
     args.forEach(element => {
@@ -20,6 +23,7 @@ FindTarget = (args) => {
     target = target.toLowerCase().trim();
     return target;
 };
+//used for embed list of * commands
 EmbedList = (client, json) => {
     var list = "";
     var list2 = "";
@@ -27,58 +31,53 @@ EmbedList = (client, json) => {
     json.forEach(element => {
         if (list.length < 1000) {
             if (element.type != "")
-                list += `${element.name} (${element.type}) \n`;
-            else list += `${element.name} \n`;
+                list += `${element.name} (${element.type}) \n`; else list += `${element.name} \n`;
         }
         else if (list2.length < 1000 && list.length > 1000) {
             if (element.type != "")
-                list2 += `${element.name} (${element.type}) \n`;
-            else list2 += `${element.name} \n`;
+                list2 += `${element.name} (${element.type}) \n`; else list2 += `${element.name} \n`;
         }
         else if (list3.length < 1000 && list2.length > 1000) {
             if (element.type != "")
-                list3 += `${element.name} (${element.type}) \n`;
-            else list3 += `${element.name} \n`;
+                list3 += `${element.name} (${element.type}) \n`; else list3 += `${element.name} \n`;
         }
     });
+
+    const embed = new Discord.RichEmbed()
+        .setColor(0x00AE86)
+        .setFooter("© Lelantos Studios", client.user.avatarURL)
+        .setTimestamp();
+
     if (list3 == "") {
-        const embed = new Discord.RichEmbed()
-            .setColor(0x00AE86)
-            .setFooter("© Lelantos Studios", client.user.avatarURL)
-            .setTimestamp()
-            .addField("List: ", list);
+        embed.addField("List: ", list)
+             .addField("List continued: ", list2);
         return embed;
     }
     else if (list2 == "") {
-        const embed = new Discord.RichEmbed()
-            .setColor(0x00AE86)
-            .setFooter("© Lelantos Studios", client.user.avatarURL)
-            .setTimestamp()
-            .addField("List: ", list)
-            .addField("List continued: ", list2);
+        embed
+            .addField("List: ", list);
         return embed;
     }
     else {
-        const embed = new Discord.RichEmbed()
-            .setColor(0x00AE86)
-            .setFooter("© Lelantos Studios", client.user.avatarURL)
-            .setTimestamp()
+        embed
             .addField("List: ", list)
             .addField("List continued: ", list2)
             .addField("List continued: ", list3);
         return embed;
     }
 };
+//fuzzy sort. finds target obj in inputed json
 FuzzySort = (target, json) => {
     const options = {
         limit: 5, // don't return more results than you need!
         allowTypo: true, // if you don't care about allowing typos
-        threshold: -10000, // don't return bad results
-        key: 'name'
+        threshold: -1000, // have no idea what this does
+        keys: ['name', 'altname']
     }
-    var results = fuzzysort.go(target, json, options)
+    var results = fuzzysort.go(target, json, options);
     return results;
 };
+//embed message with list of choices close to target
 DidYouMeanEmbed = (client, searchmessage) => {
     const embed = new Discord.RichEmbed()
         .setColor(0x00AE86)
@@ -87,6 +86,7 @@ DidYouMeanEmbed = (client, searchmessage) => {
         .addField("Did you mean?: ", searchmessage + '\n' + "Reply with your choice");
     return embed;
 };
+//apart of Didyoumeanembed. Provides the list of choices
 SearchMessage = (results) => {
     var counter = 1;
     var searchmessage = "";
@@ -97,6 +97,7 @@ SearchMessage = (results) => {
     searchmessage += "You can also reply 'c' to cancel \n";
     return searchmessage;
 };
+//reply embed for error wrong number
 ErrorWrongNumber = (client) => {
     const embed = new Discord.RichEmbed()
         .setColor(0x00AE86)
@@ -105,6 +106,7 @@ ErrorWrongNumber = (client) => {
         .addField("Error", "Not a valid request please try again")
     return embed;
 };
+//reply embed for error not a valid request
 ErrorWrong = (client) => {
     const embed = new Discord.RichEmbed()
         .setColor(0x00AE86)
@@ -113,6 +115,7 @@ ErrorWrong = (client) => {
         .addField("Error", "Not a valid request please try again")
     return embed;
 };
+//reply embed for selection cancelled
 SelectionCancelled = (client) => {
     const embed = new Discord.RichEmbed()
         .setColor(0x00AE86)
@@ -121,6 +124,7 @@ SelectionCancelled = (client) => {
         .addField("Cancelled", "Your selection has been cancelled")
     return embed;
 };
+//reply embed for main obj
 EmbedMessage = (client, target, name) => {
 
     var keys = Object.keys(target);
@@ -140,14 +144,19 @@ EmbedMessage = (client, target, name) => {
             continue;
         if (value == "")
             continue;
+        if (key == "altname")
+            continue;
         if (key == "img")
             embed.setImage(value);
         else {
-            embed.addField(Ucfirst(key), value, inline);
+            embed.addField(Ucfirst(key), value.slice(0,1023), inline);
+            if(value.length >= 1024)
+            embed.addField('...', value.slice(1023), inline);          
         }
     }
     return embed;
 };
+//the logic behind everything. this is the method called to make things happen
 exports.Generate = async (client, message, args, name) => {
     var fs = require('fs');
     const json = JSON.parse(fs.readFileSync(`./json/${name}.json`, 'utf8'));
@@ -164,27 +173,38 @@ exports.Generate = async (client, message, args, name) => {
         if (results.length == 1) {
             message.reply(EmbedMessage(client, results[0].obj, name)).catch(err => console.log(err));
         }
-        else if (results[0].obj.name.toLowerCase() == target)
-            message.reply(EmbedMessage(client, results[0].obj, name)).catch(err => console.log(err));
-        else {
-            message.reply(DidYouMeanEmbed(client, SearchMessage(results)));
-            await ClickCollector(client, message, results, name);
+        //surroud with check for null result
+        if (results != null && results[0] != null && results.length > 1) {
+            if (results[0].obj.name.toLowerCase() == target) {
+                try {
+                    message.reply(EmbedMessage(client, results[0].obj, name))
+                }
+                catch (err) {
+                    console.log("Result[0] doesnt exist")
+                }
+            }
+            else {
+                message.reply(DidYouMeanEmbed(client, SearchMessage(results)));
+                await ClickCollector(client, message, results, name);
 
+            }
         }
     }
 };
+//this one summons the collector to take user response
 async function ClickCollector(client, message, results, name) {
     message.channel.awaitMessages(filter, { maxMatches: 1, time: 30000, errors: ['time'] })
         .then(collected => {
-            console.log(`Collected this message: ${collected.first()}`)
-            console.log(!isNaN(parseInt(collected.first())));
+            //console.log(`Collected this message: ${collected.first()}`)
+            //console.log(!isNaN(parseInt(collected.first())));
             if (collected.first() == "c") {
                 message.reply(SelectionCancelled(client));
             }
             else if (!isNaN(parseInt(collected.first()))) {
                 var id = parseInt(collected.first()) - 1;
-                console.log(`I should be sending the results now. The number is ${id}`)
-                console.log(`results are  ${results[id].obj.name}`)
+
+                //console.log(`I should be sending the results now. The number is ${id}`)
+                //console.log(`results are  ${results[id].obj.name}`)
 
                 message.reply(EmbedMessage(client, results[id].obj, name)).catch(err => console.log(err));
             }
@@ -194,6 +214,7 @@ async function ClickCollector(client, message, results, name) {
         })
         .catch(collected => {
             message.reply(ErrorWrongNumber(client));
+            console.log(collected);
         })
 };
 

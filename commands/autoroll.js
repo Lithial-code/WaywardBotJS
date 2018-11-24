@@ -31,7 +31,8 @@ exports.run = (client, message, args) => {
         dice = DiceUtils.Straight(1, 10);
             break;
         default:
-            break;
+        return message.reply("This is not a valid command");
+     
     }
     var dice = DiceUtils.Straight(1, 10);
     var targetObj = json[whatToRoll][dice - 1];
