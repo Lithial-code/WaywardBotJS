@@ -30,17 +30,22 @@ EmbedList = (client, json) => {
     var list3 = "";
     json.forEach(element => {
         if (list.length < 1000) {
+            console.log(element.name)
             if (element.type != "")
-                list += `${element.name} (${element.type}) \n`; else list += `${element.name} \n`;
+                list += `${element.name} (${element.type}) \n`;
+            else list += `${element.name} \n`;
         }
         else if (list2.length < 1000 && list.length > 1000) {
             if (element.type != "")
-                list2 += `${element.name} (${element.type}) \n`; else list2 += `${element.name} \n`;
+                list2 += `${element.name} (${element.type}) \n`;
+            else list2 += `${element.name} \n`;
         }
         else if (list3.length < 1000 && list2.length > 1000) {
             if (element.type != "")
-                list3 += `${element.name} (${element.type}) \n`; else list3 += `${element.name} \n`;
+                list3 += `${element.name} (${element.type}) \n`;
+            else list3 += `${element.name} \n`;
         }
+
     });
 
     const embed = new Discord.RichEmbed()
@@ -48,14 +53,13 @@ EmbedList = (client, json) => {
         .setFooter("© Lelantos Studios", client.user.avatarURL)
         .setTimestamp();
 
-    if (list3 == "") {
-        embed.addField("List: ", list)
-             .addField("List continued: ", list2);
+    if (list2 == "" && list3 == "") {
+        embed.addField("List: ", list);
         return embed;
     }
-    else if (list2 == "") {
-        embed
-            .addField("List: ", list);
+    else if (list3 == "" && list2 != "") {
+        embed.addField("List: ", list)
+             .addField("List continued: ", list2);
         return embed;
     }
     else {
@@ -149,9 +153,9 @@ EmbedMessage = (client, target, name) => {
         if (key == "img")
             embed.setImage(value);
         else {
-            embed.addField(Ucfirst(key), value.slice(0,1023), inline);
-            if(value.length >= 1024)
-            embed.addField('...', value.slice(1023), inline);          
+            embed.addField(Ucfirst(key), value.slice(0, 1023), inline);
+            if (value.length >= 1024)
+                embed.addField('...', value.slice(1023), inline);
         }
     }
     return embed;

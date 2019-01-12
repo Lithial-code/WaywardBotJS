@@ -9,17 +9,20 @@ exports.run = (client, message, args) => {
 
     //ID for westmarches catagory
     try {
-        var WM_CAT_ID = message.guild.channels.find(x => x.name === 'West Marches').id;
+        var WM_CAT_ID = message.guild.channels.find(x => x.name === 'wm_expeditions').id;
     }
     catch (err) {
-        message.reply("Please create a catagory labeled West Marches to use this command");
+        message.reply("Please create a catagory labeled WM_EXPEDITIONS to use this command");
         return;
     }
     if (WM_CAT_ID != null || WM_CAT_ID != "") {
         if (member.roles.has(GMRole.id) && (args[0] != null || args[0] != "")) {
+            var targetstring = args[0].trim().toLowerCase(); 
+            targetstring = targetstring.replace('\n', "");
+
             message.guild.createRole(
                 {
-                    name: args[0].toLowerCase(),
+                    name: targetstring,
                     permissions: ['READ_MESSAGES']
                 })
                 .then(role => {
@@ -93,6 +96,34 @@ exports.run = (client, message, args) => {
                                 .catch(err => console.log(`ooc channel BOTRole: ${err}`));
                         })
                         .catch(err => console.log(err));
+                          //create OOC channel and assign override perms
+                    message.guild.createChannel(`${role.name}_ooc_tracker`)
+                    .then((channel) => {
+                        channel.setParent(WM_CAT_ID);
+                        channel.overwritePermissions(EVRole,
+                            { 'VIEW_CHANNEL': false })
+                            .catch(err => console.log(`ooc_tracker channel EVROLE: ${err}`));
+                        channel.overwritePermissions(role,
+                            {
+                                'READ_MESSAGES': true, 'SEND_MESSAGES': true, 'EMBED_LINKS': true,
+                                'ATTACH_FILES': true, 'READ_MESSAGE_HISTORY': true, 'MENTION_EVERYONE': true
+                            })
+                            .catch(err => console.log(`ooc_tracker channel role: ${err}`));
+                        channel.overwritePermissions(GMRole,
+                            {
+                                'MANAGE_CHANNELS': true, 'MANAGE_MESSAGES': true, 'MANAGE_ROLES_OR_PERMISSIONS': true,
+                                'READ_MESSAGES': true, 'SEND_MESSAGES': true, 'EMBED_LINKS': true,
+                                'ATTACH_FILES': true, 'READ_MESSAGE_HISTORY': true, 'MENTION_EVERYONE': true
+                            })
+                            .catch(err => console.log(`ooc_tracker channel GMROLE: ${err}`));
+                        channel.overwritePermissions(BOTRole,
+                            {
+                                'MANAGE_CHANNELS': true, 'MANAGE_MESSAGES': true, 'MANAGE_ROLES_OR_PERMISSIONS': true,
+                                'READ_MESSAGES': true, 'SEND_MESSAGES': true, 'MENTION_EVERYONE': true
+                            })
+                            .catch(err => console.log(`ooc_tracker channel BOTRole: ${err}`));
+                    })
+                    .catch(err => console.log(err));
                 })
                 .catch(err => console.log(err));
         }
